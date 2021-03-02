@@ -20,12 +20,12 @@ if mm_version.is_file():
         data = f.readline()
     data = json.loads(data)
     load_version = data['version']
-    if mm_version <= load_version:
+    if version <= load_version:
         exit()
 
 r = requests.get("https://dldir1.qq.com/weixin/android/" + version + ".apk")
 
-with open('{}.apk'.format(version), 'wb') as f:
+with open('mm.apk', 'wb') as f:
     f.write(r.content)
 
 data = {
@@ -33,4 +33,4 @@ data = {
 }
 data = json.dumps(data)
 with open('%s' % mm_version_file, 'w') as f:
-    f.write(data.encode())
+    f.write(data)

@@ -16,8 +16,8 @@ jobs:
           python-version: 3.9
       - name: Install json dependencies
         run: |
-          - apt-get update -y
-          - apt-get install jq -y
+          sudo apt-get update -y
+          sudo apt-get install jq -y
       - name: Get the latest jadx
         run: |
           bash ./get_jadx.sh
@@ -27,29 +27,37 @@ jobs:
           pip install requests
       - name: Grant execute permission for get_latest_mm.py
         run: |
-          - chmod +x ./get_latest_mm.py
+          chmod +x ./get_latest_mm.py
       - name: Run get_latest_mm.py
         run: |
-          - python ./get_latest_mm.py
-
+          python ./get_latest_mm.py
       - name: Check File
         run: |
-          -  if ls *.apk >/dev/null 2>&1;then echo "Find File OK"; else exit; fi
+          if ls *.apk >/dev/null 2>&1;then echo "Find File OK"; else exit; fi
+          cat ./mm.version
+      - name: Commit version file
+        run: |
+          git add ./mm.version
+          git config --global user.name "JiZhi"
+          git config --global user.email "2590970043@qq.com"
+          git commit -m "update version"
+          git push
       - name: Grant execute permission for jadx
         run: |
-          - chmod +x ./jadx/bin/jadx
+          chmod +x ./jadx/bin/jadx
       - name: Run jadx
         run: |
           ./jadx/bin/jadx -e ./mm.apk
       - name: Commit
-          version = $(jq .version mm.version)
-          git checkout -b ${version}
+        run: |
+          echo $(jq .version mm.version)
+          git checkout -b $(jq .version mm.version)
           git rm -r --cached .
           git add ./mm
           git config --global user.name "JiZhi"
           git config --global user.email "2590970043@qq.com"
-          git commit -m
-          git push -u origin master
+          git commit -m $(jq .version mm.version)
+          git push --set-upstream origin $(jq .version mm.version)
 
 
 
