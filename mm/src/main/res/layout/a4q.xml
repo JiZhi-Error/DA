@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="36dp" android:layout_height="wrap_content">
+        <TextView android:textSize="16dp" android:textColor="@color/BW_0_Alpha_0_3" android:ellipsize="end" android:gravity="center" android:id="@+id/c5t" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="999+" android:singleLine="true" style="@style/oc"/>
+        <ImageView android:id="@+id/c5s" android:scaleType="center" android:layout_below="@+id/c5t" style="@style/i_"/>
+        <ProgressBar android:id="@+id/c5w" android:indeterminateDrawable="@drawable/ape" style="@style/i_"/>
+    </RelativeLayout>
+</merge>

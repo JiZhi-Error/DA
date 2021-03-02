@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/fm" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/hgw" android:paddingLeft="@dimen/cb" android:paddingRight="@dimen/cb" android:layout_width="match_parent" android:layout_height="@dimen/ce" android:layout_marginTop="@dimen/cb" android:layout_marginBottom="@dimen/cb">
+        <TextView android:textSize="12dp" android:textColor="@color/am" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fme"/>
+        <FrameLayout android:paddingLeft="@dimen/ct" android:paddingRight="@dimen/ct" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <SeekBar android:layout_gravity="center_vertical" android:id="@+id/cit" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="2dp" android:max="100" android:progress="80" android:progressDrawable="@drawable/ao8" android:minHeight="2dp" android:thumb="@drawable/ao9"/>
+        </FrameLayout>
+        <TextView android:textSize="12dp" android:textColor="@color/am" android:id="@+id/ciu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="80%"/>
+    </LinearLayout>
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="@dimen/cr">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/gba" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    </HorizontalScrollView>
+</LinearLayout>

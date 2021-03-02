@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/f75" android:background="@drawable/agt" android:padding="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0dp">
+    <RelativeLayout android:id="@+id/f76" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/fxf" android:visibility="gone" android:layout_width="37dp" android:layout_height="37dp" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <RelativeLayout android:id="@+id/f74" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@+id/f73" android:layout_width="35dp" android:layout_height="35dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/FG_0" android:id="@+id/f78" android:paddingLeft="@dimen/k5" android:paddingRight="@dimen/k5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_below="@+id/f73" android:layout_centerHorizontal="true" style="@style/mp"/>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/kc" android:textColor="#999999" android:id="@+id/f72" android:paddingLeft="@dimen/k5" android:paddingRight="@dimen/k5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/f74" android:layout_centerHorizontal="true" style="@style/mp"/>
+    </RelativeLayout>
+    <ImageView android:id="@+id/bsn" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:src="@color/a7t" android:scaleType="fitXY" android:layout_alignParentTop="true"/>
+    <ImageView android:id="@+id/bsd" android:layout_width="match_parent" android:layout_height="0.5dp" android:src="@color/a7t" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+    <ImageView android:id="@+id/bsh" android:visibility="gone" android:layout_width="0.5dp" android:layout_height="match_parent" android:src="@color/a7t" android:scaleType="fitXY" android:layout_above="@+id/bsd" android:layout_below="@+id/bsn" android:layout_alignParentLeft="true"/>
+    <ImageView android:id="@+id/bsl" android:layout_width="0.5dp" android:layout_height="match_parent" android:src="@color/a7t" android:scaleType="fitXY" android:layout_above="@+id/bsd" android:layout_below="@+id/bsn" android:layout_alignParentRight="true" android:layout_alignWithParentIfMissing="true"/>
+</RelativeLayout>

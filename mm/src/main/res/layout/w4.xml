@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:id="@+id/b_b" android:background="@color/a6u" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/sa">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/i1" android:paddingTop="@dimen/i1" android:paddingRight="@dimen/i1" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <TextView android:textSize="@dimen/bm" android:id="@+id/b_j" android:layout_marginBottom="@dimen/hs" android:text="hello" style="@style/hl"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/hs">
+                <com.tencent.mm.ui.MMImageView android:id="@+id/b_i" android:layout_width="@dimen/ij" android:layout_height="@dimen/ij" android:src="@drawable/bca" style="@style/hk"/>
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.tencent.mm.ui.base.NoMeasuredTextView android:textColor="@color/a2x" android:ellipsize="end" android:gravity="left" android:id="@+id/b_g" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/k5" android:layout_marginTop="0dp" android:layout_marginRight="0dp" android:text="message" android:singleLine="true" style="@style/hl"/>
+                    <TextView android:textSize="@dimen/hc" android:id="@+id/b_d" android:layout_marginLeft="@dimen/k5" android:layout_marginTop="@dimen/g" style="@style/hi"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/vv"/>
+    </LinearLayout>
+</LinearLayout>

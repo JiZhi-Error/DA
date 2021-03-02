@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="@dimen/h" android:layout_height="@dimen/h">
+    <ImageView android:layout_gravity="center" android:layout_width="52dp" android:layout_height="52dp" android:src="@drawable/af6"/>
+    <ImageView android:id="@+id/f15" android:layout_width="@dimen/ij" android:layout_height="@dimen/ij" android:layout_margin="@dimen/k5" android:scaleType="fitXY"/>
+    <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/f0y" android:paddingRight="@dimen/iu" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ccu"/>
+</FrameLayout>

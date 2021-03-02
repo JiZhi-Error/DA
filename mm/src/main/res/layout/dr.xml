@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/c58" android:background="@drawable/cs" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/c51" android:layout_width="24dp" android:layout_height="24dp" android:src="@raw/app_brand_evaluate_dialog_close" android:layout_marginStart="16dp" app:iconColor="@color/en"/>
+        <TextView android:textSize="17dp" android:textColor="@color/a2x" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kw"/>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/k6" android:textColor="@color/uj" android:ellipsize="middle" android:layout_gravity="center" android:id="@+id/c54" android:paddingTop="8dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt" android:singleLine="true"/>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:layout_marginBottom="32dp">
+        <RatingBar android:layout_gravity="center" android:id="@+id/c57" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:rating="0" android:stepSize="1" style="@style/q"/>
+        <TextView android:textSize="@dimen/k6" android:textColor="@color/Orange_120" android:layout_gravity="center" android:id="@+id/c55" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/kz"/>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32dp">
+        <LinearLayout android:orientation="vertical" android:id="@+id/c53" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/k6" android:textColor="@color/BW_0_Alpha_0_5" android:layout_gravity="center" android:id="@+id/c52" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="26dp" android:text="@string/ks" android:drawablePadding="4dp" android:drawableEnd="@drawable/bt4"/>
+            <FrameLayout android:layout_gravity="center" android:id="@+id/c5_" android:paddingBottom="26dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="17dp" android:textStyle="bold" android:textColor="@color/ag2" android:gravity="center" android:layout_gravity="center" android:id="@+id/c59" android:background="@drawable/cu" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ku" android:paddingStart="74dp" android:paddingEnd="74dp"/>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/c56" android:paddingTop="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:layout_gravity="center_vertical" android:background="#1a000000" android:layout_width="40dp" android:layout_height="0.5dp"/>
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/by8" android:scaleType="fitCenter" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+            <View android:layout_gravity="center_vertical" android:background="#1a000000" android:layout_width="40dp" android:layout_height="0.5dp"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

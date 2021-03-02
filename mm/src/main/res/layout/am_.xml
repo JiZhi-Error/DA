@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:id="@+id/be9" android:background="@color/ag1" android:paddingLeft="@dimen/ci" android:paddingRight="@dimen/ci" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:background="@raw/force_notify_show_ui_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bx"/>
+    <TextView android:textSize="@dimen/q" android:textStyle="bold" android:textColor="@color/fr" android:id="@+id/ipm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="37dp" android:text="@string/dh1"/>
+    <TextView android:textSize="@dimen/s" android:textColor="@color/fr" android:gravity="center" android:id="@+id/bmr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+    <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:background="@color/ac_" android:paddingBottom="@dimen/bx" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <Button android:textColor="@color/ag1" android:id="@+id/b7" android:background="@drawable/a8x" android:layout_width="@dimen/c6" android:layout_height="@dimen/cl" android:text="@string/dgz" style="@style/ov"/>
+        <Button android:id="@+id/ai8" android:layout_width="@dimen/c6" android:layout_height="@dimen/cl" android:layout_marginTop="@dimen/cb" android:text="@string/dh3" style="@style/p3"/>
+    </LinearLayout>
+</LinearLayout>

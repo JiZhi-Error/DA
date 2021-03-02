@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/hb_" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="20dp" android:src="@drawable/cq3" android:scaleType="fitXY"/>
+    <ImageView android:id="@+id/hba" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="20dp" android:src="@drawable/cq3" android:scaleType="fitXY"/>
+    <ImageView android:id="@+id/hbb" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="20dp" android:src="@drawable/cq3" android:scaleType="fitXY"/>
+    <ImageView android:id="@+id/hbc" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="20dp" android:src="@drawable/cq3" android:scaleType="fitXY"/>
+    <ImageView android:id="@+id/hbd" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/cq3" android:scaleType="fitXY"/>
+</LinearLayout>

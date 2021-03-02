@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/iqp" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/k4" android:layout_weight="1">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/k5" android:layout_marginBottom="@dimen/i2">
+        <TextView android:ellipsize="end" android:id="@+id/h87" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g8c" android:singleLine="true" android:layout_weight="2" style="@style/mi"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/h89" android:visibility="gone" android:layout_width="@dimen/k3" android:layout_height="@dimen/k3" android:layout_marginLeft="@dimen/g" android:layout_marginTop="@dimen/g" android:src="@drawable/bmo"/>
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/uj" android:ellipsize="end" android:id="@+id/h88" android:paddingRight="@dimen/k5" android:paddingBottom="@dimen/k5" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="3" android:singleLine="false"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:background="@color/afz" android:paddingLeft="@dimen/aas" android:paddingTop="@dimen/ib" android:paddingRight="@dimen/aas" android:paddingBottom="@dimen/ib" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/kb" android:layout_weight="1">
+        <TextView android:textSize="@dimen/is" android:textColor="@color/a2x" android:ellipsize="end" android:id="@+id/f28" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <ImageView android:id="@+id/f26" android:paddingBottom="2dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:src="@drawable/cd9" android:layout_toRightOf="@+id/f28" android:layout_alignBottom="@+id/f28"/>
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/yo" android:ellipsize="end" android:id="@+id/f29" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@+id/f28" android:layout_alignParentLeft="true"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/is" android:textColor="@color/a2x" android:gravity="right" android:id="@+id/f23" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/yo" android:ellipsize="end" android:gravity="right" android:id="@+id/f24" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:singleLine="true" android:includeFontPadding="false"/>
+    </LinearLayout>
+</LinearLayout>

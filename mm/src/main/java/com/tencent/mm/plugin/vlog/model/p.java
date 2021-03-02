@@ -1,0 +1,22 @@
+package com.tencent.mm.plugin.vlog.model;
+
+import com.tencent.matrix.trace.core.AppMethodBeat;
+import kotlin.l;
+
+@l(hxD = {1, 1, 16}, hxE = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0002\b\u0004\b\u0001\u0018\u00002\b\u0012\u0004\u0012\u00020\u00000\u0001B\u0007\b\u0002¢\u0006\u0002\u0010\u0002j\u0002\b\u0003j\u0002\b\u0004¨\u0006\u0005"}, hxF = {"Lcom/tencent/mm/plugin/vlog/model/ImageAnimType;", "", "(Ljava/lang/String;I)V", "NO_ANIM", "SLOW_SCALE", "plugin-vlog_release"})
+public enum p {
+    NO_ANIM,
+    SLOW_SCALE;
+
+    static {
+        AppMethodBeat.i(110923);
+        AppMethodBeat.o(110923);
+    }
+
+    public static p valueOf(String str) {
+        AppMethodBeat.i(110925);
+        p pVar = (p) Enum.valueOf(p.class, str);
+        AppMethodBeat.o(110925);
+        return pVar;
+    }
+}

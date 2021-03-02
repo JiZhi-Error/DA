@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/emoji_panel_item_expand_bg" android:layout_width="wrap_content" android:layout_height="32dp" android:paddingStart="12dp" android:paddingEnd="8dp">
+        <TextView android:layout_gravity="center" android:id="@+id/c0r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="expand"/>
+        <ImageView android:id="@+id/c0q" android:background="@drawable/emoji_panel_item_expand_arrow" android:layout_width="20dp" android:layout_height="20dp" android:src="@raw/arrow_down" android:scaleType="center" android:layout_marginStart="8dp"/>
+    </LinearLayout>
+</FrameLayout>

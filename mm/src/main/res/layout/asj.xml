@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:padding="@dimen/ir" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/l" android:textColor="@color/uj" android:id="@+id/dim" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/asu" android:padding="@dimen/ir" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/is" android:textColor="@color/tf" android:id="@+id/dil" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/i2"/>
+        <TextView android:textSize="@dimen/kc" android:textColor="@color/te" android:ellipsize="end" android:id="@+id/dij" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:background="@drawable/asu" android:paddingLeft="@dimen/ir" android:paddingRight="@dimen/ir" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:background="@drawable/b9w" android:paddingTop="@dimen/ir" android:paddingBottom="@dimen/ir" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/is" android:textColor="@color/a2x" android:id="@+id/dik" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="start" android:background="@color/a2h" android:paddingLeft="@dimen/ir" android:paddingRight="@dimen/ir" style="@style/nr">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/hn" android:textColor="@color/fr" android:ellipsize="end" android:gravity="center" android:id="@+id/hma" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+            <TextView android:textSize="@dimen/kl" android:textColor="@color/a2x" android:ellipsize="end" android:gravity="center" android:id="@+id/hmb" android:background="@drawable/boa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/kb" android:maxLines="1" android:layout_toRightOf="@+id/hma"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/ka" android:textColor="@color/a2x" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/hm_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+    </LinearLayout>
+    <Button android:id="@+id/hm9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tf" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/p5"/>
+</RelativeLayout>

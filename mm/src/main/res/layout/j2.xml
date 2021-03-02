@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/rj">
+    <ScrollView android:scrollbars="none" style="@style/om">
+        <LinearLayout style="@style/lz">
+            <TextView android:id="@+id/hlu" android:text="@string/ae7" style="@style/no"/>
+            <View style="@style/nj"/>
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="10dp" android:paddingRight="10dp" style="@style/lz">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/bgn" android:background="@drawable/ai6" android:layout_width="wrap_content" android:layout_height="50dp">
+                    <TextView android:textSize="15dp" android:textColor="@color/a2x" android:gravity="center_horizontal" android:id="@+id/bgk" android:layout_width="48dp" android:layout_height="wrap_content" android:singleLine="true"/>
+                    <TextView android:textSize="8dp" android:textColor="@color/a2x" android:gravity="center_horizontal" android:id="@+id/bgp" android:layout_width="48dp" android:layout_height="wrap_content" android:text="@string/bj_" android:singleLine="true"/>
+                </LinearLayout>
+                <EditText android:id="@+id/a47" android:layout_height="50dp" android:layout_marginLeft="10dp" android:layout_marginBottom="10dp" android:hint="@string/afj" android:inputType="phone" style="@style/nn"/>
+            </LinearLayout>
+            <Button android:id="@+id/a4g" android:visibility="gone" android:text="@string/afc" style="@style/p5"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

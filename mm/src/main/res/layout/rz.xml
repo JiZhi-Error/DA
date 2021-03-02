@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" style="@style/iq">
+    <LinearLayout android:orientation="vertical" android:id="@+id/auf" android:background="@drawable/o9" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/h7">
+        <TextView android:textSize="@dimen/hc" android:id="@+id/ayj" android:paddingLeft="15dp" android:paddingTop="10dp" android:paddingRight="4dp" android:paddingBottom="4dp" style="@style/gv"/>
+        <LinearLayout android:gravity="center_horizontal" android:paddingLeft="4dp" android:paddingRight="9dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="20dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="80dp" android:layout_weight="1">
+            <com.tencent.mm.ui.chatting.view.ChattingAvatarImageView android:id="@+id/au2" android:background="@drawable/bca" android:layout_width="50dp" android:layout_height="50dp"/>
+            <RelativeLayout android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="center" android:orientation="horizontal" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textColor="@color/a2x" android:gravity="top" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/ayo" android:maxWidth="100dp" style="@style/gv"/>
+                    <TextView android:textSize="@dimen/ka" android:gravity="center" android:layout_gravity="left" android:id="@+id/ax6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                    <TextView android:textSize="@dimen/ka" android:gravity="center" android:layout_gravity="left" android:id="@+id/auk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:gravity="right" android:id="@+id/avh" android:background="@drawable/o4" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/ar_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11dp" android:layout_marginRight="3dp" android:src="@drawable/bbh" android:layout_toLeftOf="@+id/ara"/>
+            <TextView android:textSize="@dimen/ka" android:textColor="@color/tw" android:id="@+id/ara" android:layout_width="wrap_content" android:layout_height="30dp" android:layout_marginTop="3dp" android:layout_marginRight="1dp" android:text="@string/dix" android:layout_toLeftOf="@+id/avi" style="@style/gv"/>
+            <ImageView android:id="@+id/avi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:src="@raw/mm_submenu_normal"/>
+            <View android:id="@+id/g8a" android:layout_width="10dp" android:layout_height="4dp" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

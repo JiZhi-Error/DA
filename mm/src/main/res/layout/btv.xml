@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/jcv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="17sp" android:textStyle="bold" android:textColor="@color/FG_0" android:ellipsize="end" android:id="@+id/jcz" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" android:lineSpacingExtra="0dp"/>
+        <TextView android:textSize="12sp" android:textColor="@color/FG_2" android:ellipsize="end" android:id="@+id/jcx" android:background="@drawable/aus" android:paddingLeft="8dp" android:paddingTop="2dp" android:paddingRight="8dp" android:paddingBottom="2dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:singleLine="true" android:layout_weight="0" android:lineSpacingExtra="0dp"/>
+    </LinearLayout>
+    <TextView android:textSize="14sp" android:textColor="@color/FG_0" android:id="@+id/jcw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/jcs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+        <Button android:textSize="14sp" android:textStyle="bold" android:textColor="@color/fx" android:id="@+id/jct" android:background="@drawable/auu" android:layout_width="0dp" android:layout_height="44dp" android:layout_marginRight="7dp" android:layout_weight="1" android:textAllCaps="false"/>
+        <Button android:textSize="14sp" android:textStyle="bold" android:textColor="@color/fx" android:id="@+id/jcu" android:background="@drawable/auu" android:layout_width="0dp" android:layout_height="44dp" android:layout_weight="1" android:textAllCaps="false"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/grg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+        <com.tencent.mm.plugin.sns.ui.widget.SnsRatioView android:id="@+id/jcy" android:layout_width="match_parent" android:layout_height="44dp"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="#e6000000" android:gravity="left" android:id="@+id/jd0" android:paddingLeft="8dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="11dp" android:singleLine="true" android:layout_weight="1" android:textAllCaps="false"/>
+            <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="#4d000000" android:gravity="right" android:id="@+id/jd1" android:paddingRight="8dp" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" android:textAllCaps="false"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:background="#00000000" android:paddingLeft="@dimen/k5" android:paddingRight="@dimen/k5" style="@style/rj">
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/k0"/>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/js"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/a7s" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@+id/j8f" android:layout="@layout/ku" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/j8h" android:layout="@layout/l3" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/j8d" android:layout="@layout/kw" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/j8e" android:layout="@layout/l1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/j8i" android:layout="@layout/l4" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/j8c" android:layout="@layout/kv" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/j8g" android:layout="@layout/l2" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/hr2" android:background="@drawable/i1" android:paddingLeft="@dimen/ta" android:paddingRight="@dimen/ta" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_width="match_parent" style="@style/hx"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/r" android:layout_marginBottom="@dimen/r">
+            <TextView android:textSize="@dimen/k6" android:textColor="@color/x0" android:layout_gravity="center_vertical" android:id="@+id/hr3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/p_"/>
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="center_vertical" android:layout_width="20dp" android:layout_height="20dp" android:src="@raw/biz_item_more_icon" app:iconColor="@color/FG_0"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

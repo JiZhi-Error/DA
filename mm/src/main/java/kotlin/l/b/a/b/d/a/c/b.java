@@ -1,0 +1,88 @@
+package kotlin.l.b.a.b.d.a.c;
+
+import com.tencent.matrix.trace.core.AppMethodBeat;
+import kotlin.g.b.p;
+import kotlin.l.b.a.b.a.i;
+import kotlin.l.b.a.b.b.aq;
+import kotlin.l.b.a.b.b.y;
+import kotlin.l.b.a.b.d.a.a;
+import kotlin.l.b.a.b.d.a.a.f;
+import kotlin.l.b.a.b.d.a.a.g;
+import kotlin.l.b.a.b.d.a.a.k;
+import kotlin.l.b.a.b.d.a.f.l;
+import kotlin.l.b.a.b.d.b.e;
+import kotlin.l.b.a.b.d.b.n;
+import kotlin.l.b.a.b.d.b.u;
+import kotlin.l.b.a.b.k.a.r;
+import kotlin.l.b.a.b.l.j;
+
+public final class b {
+    public final j TcN;
+    public final y Tfp;
+    public final aq Tkm;
+    public final kotlin.l.b.a.b.d.a.j TqQ;
+    public final n TqR;
+    public final e TqS;
+    public final k TqT;
+    public final r TqU;
+    public final g TqV;
+    public final f TqW;
+    public final kotlin.l.b.a.b.d.a.a.j TqX;
+    public final kotlin.l.b.a.b.d.a.d.b TqY;
+    public final j TqZ;
+    public final u Tra;
+    public final kotlin.l.b.a.b.c.a.b Trb;
+    public final i Trc;
+    public final a Trd;
+    public final l Tre;
+    public final kotlin.l.b.a.b.d.a.k Trf;
+    public final c Trg;
+    public final kotlin.l.b.a.b.m.a.n Trh;
+
+    public b(j jVar, kotlin.l.b.a.b.d.a.j jVar2, n nVar, e eVar, k kVar, r rVar, g gVar, f fVar, kotlin.l.b.a.b.d.a.a.j jVar3, kotlin.l.b.a.b.d.a.d.b bVar, j jVar4, u uVar, aq aqVar, kotlin.l.b.a.b.c.a.b bVar2, y yVar, i iVar, a aVar, l lVar, kotlin.l.b.a.b.d.a.k kVar2, c cVar, kotlin.l.b.a.b.m.a.n nVar2) {
+        p.h(jVar, "storageManager");
+        p.h(jVar2, "finder");
+        p.h(nVar, "kotlinClassFinder");
+        p.h(eVar, "deserializedDescriptorResolver");
+        p.h(kVar, "signaturePropagator");
+        p.h(rVar, "errorReporter");
+        p.h(gVar, "javaResolverCache");
+        p.h(fVar, "javaPropertyInitializerEvaluator");
+        p.h(jVar3, "samConversionResolver");
+        p.h(bVar, "sourceElementFactory");
+        p.h(jVar4, "moduleClassResolver");
+        p.h(uVar, "packagePartProvider");
+        p.h(aqVar, "supertypeLoopChecker");
+        p.h(bVar2, "lookupTracker");
+        p.h(yVar, "module");
+        p.h(iVar, "reflectionTypes");
+        p.h(aVar, "annotationTypeQualifierResolver");
+        p.h(lVar, "signatureEnhancement");
+        p.h(kVar2, "javaClassesTracker");
+        p.h(cVar, "settings");
+        p.h(nVar2, "kotlinTypeChecker");
+        AppMethodBeat.i(57742);
+        this.TcN = jVar;
+        this.TqQ = jVar2;
+        this.TqR = nVar;
+        this.TqS = eVar;
+        this.TqT = kVar;
+        this.TqU = rVar;
+        this.TqV = gVar;
+        this.TqW = fVar;
+        this.TqX = jVar3;
+        this.TqY = bVar;
+        this.TqZ = jVar4;
+        this.Tra = uVar;
+        this.Tkm = aqVar;
+        this.Trb = bVar2;
+        this.Tfp = yVar;
+        this.Trc = iVar;
+        this.Trd = aVar;
+        this.Tre = lVar;
+        this.Trf = kVar2;
+        this.Trg = cVar;
+        this.Trh = nVar2;
+        AppMethodBeat.o(57742);
+    }
+}

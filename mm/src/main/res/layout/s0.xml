@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/gs">
+    <include layout="@layout/qp" style="@style/go"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/gt">
+        <TextView android:id="@+id/ayn" android:visibility="gone" style="@style/gy"/>
+        <FrameLayout android:id="@+id/auf" android:layout_width="@dimen/x8" android:layout_height="@dimen/x7">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/mw" android:layout_width="match_parent" android:layout_height="match_parent">
+                <FrameLayout android:layout_width="match_parent" android:layout_height="54dp">
+                    <LinearLayout android:orientation="vertical" android:id="@+id/ax0" android:paddingLeft="@dimen/ib" android:paddingTop="@dimen/ib" android:paddingRight="@dimen/ib" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="5dp">
+                        <TextView android:ellipsize="end" android:id="@+id/ax1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/x8" android:text="abcdefg" android:maxLines="1" style="@style/zz"/>
+                        <TextView android:ellipsize="end" android:id="@+id/awz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/x8" android:text="abcdefg" android:maxLines="1" style="@style/zy"/>
+                    </LinearLayout>
+                    <ProgressBar android:layout_gravity="center" android:id="@+id/awx" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a71"/>
+                </FrameLayout>
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_marginLeft="5dp" style="@style/hx"/>
+                <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="5dp">
+                    <ImageView android:id="@+id/awy" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <ImageView android:layout_gravity="center" android:id="@+id/auo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/hc" android:src="@drawable/cb0" android:scaleType="fitCenter"/>
+                    <ProgressBar android:layout_gravity="center" android:id="@+id/aww" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a71"/>
+                    <View android:id="@+id/f_t" android:background="@color/zp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                </FrameLayout>
+            </LinearLayout>
+            <ImageView android:id="@+id/aun" android:background="@drawable/md" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

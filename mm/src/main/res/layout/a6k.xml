@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/fm" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/s" android:textColor="@color/ag2" android:id="@+id/c_y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100dp" android:text="@string/c6v" android:layout_centerHorizontal="true"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="80dp" android:layout_marginTop="48dp" android:layout_below="@+id/c_y">
+        <ImageView android:id="@+id/ca1" android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/c7a" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <TextView android:textSize="@dimen/is" android:textColor="@color/ag2" android:id="@+id/c_w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11dp" android:text="@string/c6s" android:layout_toRightOf="@+id/ca1" android:layout_alignTop="@+id/ca1"/>
+        <ImageView android:id="@+id/ca0" android:layout_width="65dp" android:layout_height="65dp" android:layout_marginTop="@dimen/hs" android:src="@drawable/c6l" android:layout_below="@+id/c_w" android:layout_alignLeft="@+id/c_w"/>
+        <ImageView android:id="@+id/ca2" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginTop="36dp" android:src="@drawable/c7b" android:layout_below="@+id/ca0"/>
+        <TextView android:textSize="@dimen/is" android:textColor="@color/ag2" android:id="@+id/c_x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11dp" android:text="@string/c6u" android:layout_toRightOf="@+id/ca2" android:layout_alignTop="@+id/ca2"/>
+        <ImageView android:layout_width="1dp" android:layout_height="wrap_content" android:layout_marginLeft="9dp" android:src="@color/om" android:layout_above="@+id/c_x" android:layout_below="@+id/ca1"/>
+    </RelativeLayout>
+    <Button android:textSize="@dimen/i_" android:id="@+id/c_v" android:layout_marginBottom="71dp" android:text="@string/c6w" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/ov"/>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/fbb" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.ui.widget.RoundedCornerFrameLayout android:layout_width="match_parent" android:layout_height="match_parent" app:cornerRadius="@dimen/ct">
+        <ImageView android:id="@+id/imb" android:background="@color/v4" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <FrameLayout android:layout_gravity="bottom" android:background="@drawable/yv" android:layout_width="match_parent" android:layout_height="164dp">
+            <TextView android:textSize="@dimen/k6" android:textColor="@color/v9" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@+id/cl2" android:paddingBottom="@dimen/ct" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:paddingStart="@dimen/ct" android:paddingEnd="@dimen/ct"/>
+        </FrameLayout>
+    </com.tencent.mm.ui.widget.RoundedCornerFrameLayout>
+</android.support.constraint.ConstraintLayout>

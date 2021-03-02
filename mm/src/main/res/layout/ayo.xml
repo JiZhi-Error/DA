@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:clipChildren="false">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/a0a" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/hl0" android:animateLayoutChanges="true">
+        <FrameLayout android:id="@+id/jak" android:layout_width="@dimen/a7b" android:layout_height="@dimen/a7_"/>
+        <View android:id="@+id/bs9" android:background="@color/BW_0_Alpha_0_1" android:layout_width="match_parent" android:layout_height="1px"/>
+        <FrameLayout android:id="@+id/g77" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@+id/a0_" android:layout_width="@dimen/a5r" android:layout_height="@dimen/a5r"/>
+            <FrameLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/a0b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+                <com.tencent.mm.plugin.ball.view.CircleAnimateView android:id="@+id/ish" android:layout_width="@dimen/a6k" android:layout_height="@dimen/a6k"/>
+                <com.tencent.mm.plugin.ball.view.CircleAnimateView android:id="@+id/aa3" android:layout_width="@dimen/a6k" android:layout_height="@dimen/a6k"/>
+                <com.tencent.mm.plugin.ball.view.CircleAnimateView android:id="@+id/ilf" android:visibility="gone" android:layout_width="@dimen/a6k" android:layout_height="@dimen/a6k"/>
+                <com.tencent.mm.plugin.ball.view.CircleAnimateView android:id="@+id/d9m" android:visibility="gone" android:layout_width="@dimen/a6k" android:layout_height="@dimen/a6k"/>
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</merge>

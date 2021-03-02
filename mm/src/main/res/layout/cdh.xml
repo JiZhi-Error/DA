@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="#b400011a" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/ju7" android:background="@drawable/ctp" android:paddingLeft="@dimen/cj" android:paddingTop="@dimen/cl" android:paddingRight="@dimen/cj" android:paddingBottom="@dimen/cp" android:focusable="true" android:clickable="true" android:layout_width="334dp" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="@dimen/cs" android:layout_height="@dimen/cs" android:src="@drawable/ctq" app:iconColor="#ffffff"/>
+        <TextView android:textSize="@dimen/cb" android:textColor="#ffffff" android:id="@+id/jua" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cb"/>
+        <TextView android:textSize="@dimen/cb" android:textColor="@color/BW_100_Alpha_0_5" android:gravity="center" android:id="@+id/ju8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c5"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ju9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c5">
+            <TextView android:textSize="14dp" android:textColor="@color/BW_100_Alpha_0_3" android:id="@+id/ju_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bt"/>
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="9dp" android:layout_height="@dimen/cb" android:src="@drawable/c_u" app:iconColor="@color/BW_100_Alpha_0_3"/>
+        </LinearLayout>
+        <Button android:textSize="@dimen/cb" android:textColor="#e6000000" android:gravity="center" android:id="@+id/ju6" android:background="@drawable/cu1" android:paddingLeft="58dp" android:paddingRight="58dp" android:layout_width="wrap_content" android:layout_height="@dimen/cl" android:layout_marginTop="@dimen/cr" android:text="@string/j8g"/>
+    </LinearLayout>
+</RelativeLayout>

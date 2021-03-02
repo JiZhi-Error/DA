@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/a8j"/>
+        <View android:id="@+id/i3u" android:background="@color/BW_90" android:layout_width="match_parent" android:layout_height="2px" android:layout_marginStart="52dp"/>
+    </LinearLayout>
+</FrameLayout>

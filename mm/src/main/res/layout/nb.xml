@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/afz" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="0dp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/b1y" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp">
+        <com.tencent.mm.plugin.card.ui.v2.CardCdnImageView android:id="@+id/b20" android:layout_width="28dp" android:layout_height="28dp" android:src="@raw/card_default_merchant_icon"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/b23" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/a2x" android:id="@+id/b24" android:layout_width="match_parent" android:layout_height="wrap_content" android:text=""/>
+                <com.tencent.mm.plugin.card.ui.v2.CardLabelTextView android:textSize="12dp" android:textColor="@color/ag2" android:gravity="center" android:id="@+id/b21" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="wrap_content" android:layout_height="18dp" android:layout_marginLeft="10dp" android:text=""/>
+            </LinearLayout>
+            <TextView android:textSize="12dp" android:textColor="#b2b2b2" android:id="@+id/b1u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text=""/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:visibility="gone" android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/c1h"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/b1z" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:minHeight="20dp"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/b1t" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginBottom="16dp" android:minHeight="25dp" android:dividerPadding="8dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/b1w" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp">
+        <TextView android:textSize="@dimen/bd" android:textColor="@color/u_" android:id="@+id/b1x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="aaaa "/>
+        <ImageView android:id="@+id/b1v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:src="@drawable/c2_"/>
+    </LinearLayout>
+</LinearLayout>

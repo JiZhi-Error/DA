@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/eet" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/eeu" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/ed7" android:visibility="gone" android:layout_width="@dimen/ce" android:layout_height="@dimen/ce" android:layout_marginTop="54dp" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/cb" android:layout_alignParentStart="true"/>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/eau" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="168dp">
+            <TextView android:textSize="22dp" android:textColor="@color/ag2" android:id="@+id/ees" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="xxx的直播"/>
+            <TextView android:textSize="22dp" android:textColor="@color/ag2" android:id="@+id/edy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eeu"/>
+            <TextView android:textSize="12dp" android:textColor="@color/ua" android:id="@+id/ed_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ct" android:layout_marginBottom="@dimen/ci"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/edc" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="3" android:layout_marginStart="50dp" android:layout_marginEnd="50dp">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/edf" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:textSize="16dp" android:textColor="@color/ag2" android:id="@+id/eew" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp"/>
+                    <TextView android:textSize="14dp" android:textColor="@color/ua" android:id="@+id/eev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ef5"/>
+                </LinearLayout>
+                <View android:background="@color/x8" android:layout_width="0.5dp" android:layout_height="match_parent"/>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/edb" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:textSize="16dp" android:textColor="@color/ag2" android:id="@+id/ed9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp"/>
+                    <TextView android:textSize="14dp" android:textColor="@color/ua" android:id="@+id/ed8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eeq"/>
+                </LinearLayout>
+                <View android:background="@color/x8" android:layout_width="0.5dp" android:layout_height="match_parent"/>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/edd" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:textSize="16dp" android:textColor="@color/ag2" android:id="@+id/edi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp"/>
+                    <TextView android:textSize="14dp" android:textColor="@color/ua" android:id="@+id/edh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eet"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/ee6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ci" android:layout_marginStart="50dp" android:layout_marginEnd="50dp">
+                <View android:background="@color/x8" android:layout_width="match_parent" android:layout_height="1dp"/>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cb" android:layout_marginBottom="@dimen/cb">
+                    <TextView android:textSize="14dp" android:textColor="@color/afz" android:id="@+id/ee7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eev" android:layout_alignParentStart="true"/>
+                    <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@+id/ee5" android:padding="10dp" android:layout_width="46dp" android:layout_height="24dp" android:layout_alignParentEnd="true" app:off_color="@color/ua" app:on_color="@color/xm"/>
+                </RelativeLayout>
+                <View android:background="@color/x8" android:layout_width="match_parent" android:layout_height="1dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ee3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="112dp" android:layout_alignParentBottom="true">
+            <Button android:textSize="17dp" android:textColor="@color/xa" android:id="@+id/edz" android:background="@drawable/adw" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginLeft="96dp" android:layout_marginRight="96dp" android:text="@string/vl"/>
+            <TextView android:textSize="12dp" android:textColor="@color/ua" android:id="@+id/ee0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/eey"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

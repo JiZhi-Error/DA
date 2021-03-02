@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <animator name="a">r/d/a.xml</animator>
+    <animator name="b">r/c/b.xml</animator>
+    <animator name="c">r/d/c.xml</animator>
+    <animator name="d">r/d/d.xml</animator>
+    <animator name="f">r/d/f.xml</animator>
+    <animator name="g">r/d/g.xml</animator>
+    <animator name="h">r/d/h.xml</animator>
+    <animator name="j">r/d/j.xml</animator>
+    <animator name="k">r/d/k.xml</animator>
+    <animator name="l">r/d/l.xml</animator>
+    <animator name="m">r/d/m.xml</animator>
+    <animator name="n">r/d/n.xml</animator>
+    <animator name="o">r/d/o.xml</animator>
+    <animator name="p">r/d/p.xml</animator>
+</resources>

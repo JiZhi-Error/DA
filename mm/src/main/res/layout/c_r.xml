@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true" style="@style/a05">
+        <TextView android:textColor="@color/tx" android:id="@+id/dyz" android:layout_marginBottom="@dimen/k" android:text="@string/ipj" style="@style/a0h"/>
+        <LinearLayout style="@style/a0y">
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/fte" android:clickable="false" wallet:contentFocusable="false" wallet:contentHint="@string/ipn" wallet:contentTextColor="@color/uj" wallet:titleText="@string/ipm" style="@style/sj"/>
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/ao9" android:minHeight="45dp" wallet:contentHint="@string/ipl" wallet:titleText="@string/ipg" style="@style/a0o"/>
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/ghg" wallet:contentHint="@string/ia4" wallet:titleText="@string/ia5" style="@style/ha"/>
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/gh9" wallet:contentHint="@string/i_y" wallet:titleText="@string/i_z" style="@style/ha"/>
+        </LinearLayout>
+        <Button android:id="@+id/fz0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/x5" style="@style/a0u"/>
+        <LinearLayout android:orientation="horizontal" android:layout_marginTop="8dp" android:layout_marginBottom="38dp" style="@style/nl">
+            <CheckBox android:textSize="@dimen/hc" android:textColor="@color/a2x" android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/id" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/kr" android:checked="true" android:minHeight="22dp" android:text="@string/iak" style="@style/p9"/>
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/adw" android:ellipsize="marquee" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/ib" android:paddingRight="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:text="@string/iaj" android:singleLine="true"/>
+        </LinearLayout>
+        <TextView android:layout_gravity="bottom" android:id="@+id/jhr" android:paddingTop="5dp" android:layout_height="match_parent" android:layout_margin="0dp" style="@style/a13"/>
+    </LinearLayout>
+    <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/c21"/>
+</RelativeLayout>

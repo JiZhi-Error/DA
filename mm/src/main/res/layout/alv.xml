@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/qa" android:paddingLeft="@dimen/k" android:paddingRight="0dp" android:layout_width="match_parent" android:layout_height="@dimen/iq" style="@style/mz">
+    <ImageView android:id="@+id/e2f" android:padding="@dimen/k_" android:layout_width="@dimen/i" android:layout_height="@dimen/i" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    <RelativeLayout android:id="@+id/e23" android:paddingLeft="@dimen/ib" android:paddingRight="@dimen/ib" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/e3p" android:layout_toRightOf="@+id/e2f" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/hn" android:id="@+id/e40" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/mp"/>
+        <TextView android:id="@+id/e3t" android:paddingRight="@dimen/ir" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/e40" android:layout_alignParentLeft="true" style="@style/mo"/>
+        <TextView android:id="@+id/e3y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/e3t" android:layout_below="@+id/e40" style="@style/mo"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/e3p" android:layout_width="@dimen/iq" android:layout_height="@dimen/iq" android:layout_alignParentRight="true">
+        <View android:layout_gravity="center_vertical" android:layout_width="1dp" android:layout_height="32dp" style="@style/hx"/>
+        <CheckBox android:layout_gravity="center" android:id="@+id/e3o" android:focusable="false" android:clickable="false" android:layout_width="@dimen/at" android:layout_height="@dimen/aq" style="@style/m6"/>
+    </FrameLayout>
+</RelativeLayout>

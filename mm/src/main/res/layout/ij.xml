@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/k4" style="@style/mz">
+    <LinearLayout android:id="@+id/bex" android:paddingTop="14dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/be9" android:paddingLeft="@dimen/ih" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="@dimen/k4" android:layout_weight="1">
+            <TextView android:textColor="@drawable/fa" android:id="@android:id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" style="@style/mi"/>
+            <TextView android:textSize="13dp" android:textColor="@drawable/fa" android:id="@android:id/summary" android:paddingRight="@dimen/ih" android:layout_marginTop="4dp" android:singleLine="true" style="@style/ml"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginEnd="14dp"/>
+    </LinearLayout>
+    <View android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1px" android:layout_below="@+id/bex" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

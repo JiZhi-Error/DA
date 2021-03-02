@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/fm" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.ui.base.MultiTouchImageView android:gravity="center" android:id="@+id/dvz" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="center" android:layout_centerInParent="true"/>
+    <ImageView android:gravity="center" android:id="@+id/ble" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/download_image_icon" android:scaleType="center" android:layout_centerInParent="true"/>
+    <View android:background="#c0000000" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ProgressBar android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/a5t"/>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/em0" android:background="@color/u_" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/eln" android:layout_width="match_parent" android:layout_height="240dp"/>
+    <RelativeLayout android:orientation="vertical" android:id="@+id/elp" android:background="@drawable/a_h" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <ProgressBar android:id="@+id/elx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/a61"/>
+        <TextView android:textColor="@color/afz" android:id="@+id/elq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/egz" android:layout_centerInParent="true"/>
+        <RelativeLayout android:id="@+id/ely" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+            <FrameLayout android:layout_gravity="center" android:id="@+id/elo" android:background="@drawable/adl" android:layout_width="48dp" android:layout_height="24dp" android:layout_centerInParent="true" android:layout_centerHorizontal="true">
+                <ImageView android:layout_gravity="center" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/byx" android:rotation="-90"/>
+            </FrameLayout>
+            <Button android:textSize="14dp" android:textColor="@color/afz" android:id="@+id/elr" android:background="@drawable/adb" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ejh" android:layout_centerVertical="true" android:paddingStart="12dp" android:paddingEnd="12dp" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <TextView android:textSize="14dp" android:textColor="@color/ua" android:id="@+id/elz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:text="@string/ejj" android:layout_below="@+id/ely" android:layout_marginStart="16dp" android:layout_alignParentStart="true"/>
+        <android.support.v7.widget.RecyclerView android:id="@+id/elw" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/elz"/>
+    </RelativeLayout>
+</LinearLayout>

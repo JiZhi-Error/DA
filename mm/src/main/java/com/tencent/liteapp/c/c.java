@@ -1,0 +1,7 @@
+package com.tencent.liteapp.c;
+
+import kotlin.l;
+
+@l(hxD = {1, 1, 16}, hxE = {"\u0000$\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\bf\u0018\u00002\u00020\u0001J\u0010\u0010\u0002\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u0005H&J\u0018\u0010\u0006\u001a\u00020\u00072\u0006\u0010\u0004\u001a\u00020\u00052\u0006\u0010\b\u001a\u00020\tH&J\b\u0010\n\u001a\u00020\u0007H&¨\u0006\u000b"}, hxF = {"Lcom/tencent/liteapp/mgr/IWxaLiteAppUpdater;", "", "checkLiteApp", "Lcom/tencent/liteapp/mgr/UpdateStatus;", "app", "Lcom/tencent/liteapp/storage/WxaLiteAppInfo;", "checkLiteAppAsync", "", "callback", "Lcom/tencent/liteapp/mgr/IWxaLiteAppUpdaterCallback;", "fetchAll", "wxa_lite_app_release"})
+public interface c {
+}

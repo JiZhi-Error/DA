@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/afz" android:paddingLeft="32dp" android:paddingRight="32dp" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:overScrollMode="never">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="22dp" android:textStyle="bold" android:textColor="@color/fq" android:id="@+id/e_m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80dp" android:text=""/>
+        <TextView android:textSize="17dp" android:textColor="@color/fq" android:id="@+id/e_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text=""/>
+        <View android:background="@color/BW_0_Alpha_0_1" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="48dp"/>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17dp" android:textColor="@color/fq" android:id="@+id/e_f" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="1"/>
+            <FrameLayout android:id="@+id/e_e" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@+id/e_d" android:layout_width="@dimen/kj" android:layout_height="@dimen/kg"/>
+                <View android:id="@+id/e_i" android:background="@color/afz" android:visibility="gone" android:layout_width="@dimen/kj" android:layout_height="@dimen/kg" android:alpha="0.7"/>
+            </FrameLayout>
+        </LinearLayout>
+        <View android:background="@color/BW_0_Alpha_0_1" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/e_k" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17dp" android:textColor="@color/fq" android:id="@+id/e_l" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="1"/>
+            <TextView android:textSize="14dp" android:textColor="@color/fq" android:id="@+id/e_j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="12dp" android:layout_height="24dp" android:layout_marginLeft="10dp" android:src="@raw/icons_outlined_arrow" app:iconColor="@color/FG_2"/>
+        </LinearLayout>
+        <View android:id="@+id/e_g" android:background="@color/BW_0_Alpha_0_1" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    </LinearLayout>
+</ScrollView>

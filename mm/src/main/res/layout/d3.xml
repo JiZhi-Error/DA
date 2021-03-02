@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.appbrand.widget.AppBrandActionBarCustomImageView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/bjq" android:layout_width="@dimen/ox" android:layout_height="@dimen/ox"/>

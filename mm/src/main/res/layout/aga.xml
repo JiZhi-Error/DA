@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.view.TouchableLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/fm" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tencent.mm.plugin.finder.megavideo.ui.OverScrollRecyclerView android:id="@+id/et2" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </android.support.design.widget.CoordinatorLayout>
+    <FrameLayout android:id="@+id/cep" android:background="@color/BW_93" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/a8m"/>
+    </FrameLayout>
+    <TextView android:textColor="#4dffffff" android:gravity="center_horizontal" android:id="@+id/h5w" android:paddingTop="144dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/dak" style="@style/zy"/>
+    <com.tencent.mm.plugin.finder.view.TestPreloadPreview android:layout_gravity="top" android:id="@+id/ijo" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ci"/>
+</com.tencent.mm.view.TouchableLayout>

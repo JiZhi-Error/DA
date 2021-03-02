@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/BW_0_Alpha_0_0_5" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="72dp">
+    <ImageView android:id="@+id/dg4" android:layout_width="24dp" android:layout_height="24dp" android:src="@raw/game_icon_tips_info" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    <ImageView android:id="@+id/dg5" android:layout_width="24dp" android:layout_height="24dp" android:src="@raw/game_icon_tips_close" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <TextView android:textSize="14dp" android:textColor="@color/l4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:text="@string/dnp" android:layout_toLeftOf="@+id/dg5" android:layout_toRightOf="@+id/dg4" android:layout_centerVertical="true"/>
+</RelativeLayout>

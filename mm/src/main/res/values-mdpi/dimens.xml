@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ja">12dp</dimen>
+    <dimen name="jb">4dp</dimen>
+    <dimen name="jc">42dp</dimen>
+    <dimen name="a01">70dp</dimen>
+    <dimen name="a09">240dp</dimen>
+    <dimen name="a9g">40dp</dimen>
+    <dimen name="a9h">40dp</dimen>
+    <dimen name="a9i">42dp</dimen>
+    <dimen name="a9j">16dp</dimen>
+    <dimen name="a9k">2dp</dimen>
+    <dimen name="a9l">1dp</dimen>
+    <dimen name="a9m">0dp</dimen>
+    <dimen name="a9q">32dp</dimen>
+    <dimen name="a9u">30dp</dimen>
+    <dimen name="a9v">20dp</dimen>
+    <dimen name="a9w">12dp</dimen>
+    <dimen name="a9x">10dp</dimen>
+    <dimen name="ac0">60dp</dimen>
+    <dimen name="alp">70dp</dimen>
+</resources>

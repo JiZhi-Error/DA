@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/ac1">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/qa" android:paddingLeft="@dimen/ac2" android:paddingRight="@dimen/ac2" android:layout_width="match_parent" android:layout_height="@dimen/i6">
+        <TextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/ir3" android:paddingRight="5dp" android:focusable="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="80dp" android:singleLine="true" style="@style/r5"/>
+        <TextView android:textSize="14dp" android:textColor="#999999" android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/iek" android:layout_width="0dp" android:layout_height="match_parent" android:minHeight="@dimen/ac1" android:layout_weight="1"/>
+        <ImageView android:id="@+id/dxq" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:src="@drawable/aie" android:scaleType="center"/>
+    </LinearLayout>
+    <com.tencent.mm.plugin.product.ui.HtmlTextView android:id="@+id/boa" android:visibility="gone" android:scrollbars="none" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

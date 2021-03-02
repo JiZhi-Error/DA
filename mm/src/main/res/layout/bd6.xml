@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/hcb" android:background="@drawable/a8l" android:layout_width="wrap_content" android:layout_height="@dimen/ci" android:minWidth="@dimen/c2">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@+id/hce" android:background="@drawable/as1" android:layout_width="@dimen/ci" android:layout_height="@dimen/cf" android:layout_marginStart="2dp">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="center" android:id="@+id/hcd" android:layout_width="10dp" android:layout_height="@dimen/cc"/>
+    </FrameLayout>
+    <TextView android:textSize="15dp" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="center" android:id="@+id/hca" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <FrameLayout android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/hcg" android:background="@drawable/as1" android:layout_width="@dimen/ci" android:layout_height="@dimen/cf" android:layout_marginEnd="2dp">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="center" android:id="@+id/hcf" android:layout_width="10dp" android:layout_height="@dimen/cc"/>
+    </FrameLayout>
+</FrameLayout>

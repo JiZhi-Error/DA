@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/ct" android:paddingRight="@dimen/ct" android:layout_width="match_parent" android:layout_height="@dimen/dc">
+    <View android:id="@+id/e23" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false" android:weightSum="1">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/c6c" style="@style/ii"/>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent" style="@style/ij">
+            <RelativeLayout android:id="@+id/c6e" android:paddingLeft="13dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toLeftOf="@+id/c5u" android:layout_centerVertical="true">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/c5a" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:layout_centerVertical="true" style="@style/in">
+                    <TextView android:id="@+id/c6d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/cb" android:singleLine="true" android:layout_alignParentLeft="true" style="@style/ik"/>
+                </RelativeLayout>
+                <TextView android:textColor="@color/Orange_100" android:id="@+id/c5a" android:layout_marginBottom="@dimen/g" android:layout_alignParentRight="true" style="@style/io"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="2px" android:layout_alignParentBottom="true">
+        <View android:id="@+id/bs8" android:background="@color/nm" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1px"/>
+    </LinearLayout>
+</RelativeLayout>

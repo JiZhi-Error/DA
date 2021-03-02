@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:AutoSwitchLayout="http://schemas.android.com/apk/res-auto" style="@style/rj">
+    <TextView android:gravity="center" android:id="@+id/j31" android:layout_marginTop="26dp" style="@style/no"/>
+    <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/bys" android:layout_width="wrap_content" android:layout_marginTop="10dp" android:text="xxx@gmail.com" style="@style/no"/>
+    <com.tencent.mm.ui.base.MMAutoSwitchEditTextView android:gravity="center" android:orientation="horizontal" android:id="@+id/wi" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" AutoSwitchLayout:edit_text_count="3" AutoSwitchLayout:edit_text_digits="0123456789" AutoSwitchLayout:max_input_count="4"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp">
+        <Button android:textSize="13dp" android:id="@+id/g47" android:paddingLeft="10dp" android:text="@string/fy3" android:layout_alignParentLeft="true" style="@style/l5"/>
+        <Button android:textSize="13dp" android:id="@+id/gs6" android:paddingRight="10dp" android:text="@string/fy6" android:layout_alignParentRight="true" style="@style/l5"/>
+    </RelativeLayout>
+</LinearLayout>

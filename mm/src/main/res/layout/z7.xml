@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/c" android:layout_width="match_parent" android:layout_height="@dimen/cn">
+    <View android:background="@color/m7" android:layout_width="match_parent" android:layout_height="@dimen/a_1"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/azn" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/cb" android:layout_alignParentLeft="true">
+        <ImageView android:id="@+id/azm" android:layout_width="@dimen/ce" android:layout_height="@dimen/ce" android:layout_marginRight="@dimen/ct"/>
+        <TextView android:textSize="@dimen/a_4" android:textColor="@color/FG_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gn"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/bmc" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/cb" android:layout_alignParentRight="true">
+        <ImageView android:id="@+id/bme" android:layout_width="@dimen/ce" android:layout_height="@dimen/ce" android:layout_marginRight="@dimen/ct"/>
+        <TextView android:textSize="@dimen/a_4" android:id="@+id/bm9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hla"/>
+    </LinearLayout>
+</RelativeLayout>

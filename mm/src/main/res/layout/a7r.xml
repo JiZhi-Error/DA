@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="center_horizontal" android:id="@+id/bes" android:background="@color/p_" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="15dp" android:textColor="@color/a2x" android:gravity="center" android:id="@+id/heq" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/im"/>
+        <RelativeLayout android:id="@+id/dpr" android:layout_width="match_parent" android:layout_height="48dp" android:layout_alignParentBottom="true">
+            <RelativeLayout android:id="@+id/dps" android:layout_width="match_parent" android:layout_height="48dp">
+                <View android:background="@color/bq" android:layout_width="match_parent" android:layout_height="1px" android:layout_alignParentTop="true"/>
+                <TextView android:textSize="15dp" android:textColor="@color/afp" android:gravity="center" android:id="@+id/hhb" android:paddingLeft="5dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/c8n" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/dpo" android:background="@drawable/b6d" android:visibility="gone" android:layout_width="match_parent" android:layout_height="48dp">
+                <View android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1"/>
+                <ImageButton android:layout_gravity="center" android:id="@+id/dpn" android:background="@null" android:padding="@dimen/k" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/uy" android:scaleType="fitXY"/>
+                <View android:layout_width="0dp" android:layout_height="24dp" android:layout_weight="1"/>
+                <ImageButton android:layout_gravity="center" android:id="@+id/dpm" android:background="@null" android:padding="@dimen/k" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ux" android:scaleType="fitXY"/>
+                <View android:layout_width="0dp" android:layout_height="24dp" android:layout_weight="1"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <android.support.v7.widget.RecyclerView android:id="@+id/dpt" android:background="@color/p_" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/dpr"/>
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/bl" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/lb" android:background="@color/u_" android:paddingLeft="@dimen/k5" android:paddingTop="@dimen/kb" android:paddingRight="@dimen/k5" android:paddingBottom="@dimen/kb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</RelativeLayout>

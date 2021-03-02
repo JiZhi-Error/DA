@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/a7h" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0">
+        <ViewStub android:id="@+id/bae" android:layout="@layout/wu" style="@style/fg"/>
+        <ViewStub android:id="@+id/bah" android:layout="@layout/wy" style="@style/fg"/>
+        <ViewStub android:id="@+id/baf" android:layout="@layout/ww" style="@style/fg"/>
+        <ViewStub android:id="@+id/bad" android:layout="@layout/wt" style="@style/fg"/>
+        <ViewStub android:id="@+id/bag" android:layout="@layout/wx" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/k5" android:layout_marginBottom="@dimen/k5"/>
+        <ViewStub android:id="@+id/a7c" android:layout="@layout/wq" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <View android:id="@+id/a7i" android:background="@color/wz" android:visibility="gone" android:layout_width="0dp" android:layout_height="@dimen/bo" android:layout_marginStart="@dimen/hs" android:layout_marginEnd="84dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+    <ImageView android:id="@+id/a7j" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0"/>
+</android.support.constraint.ConstraintLayout>

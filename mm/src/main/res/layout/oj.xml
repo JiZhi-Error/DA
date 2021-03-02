@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/am" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:paddingTop="15dp" android:paddingBottom="22dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ap0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hs" android:layout_marginRight="@dimen/hs">
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/ih" android:ellipsize="end" android:gravity="left" android:id="@+id/hfm" android:layout_width="70dp" android:layout_height="wrap_content" android:maxWidth="70dp" android:singleLine="true"/>
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/ig" android:ellipsize="end" android:gravity="left" android:id="@+id/hfj" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hs" android:singleLine="true" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ap1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hs" android:layout_marginTop="@dimen/ib" android:layout_marginRight="@dimen/hs">
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/ih" android:ellipsize="end" android:gravity="left" android:id="@+id/hfn" android:layout_width="70dp" android:layout_height="wrap_content" android:maxWidth="70dp" android:singleLine="true"/>
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/ig" android:ellipsize="end" android:gravity="left" android:id="@+id/hfk" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hs" android:singleLine="true" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@color/a8r" android:paddingLeft="13dp" android:paddingTop="20dp" android:paddingRight="13dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:id="@+id/uv" android:background="@color/fm" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginTop="4dp"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+                <TextView android:textSize="22dp" android:textColor="@color/ag2" android:id="@+id/a6" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <TextView android:textSize="12dp" android:textColor="@color/a8s" android:id="@+id/a5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+                <TextView android:textSize="12dp" android:textColor="@color/a8s" android:id="@+id/a3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:shadowColor="#000000" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="1"/>
+                <TextView android:textSize="12dp" android:textColor="@color/a8s" android:id="@+id/a4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

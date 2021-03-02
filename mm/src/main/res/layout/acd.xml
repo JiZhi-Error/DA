@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/h8v" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/dcj" android:background="@color/fm" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.tencent.mm.view.AnimationLayout android:id="@+id/n0" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tencent.mm.ui.tools.MMGestureGallery android:id="@+id/dci" android:layout_width="match_parent" android:layout_height="match_parent" android:spacing="@dimen/ct"/>
+    </com.tencent.mm.view.AnimationLayout>
+</FrameLayout>

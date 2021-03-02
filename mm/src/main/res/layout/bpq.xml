@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/ecu" android:background="@color/a2h" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.ui.base.MMLoadMoreListView android:id="@+id/fcl" android:background="@color/a2h" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/np"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/hi9" android:layout_width="match_parent" android:layout_height="200dp">
+        <ProgressBar android:padding="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a71"/>
+        <TextView android:textSize="15dp" android:textColor="@color/c6" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ezs"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/hi8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="15dp" android:textColor="@color/c6" android:gravity="center" android:id="@+id/hi7" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/fdv" android:layout_weight="0.5"/>
+        <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.5"/>
+    </LinearLayout>
+</RelativeLayout>

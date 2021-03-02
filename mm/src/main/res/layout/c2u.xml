@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/z" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.view.recyclerview.WxRecyclerView android:id="@+id/h_2" android:background="@color/z" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

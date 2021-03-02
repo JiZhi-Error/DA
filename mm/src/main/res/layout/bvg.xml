@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:id="@+id/j_" android:background="@drawable/auw" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/ka" android:background="@drawable/av0" android:layout_width="96dp" android:layout_height="@dimen/ajx">
+        <ImageView android:id="@+id/k_" android:paddingLeft="1dp" android:paddingTop="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY"/>
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/ag2" android:id="@+id/kb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/h7y"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/brt" android:background="@color/bq" android:layout_width="@dimen/bo" android:layout_height="@dimen/hv"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/jo" android:background="@drawable/av1" android:layout_width="96dp" android:layout_height="@dimen/ajx">
+        <ImageView android:id="@+id/jf" android:paddingTop="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a55"/>
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/ag2" android:id="@+id/jp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/h5e"/>
+    </LinearLayout>
+</LinearLayout>

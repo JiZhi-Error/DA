@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.luckymoney.story.TouchCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/ezj" android:background="@color/c" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.plugin.luckymoney.story.EnvelopeAppBarLayout android:orientation="vertical" android:id="@+id/f0i" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp" app:expanded="false" app:layout_behavior="com.tencent.mm.plugin.luckymoney.story.EnvelopeStoryBehavior"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/eyw" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/a0e">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView android:id="@+id/ezi" android:focusable="true" android:scrollbars="none" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@android:color/transparent" android:transcriptMode="disabled" android:divider="@null" android:headerDividersEnabled="false" android:footerDividersEnabled="false" android:overScrollMode="never"/>
+            <ImageView android:layout_gravity="top" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/cc9" android:scaleType="fitXY"/>
+            <View android:id="@+id/ez4" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0"/>
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/f0w" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.tencent.mm.plugin.luckymoney.story.TouchCoordinatorLayout>

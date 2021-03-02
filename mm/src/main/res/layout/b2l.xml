@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/rj">
+    <TextView android:textColor="@color/a2x" android:gravity="center" android:background="@drawable/aij" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:text="@string/en0" android:singleLine="false" style="@style/nn"/>
+    <FrameLayout android:padding="@dimen/hs" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.ui.base.MMClearEditText android:id="@+id/dxr" android:background="@drawable/t7" android:hint="@string/emz" android:imeOptions="actionDone" style="@style/nm"/>
+    </FrameLayout>
+    <RelativeLayout android:orientation="horizontal" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_marginTop="15dp" style="@style/ly">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+            <Button android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/esf" style="@style/t1"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

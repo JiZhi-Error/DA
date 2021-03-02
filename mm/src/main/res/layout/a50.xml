@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_horizontal" android:paddingLeft="@dimen/ir" android:paddingTop="@dimen/k5" android:paddingRight="@dimen/ir" android:paddingBottom="@dimen/k5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@+id/wn" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/bca" android:contentDescription="@string/ty"/>
+            <TextView android:textSize="@dimen/is" android:textColor="@color/ag2" android:ellipsize="end" android:gravity="left" android:layout_gravity="center_vertical" android:id="@+id/ipp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/bz4" android:singleLine="true" android:shadowColor="#99000000" android:shadowDx="0" android:shadowDy="0" android:shadowRadius="10"/>
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

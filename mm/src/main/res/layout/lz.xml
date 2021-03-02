@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/ajr" android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1px"/>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:paddingTop="14dp" android:paddingRight="@dimen/hs" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/a2x" android:ellipsize="end" android:id="@+id/ajt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/l4" android:ellipsize="end" android:id="@+id/ajs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:singleLine="true"/>
+        </LinearLayout>
+        <Button android:textSize="@dimen/hc" android:textColor="@color/Brand" android:id="@+id/ajq" android:background="@drawable/lv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="74dp" android:minHeight="32dp" android:text="@string/an7"/>
+    </LinearLayout>
+</LinearLayout>

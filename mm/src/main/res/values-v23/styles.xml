@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="be" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu">
+    </style>
+    <style name="bo" parent="@android:style/WindowTitle">
+    </style>
+    <style name="by" parent="@style/a7s">
+    </style>
+    <style name="c5" parent="@style/a7t">
+    </style>
+    <style name="a7s" parent="@style/a7q">
+        <item name="x">?android:attr/actionBarItemBackground</item>
+        <item name="a_">?android:attr/actionMenuTextAppearance</item>
+        <item name="aa">?android:attr/actionMenuTextColor</item>
+        <item name="i7">@drawable/b71</item>
+        <item name="xq">?android:attr/ratingBarStyleIndicator</item>
+        <item name="xr">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="a7t" parent="@style/a7r">
+        <item name="x">?android:attr/actionBarItemBackground</item>
+        <item name="a_">?android:attr/actionMenuTextAppearance</item>
+        <item name="aa">?android:attr/actionMenuTextColor</item>
+        <item name="i7">@drawable/b71</item>
+        <item name="xq">?android:attr/ratingBarStyleIndicator</item>
+        <item name="xr">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="dz" parent="@android:style/Widget.Material.Button.Borderless.Colored">
+    </style>
+    <style name="e1" parent="@android:style/WindowTitleBackground">
+    </style>
+    <style name="ev" parent="@android:style/Widget.Material.RatingBar.Indicator">
+    </style>
+    <style name="ew" parent="@android:style/Widget.Material.RatingBar.Small">
+    </style>
+    <style name="f2" parent="@android:style/Widget.Material.Spinner.Underlined">
+    </style>
+    <style name="g8" parent="@style/ak">
+        <item name="dr">?unknown_attr_ref: 10104e2</item>
+    </style>
+    <style name="a7u" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="nx">
+        <item name="android:textAppearance">?android:attr/textAppearanceMediumInverse</item>
+        <item name="android:textColor">?android:attr/editTextColor</item>
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:background">?android:attr/editTextBackground</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="?0x10104dd">@null</item>
+        <item name="?0x1010562">false</item>
+    </style>
+    <style name="pg" parent="@style/pi">
+        <item name="a_">@style/a7u</item>
+    </style>
+    <style name="pq" parent="@style/lb">
+        <item name="android:windowActionBar">true</item>
+        <item name="a_">@style/a7u</item>
+    </style>
+</resources>

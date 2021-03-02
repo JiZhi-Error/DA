@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/ek2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/ek1" android:background="@drawable/adi" android:layout_width="32dp" android:layout_height="32dp">
+        <ImageView android:id="@+id/ek0" android:layout_width="20dp" android:layout_height="20dp" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</LinearLayout>

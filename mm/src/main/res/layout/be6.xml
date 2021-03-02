@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/ed4" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.view.recyclerview.WxRecyclerView android:id="@+id/ed5" android:scrollbars="none" android:fadingEdge="vertical" android:fadingEdgeLength="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:requiresFadingEdge="vertical"/>
+    <RelativeLayout android:layout_gravity="bottom" android:id="@+id/fv3" android:background="@drawable/akz" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/ci" android:layout_marginEnd="@dimen/cn">
+        <TextView android:textSize="14dp" android:textColor="@color/fm" android:id="@+id/fv4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginStart="@dimen/cb" android:layout_marginEnd="@dimen/cb"/>
+    </RelativeLayout>
+</FrameLayout>

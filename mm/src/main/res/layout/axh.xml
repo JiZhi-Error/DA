@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ajm" android:background="@drawable/a9a" android:padding="@dimen/ci" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cb" android:layout_marginStart="@dimen/ce" android:layout_marginEnd="@dimen/ce">
+        <com.tencent.mm.ui.widget.RoundCornerImageView android:id="@+id/wn" android:layout_width="@dimen/cs" android:layout_height="@dimen/cs" android:src="@drawable/bca"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="72dp" android:layout_marginStart="@dimen/c5">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:textSize="@dimen/hd" android:textColor="@color/a2z" android:ellipsize="end" android:gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/fzd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="小赖你个小子算什么" android:singleLine="true"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_marginStart="@dimen/cb">
+                    <TextView android:layout_gravity="center_vertical" android:id="@+id/erd" android:background="@drawable/a9i" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginEnd="2dp"/>
+                    <TextView android:textSize="@dimen/bd" android:textColor="@color/a2z" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/ere" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/eap" android:layout_weight="1"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textColor="@color/l5" android:ellipsize="end" android:id="@+id/bow" android:layout_marginTop="@dimen/ct" android:text="我是设备名我是设备名我是设备名你好" android:singleLine="true" style="@style/zx"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

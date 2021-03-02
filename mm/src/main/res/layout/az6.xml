@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/h_z" android:layout_width="75dp" android:layout_height="75dp" android:layout_marginLeft="58dp" android:layout_marginRight="58dp" android:layout_marginBottom="@dimen/hv" android:src="@drawable/arp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

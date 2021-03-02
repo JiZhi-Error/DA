@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.applet.SecurityImage xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout style="@style/lz">
+        <LinearLayout android:gravity="bottom" android:padding="5dp" style="@style/nl">
+            <FrameLayout android:background="#000000" android:padding="1px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="40dp">
+                <ImageView android:id="@+id/w8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="150dp" android:maxHeight="80dp" android:minWidth="130dp" android:minHeight="53dp"/>
+                <ProgressBar android:layout_gravity="center" android:id="@+id/gyo" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a71"/>
+            </FrameLayout>
+            <View style="@style/p7"/>
+            <Button android:id="@+id/w6" android:minHeight="40dp" android:text="@string/a3y" android:singleLine="true" style="@style/l5"/>
+        </LinearLayout>
+        <View style="@style/p7"/>
+        <EditText android:textColor="@color/a2x" android:id="@+id/w7" android:hint="@string/a3z" style="@style/nn"/>
+    </LinearLayout>
+</com.tencent.mm.ui.applet.SecurityImage>

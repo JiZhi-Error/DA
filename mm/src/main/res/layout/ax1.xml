@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:background="@drawable/aon" android:paddingLeft="20dp" android:paddingTop="16dp" android:paddingRight="20dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_alignParentTop="true">
+        <RelativeLayout android:gravity="center_vertical" android:id="@+id/g82" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <com.tencent.mm.plugin.ipcall.ui.IPCallRoundUrlHeadImage android:id="@+id/g83" android:layout_width="16dp" android:layout_height="16dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+            <TextView android:textSize="16dp" android:textColor="@color/a2x" android:id="@+id/g87" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="22dp" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/g89" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_below="@+id/g82" android:layout_alignParentRight="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/g80" android:background="#b2b2b2" android:layout_width="@dimen/bq" android:layout_height="38dp" android:layout_marginRight="16dp"/>
+            <Button android:enabled="false" android:textColor="@drawable/a8v" android:id="@+id/g7x" android:background="@drawable/a8u" android:padding="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="58dp" android:minHeight="29dp" android:text="@string/e8t"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/g85" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="22dp" android:layout_marginTop="5dp" android:layout_marginRight="8dp" android:layout_toLeftOf="@+id/g89" android:layout_below="@+id/g82" android:layout_alignLeft="@+id/g82">
+            <TextView android:textSize="38dp" android:textColor="@color/a2x" android:id="@+id/g88" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textSize="12dp" android:textColor="@color/uj" android:id="@+id/g7z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+            <TextView android:textSize="12dp" android:textColor="@color/uj" android:id="@+id/g7y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:calendar="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/ky" android:paddingLeft="28dp" android:paddingRight="28dp" android:layout_width="match_parent" android:layout_height="32dp">
+        <TextView android:textSize="15sp" android:textColor="@color/kx" android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bko" android:layout_weight="1"/>
+        <TextView android:textSize="15sp" android:textColor="@color/kx" android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bkm" android:layout_weight="1"/>
+        <TextView android:textSize="15sp" android:textColor="@color/kx" android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bkq" android:layout_weight="1"/>
+        <TextView android:textSize="15sp" android:textColor="@color/kx" android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bkr" android:layout_weight="1"/>
+        <TextView android:textSize="15sp" android:textColor="@color/kx" android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bkp" android:layout_weight="1"/>
+        <TextView android:textSize="15sp" android:textColor="@color/kx" android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bkl" android:layout_weight="1"/>
+        <TextView android:textSize="15sp" android:textColor="@color/kx" android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bkn" android:layout_weight="1"/>
+    </LinearLayout>
+    <View android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1px"/>
+    <TextView android:textSize="15dp" android:textColor="@color/c6" android:gravity="center" android:id="@+id/heq" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/im"/>
+    <com.tencent.mm.chatroom.ui.DayPickerView android:id="@+id/gbw" android:layout_width="match_parent" android:layout_height="match_parent" calendar:colorSelectedDayBackground="@color/Brand" calendar:drawRoundRect="false"/>
+</LinearLayout>

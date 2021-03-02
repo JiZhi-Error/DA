@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/bce" android:background="@color/c" android:paddingTop="@dimen/ib" android:paddingBottom="@dimen/ib" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+    <include layout="@layout/bnf" style="@style/hm"/>
+    <include layout="@layout/bnf" style="@style/hm"/>
+    <include layout="@layout/bnf" style="@style/hm"/>
+    <include layout="@layout/bnf" style="@style/hm"/>
+    <include layout="@layout/bnf" style="@style/hm"/>
+</LinearLayout>

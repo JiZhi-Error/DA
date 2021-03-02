@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.plugin.finder.view.FinderPostFooter android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/ckw" android:background="@color/b" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/cp">
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/cp">
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/itj" android:visibility="gone" android:layout_width="@dimen/ci" android:layout_height="@dimen/ci" android:src="@raw/finder_outlined_tag" android:layout_marginStart="@dimen/ce" app:iconColor="@color/FG_0"/>
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/v0" android:visibility="gone" android:layout_width="@dimen/ci" android:layout_height="@dimen/ci" android:src="@raw/finder_outline_at" android:layout_toRightOf="@+id/itj" android:layout_marginStart="@dimen/cb" app:iconColor="@color/FG_0"/>
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/ht_" android:layout_width="@dimen/ci" android:layout_height="@dimen/ci" android:src="@raw/icons_outlined_emoji" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/ce" app:iconColor="@color/FG_0"/>
+        </RelativeLayout>
+    </com.tencent.mm.plugin.finder.view.FinderPostFooter>
+</merge>

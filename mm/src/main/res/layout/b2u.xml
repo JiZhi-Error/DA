@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/aea" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/e_x" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@+id/e_w" android:layout_width="@dimen/ce" android:layout_height="@dimen/ce" android:layout_marginRight="8dp"/>
+        <TextView android:textSize="17dp" android:textColor="@color/ae" android:id="@+id/evm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ih1"/>
+        <TextView android:textSize="17dp" android:textColor="@color/ad" android:gravity="right|center_vertical|center_horizontal|center" android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/evk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="123123123" android:layout_weight="1"/>
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:layout_width="@dimen/c5" android:layout_height="@dimen/ce" android:layout_marginLeft="4dp" android:src="@raw/icons_outlined_arrow" app:iconColor="@color/ac"/>
+    </LinearLayout>
+    <View android:id="@+id/e_y" android:background="#1a000000" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="49dp" android:layout_marginRight="16dp" android:layout_below="@+id/e_x"/>
+</RelativeLayout>

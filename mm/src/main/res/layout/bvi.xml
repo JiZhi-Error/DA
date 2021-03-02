@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/in6" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/a9v" android:id="@+id/bel" android:background="@color/a8w" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/hzs" android:background="@drawable/azp" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/amh">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/g30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:src="@raw/tipsbar_icon_warning"/>
+            <TextView android:textColor="@color/uj" android:ellipsize="end" android:layout_gravity="center" android:id="@+id/gf9" android:paddingLeft="@dimen/i2" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/h9k" android:layout_weight="1"/>
+            <TextView android:id="@+id/hzt" android:layout_marginTop="@dimen/k5" android:layout_marginRight="@dimen/ir" android:layout_marginBottom="@dimen/k5" android:text="@string/h9j" style="@style/p5"/>
+        </LinearLayout>
+        <ListView android:id="@+id/jh" android:background="@null" android:paddingLeft="@dimen/ir" android:paddingRight="@dimen/ir" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@drawable/ahu" android:cacheColorHint="#00000000" android:divider="@null" android:layout_weight="1"/>
+        <com.tencent.mm.plugin.sns.ui.SnsCommentFooter android:id="@+id/b8y" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ViewStub android:id="@+id/hwd" android:layout="@layout/bu5" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

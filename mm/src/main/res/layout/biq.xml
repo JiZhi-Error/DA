@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@android:id/title" android:background="@color/a60" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="@dimen/jv" android:maxHeight="@dimen/jv" android:minHeight="@dimen/jv" android:contentDescription="@string/bn5"/>

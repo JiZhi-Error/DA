@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/clw" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cc">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/a4b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/cb">
+        <View android:layout_gravity="center_vertical" android:background="@drawable/a4a" android:layout_width="@dimen/bt" android:layout_height="match_parent" android:layout_marginTop="@dimen/bt" android:layout_marginBottom="@dimen/bt" android:layout_marginStart="@dimen/cb"/>
+        <TextView android:textSize="@dimen/k6" android:textColor="@color/fm" android:ellipsize="end" android:gravity="start" android:layout_gravity="center_vertical" android:id="@+id/clx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginBottom="2dp" android:text="每日一看:#打工人" android:singleLine="true" android:includeFontPadding="false" android:layout_marginStart="@dimen/a4n" android:layout_marginEnd="@dimen/cb"/>
+    </LinearLayout>
+</FrameLayout>

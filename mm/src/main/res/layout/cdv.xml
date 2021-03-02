@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/ac_" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/k1k" android:layout_width="@dimen/ci" android:layout_height="@dimen/ci" android:layout_marginTop="@dimen/ct" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/cb" android:layout_alignParentStart="true">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="center" android:layout_width="20dp" android:layout_height="20dp" android:src="@raw/icons_outlined_back" android:scaleType="fitCenter" app:iconColor="@android:color/white"/>
+    </FrameLayout>
+    <LinearLayout android:id="@+id/k1m" android:paddingLeft="@dimen/ce" android:paddingRight="@dimen/ce" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cp" android:layout_below="@+id/k1k">
+        <com.tencent.mm.ui.widget.MMEditText android:textSize="22dp" android:textColor="#ffffff" android:textColorHint="#26ffffff" android:gravity="top" android:id="@+id/k1p" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/j94" android:maxLines="3"/>
+    </LinearLayout> w 
+    <RelativeLayout android:id="@+id/k1o" android:paddingTop="8dp" android:paddingBottom="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ce" android:layout_below="@+id/k1m" android:layout_alignLeft="@+id/k1m">
+        <TextView android:textSize="14dp" android:textColor="@color/BW_100_Alpha_0_8" android:gravity="center" android:background="@drawable/cue" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="28dp" android:text="@string/j9_"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/k1j" android:paddingLeft="@dimen/cp" android:paddingRight="@dimen/cp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textSize="17dp" android:textColor="@color/age" android:id="@+id/k1l" android:background="@drawable/cu0" android:paddingLeft="58dp" android:paddingRight="58dp" android:layout_width="wrap_content" android:layout_height="@dimen/cl" android:text="@string/j92" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="@dimen/c5" android:textColor="@color/BW_100_Alpha_0_3" android:gravity="center" android:id="@+id/k1n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cc" android:layout_below="@+id/k1l" android:layout_centerHorizontal="true" android:layerType="software"/>
+    </RelativeLayout>
+    <com.tencent.mm.plugin.festival.ui.view.FestivalWishTopicPanel android:id="@+id/k1q" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

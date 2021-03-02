@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/d6o" android:paddingLeft="@dimen/cb" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/mz">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/d71" android:layout_width="match_parent" android:layout_height="@dimen/az">
+        <com.tencent.mm.ui.base.MaskLayout android:id="@+id/d6j" android:layout_width="@dimen/ax" android:layout_height="@dimen/ax" android:layout_marginRight="@dimen/c5">
+            <ImageView android:id="@+id/be9" android:layout_width="@dimen/aw" android:layout_height="@dimen/aw" android:src="@raw/default_avatar" android:layout_centerVertical="true"/>
+        </com.tencent.mm.ui.base.MaskLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?attr/sg" android:paddingRight="@dimen/e" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:gravity="center_vertical" android:paddingRight="@dimen/hs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f8" android:singleLine="true" style="@style/mp"/>
+            <TextView android:textSize="@dimen/kc" android:textColor="@color/ag2" android:gravity="center" android:id="@+id/d6z" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/fm" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/b1b"/>
+    <include layout="@layout/b1i"/>
+    <include layout="@layout/b11"/>
+    <include layout="@layout/b1c"/>
+    <include layout="@layout/b0j"/>
+    <include layout="@layout/b12"/>
+    <include android:id="@+id/efs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="58dp" android:layout_alignParentBottom="true" android:layout_marginStart="16dp" android:layout_alignParentStart="true" layout="@layout/b0i"/>
+    <include android:id="@+id/ef1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="44dp" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/cb" android:layout_alignParentEnd="true" layout="@layout/b05"/>
+    <include android:id="@+id/ek2" android:layout_width="@dimen/ci" android:layout_height="@dimen/ci" android:layout_marginTop="44dp" android:layout_marginEnd="@dimen/ce" android:layout_toStartOf="@+id/ef1" layout="@layout/b1a"/>
+    <include android:id="@+id/emn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginStart="16dp" android:layout_marginEnd="@dimen/ct" android:layout_toStartOf="@+id/ek2" android:layout_alignParentStart="true" layout="@layout/b1p"/>
+    <include android:id="@+id/egr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c5" android:layout_below="@+id/emn" android:layout_marginStart="@dimen/c5" layout="@layout/b0p"/>
+    <include android:id="@+id/eju" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cb" android:layout_below="@+id/egr" android:layout_marginStart="@dimen/cb" layout="@layout/b1_"/>
+    <include android:id="@+id/elh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="44dp" android:layout_alignParentBottom="true" android:layout_marginEnd="18dp" android:layout_alignParentEnd="true" layout="@layout/b0x"/>
+    <include android:id="@+id/egg" android:layout_width="match_parent" android:layout_height="180dp" android:layout_marginBottom="8dp" android:layout_above="@+id/efs" android:layout_marginStart="16dp" android:layout_marginEnd="82dp" android:layout_alignParentStart="true" layout="@layout/b0o"/>
+    <include layout="@layout/b19"/>
+    <include layout="@layout/b1k"/>
+    <include layout="@layout/b15"/>
+    <include layout="@layout/b0r"/>
+    <include layout="@layout/b04"/>
+    <include layout="@layout/b1s"/>
+    <include layout="@layout/b0t"/>
+</RelativeLayout>

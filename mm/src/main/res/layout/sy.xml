@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/gi">
+    <include android:id="@+id/au5" android:layout_alignParentTop="true" android:layout_alignParentRight="true" layout="@layout/qr" style="@style/gp"/>
+    <TextView android:id="@+id/ayn" android:visibility="gone" android:text="{user}" android:layout_toLeftOf="@+id/au5" style="@style/gy"/>
+    <LinearLayout android:id="@+id/aui" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toLeftOf="@+id/au5" style="@style/gu">
+        <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/ayb" android:layout_marginRight="6dp" style="@style/h2"/>
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/j0y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/c5" style="@style/a71"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.tencent.mm.ui.widget.MMNeat7extView android:textColor="@color/jg" android:id="@+id/auk" android:background="@drawable/oq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/xb" android:minHeight="@dimen/ad" style="@style/h4"/>
+                <TextView android:id="@+id/atq" android:layout_marginLeft="0dp" style="@style/gj"/>
+                <ViewStub android:id="@+id/iva" android:layout="@layout/tn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="@dimen/i2"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

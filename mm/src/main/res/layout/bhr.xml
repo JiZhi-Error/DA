@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/eai" android:background="@null" android:paddingLeft="20dp" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="48dp">
+    <TextView android:textSize="@dimen/is" android:textColor="@color/a2x" android:gravity="top" android:layout_gravity="center_vertical" android:id="@+id/ior" android:paddingTop="@dimen/g" android:focusable="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/k5" android:minWidth="68dp" android:text="@string/iad" android:singleLine="true"/>
+    <com.tencent.mm.ui.tools.CustomFitTextView android:textSize="@dimen/is" android:textColor="@color/a2x" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/gfw" android:paddingRight="32dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="12dp" android:maxLines="5" android:lines="3" android:singleLine="false"/>
+</LinearLayout>

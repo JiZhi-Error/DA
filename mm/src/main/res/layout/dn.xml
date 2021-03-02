@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/cj" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:textColorHint="@color/dd" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/nr" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="@dimen/pd" android:hint="@string/ka" android:drawableLeft="@raw/app_brand_desktop_search_icon" android:drawablePadding="@dimen/g" android:textCursorDrawable="@drawable/a70" style="@style/mb"/>
+    </LinearLayout>
+</LinearLayout>

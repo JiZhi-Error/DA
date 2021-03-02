@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ce" android:layout_marginEnd="@dimen/ce">
+        <com.tencent.mm.plugin.story.ui.view.CommentAvatarImageView android:id="@+id/ibx" android:layout_width="48dp" android:layout_height="48dp"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/iby" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp">
+            <TextView android:textSize="14dp" android:textColor="@color/ua" android:ellipsize="end" android:id="@+id/ic0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cb" android:maxLines="1"/>
+            <TextView android:textSize="14dp" android:textColor="@color/ag2" android:id="@+id/ibz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cb"/>
+            <View android:background="@color/aab" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

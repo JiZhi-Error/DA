@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">קבוצה %d</item>
+        <item quantity="other">קבוצה %d</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="zero">%d אנשי קשר</item>
+        <item quantity="one">%d אנשי קשר</item>
+        <item quantity="other">%d אנשי קשר</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">נותרו %d שניות</item>
+        <item quantity="other">נותרו %d שניות</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">קול %d שנייה</item>
+        <item quantity="other">קול %d שניות</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">הודעה %d לא נקראה</item>
+        <item quantity="other">%d הודעות לא נקראו</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">%d חבר נוסף</item>
+        <item quantity="other">%d חבר נוסף</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">%d הזמנות נשלחו</item>
+        <item quantity="other">%d הזמנות נשלחו</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="one">%d איש קשר נמצא</item>
+        <item quantity="other">%d איש קשר נמצא</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="one">%d חברים ב-WeChat</item>
+        <item quantity="other">%d חברים ב-WeChat</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="one">לפני %d שעות</item>
+        <item quantity="other">לפני %d שעות</item>
+    </plurals>
+    <plurals name="k">
+        <item quantity="one">לפני %d דקה</item>
+        <item quantity="other">לפני %d דקות</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="one">לפני %d ימים</item>
+        <item quantity="other">לפני %d ימים</item>
+    </plurals>
+    <plurals name="o">
+        <item quantity="one">ניתן לבחור %s תמונות לכל היותר</item>
+        <item quantity="other">ניתן לבחור %s תמונות לכל היותר</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">בחר %s תמונות לכל היותר</item>
+        <item quantity="other">בחר %s תמונות או סרטוני וידאו לכל היותר</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="one">ניתן לבחור %s סרטוני וידאו לכל היותר</item>
+        <item quantity="other">ניתן לבחור %s סרטוני וידאו לכל היותר</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="one">%s הודעות חדשות</item>
+        <item quantity="other">%s הודעות חדשות</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="one">אתה מזמין %d חברים ל-WeChat</item>
+        <item quantity="other">אתה מזמין %d חברים ל-WeChat</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="one">%s נמענים</item>
+        <item quantity="other">%s נמענים</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">אתה שולח את ההודעה ל-%s חברים</item>
+        <item quantity="other">אתה שולח את ההודעה ל-%s חברים</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="one">הודעת ה-SMS תגיע תוך %d שניות</item>
+        <item quantity="other">הודעת ה-SMS תגיע תוך %d שניות</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="one">אדם %s</item>
+        <item quantity="other">%s אנשים</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="one">%d בקבוק נענה</item>
+        <item quantity="other">%d בקבוק נענה</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="one">[%d]</item>
+        <item quantity="other">[%d]</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="one">%1$d חברים שלחו לך %2$d הודעות</item>
+        <item quantity="other">%1$d חברים שלחו לך %2$d הודעות</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="one">%1$d קבצים מצורפים (%2$s)</item>
+        <item quantity="other">%1$d קבצים מצורפים (%2$s)</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="one">אדם %s</item>
+        <item quantity="other">%s אנשים</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="one">אדם %d</item>
+        <item quantity="other">%d אנשים</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="one">ברכה חדשה %d</item>
+        <item quantity="other">ברכה חדשה %d</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="one">%d פרסום</item>
+        <item quantity="other">%d פרסומים</item>
+    </plurals>
+    <plurals name="a5">
+        <item quantity="one">%d הודעה חדשה</item>
+        <item quantity="other">%d הודעות חדשות</item>
+    </plurals>
+    <plurals name="a6">
+        <item quantity="one">%d פרסום</item>
+        <item quantity="other">%d פרסומים</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="one">הודעה %d לא נקראה</item>
+        <item quantity="other">%d הודעות לא נקראו</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="zero">כרטיסייה 1 של %d</item>
+        <item quantity="one">כרטיסייה 2 של %d</item>
+        <item quantity="two">כרטיסייה 3 של %d</item>
+        <item quantity="other">כרטיסייה %2$d של %1$d</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="one">מיקום בזמן אמת (%d)</item>
+        <item quantity="other">מיקום בזמן אמת (%d)</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="one">%s שניה נותרה</item>
+        <item quantity="other">%s שניות נותרו</item>
+    </plurals>
+</resources>

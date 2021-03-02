@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/afz" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="16dp" android:textColor="@color/a2x" android:gravity="left" android:id="@+id/bfe" android:padding="@dimen/ir" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</ScrollView>

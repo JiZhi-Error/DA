@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/e3n" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/bz">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/b8f" android:background="@drawable/akp" android:paddingLeft="@dimen/c5" android:paddingTop="2dp" android:paddingRight="@dimen/c5" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/h_" android:textStyle="bold" android:textColor="@color/afz" android:id="@+id/b8g" android:padding="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="人重呆hjhfkjfshkfhkjfksjfkjlk坤哥辊fksjaflkjkfsjafklasjflkdsjslkfjaljf框架fslajflksfdslajf辊" android:singleLine="false"/>
+        <TextView android:textSize="@dimen/kc" android:textColor="@color/BW_100_Alpha_0_5" android:ellipsize="end" android:id="@+id/j38" android:padding="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="人重呆fskfjksdhfjshfak哈哈哈哈只哈哈哈哈哈哈唑" android:singleLine="true"/>
+    </LinearLayout>
+    <View android:id="@+id/bs7" android:background="@color/BW_100_Alpha_0_1" android:layout_width="wrap_content" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/c5" android:layout_marginRight="@dimen/c5" android:layout_marginBottom="@dimen/cc" android:layout_alignBottom="@+id/b8f" android:layout_alignStart="@+id/b8f" android:layout_alignEnd="@+id/b8f"/>
+</RelativeLayout>

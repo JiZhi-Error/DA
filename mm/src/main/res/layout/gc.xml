@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="82dp" android:layout_height="wrap_content" android:minHeight="90dp">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="82dp" android:layout_height="wrap_content" android:minHeight="90dp">
+            <RelativeLayout android:layout_width="56dp" android:layout_height="56dp">
+                <ImageView android:id="@+id/rs" android:background="@drawable/ea" android:visibility="gone" android:layout_width="56dp" android:layout_height="56dp" android:layout_centerInParent="true"/>
+                <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/rr" android:layout_width="56dp" android:layout_height="56dp" android:scaleType="center" android:layout_centerInParent="true" app:iconColor="@color/FG_0"/>
+                <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@+id/rq" android:background="@color/ac_" android:visibility="gone" android:layout_width="56dp" android:layout_height="56dp" android:scaleType="center"/>
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/eo" android:ellipsize="end" android:id="@+id/rt" android:layout_marginTop="4dp" android:maxWidth="78dp" android:singleLine="true" style="@style/zx"/>
+            <TextView android:textSize="@dimen/a3" android:textColor="@color/uj" android:ellipsize="end" android:id="@+id/rp" android:visibility="gone" android:maxWidth="78dp" android:singleLine="true" style="@style/zx"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="top|right|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="10dp" android:textColor="@color/ag2" android:gravity="center" android:id="@+id/ru" android:background="@drawable/amr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="40dp" android:text="@string/x4"/>
+            <TextView android:textColor="@color/ag2" android:gravity="center" android:id="@+id/rv" android:background="@drawable/b1a" android:visibility="gone" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginTop="3dp" android:layout_marginRight="8dp"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

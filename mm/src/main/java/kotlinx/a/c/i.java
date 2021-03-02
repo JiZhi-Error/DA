@@ -1,0 +1,17 @@
+package kotlinx.a.c;
+
+import com.tencent.matrix.trace.core.AppMethodBeat;
+import com.tencent.tmassistantsdk.downloadservice.DownloadSetting;
+import kotlin.g.b.p;
+import kotlin.l;
+
+@l(hxD = {1, 1, 16}, hxE = {"\u0000D\n\u0000\n\u0002\u0010\u000b\n\u0002\u0018\u0002\n\u0002\b\u0006\n\u0002\u0010\u000e\n\u0002\b\u0005\n\u0002\u0010\u0006\n\u0002\b\u0006\n\u0002\u0010\u0007\n\u0002\b\u0006\n\u0002\u0010\b\n\u0002\b\u0006\n\u0002\u0010\t\n\u0002\b\u0006\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u0004\n\u0000\u001a\u0015\u0010*\u001a\u00020+2\b\u0010,\u001a\u0004\u0018\u00010\u0001¢\u0006\u0002\u0010-\u001a\u0010\u0010*\u001a\u00020+2\b\u0010,\u001a\u0004\u0018\u00010.\u001a\u0010\u0010*\u001a\u00020+2\b\u0010,\u001a\u0004\u0018\u00010\t\"\u0015\u0010\u0000\u001a\u00020\u0001*\u00020\u00028F¢\u0006\u0006\u001a\u0004\b\u0003\u0010\u0004\"\u0017\u0010\u0005\u001a\u0004\u0018\u00010\u0001*\u00020\u00028F¢\u0006\u0006\u001a\u0004\b\u0006\u0010\u0007\"\u0015\u0010\b\u001a\u00020\t*\u00020\u00028F¢\u0006\u0006\u001a\u0004\b\n\u0010\u000b\"\u0017\u0010\f\u001a\u0004\u0018\u00010\t*\u00020\u00028F¢\u0006\u0006\u001a\u0004\b\r\u0010\u000b\"\u0015\u0010\u000e\u001a\u00020\u000f*\u00020\u00028F¢\u0006\u0006\u001a\u0004\b\u0010\u0010\u0011\"\u0017\u0010\u0012\u001a\u0004\u0018\u00010\u000f*\u00020\u00028F¢\u0006\u0006\u001a\u0004\b\u0013\u0010\u0014\"\u0015\u0010\u0015\u001a\u00020\u0016*\u00020\u00028F¢\u0006\u0006\u001a\u0004\b\u0017\u0010\u0018\"\u0017\u0010\u0019\u001a\u0004\u0018\u00010\u0016*\u00020\u00028F¢\u0006\u0006\u001a\u0004\b\u001a\u0010\u001b\"\u0015\u0010\u001c\u001a\u00020\u001d*\u00020\u00028F¢\u0006\u0006\u001a\u0004\b\u001e\u0010\u001f\"\u0017\u0010 \u001a\u0004\u0018\u00010\u001d*\u00020\u00028F¢\u0006\u0006\u001a\u0004\b!\u0010\"\"\u0015\u0010#\u001a\u00020$*\u00020\u00028F¢\u0006\u0006\u001a\u0004\b%\u0010&\"\u0017\u0010'\u001a\u0004\u0018\u00010$*\u00020\u00028F¢\u0006\u0006\u001a\u0004\b(\u0010)¨\u0006/"}, hxF = {DownloadSetting.TYPE_BOOLEAN, "", "Lkotlinx/serialization/json/JsonElement;", "getBoolean", "(Lkotlinx/serialization/json/JsonElement;)Z", "booleanOrNull", "getBooleanOrNull", "(Lkotlinx/serialization/json/JsonElement;)Ljava/lang/Boolean;", "content", "", "getContent", "(Lkotlinx/serialization/json/JsonElement;)Ljava/lang/String;", "contentOrNull", "getContentOrNull", "double", "", "getDouble", "(Lkotlinx/serialization/json/JsonElement;)D", "doubleOrNull", "getDoubleOrNull", "(Lkotlinx/serialization/json/JsonElement;)Ljava/lang/Double;", "float", "", "getFloat", "(Lkotlinx/serialization/json/JsonElement;)F", "floatOrNull", "getFloatOrNull", "(Lkotlinx/serialization/json/JsonElement;)Ljava/lang/Float;", "int", "", "getInt", "(Lkotlinx/serialization/json/JsonElement;)I", "intOrNull", "getIntOrNull", "(Lkotlinx/serialization/json/JsonElement;)Ljava/lang/Integer;", "long", "", "getLong", "(Lkotlinx/serialization/json/JsonElement;)J", "longOrNull", "getLongOrNull", "(Lkotlinx/serialization/json/JsonElement;)Ljava/lang/Long;", "JsonPrimitive", "Lkotlinx/serialization/json/JsonPrimitive;", "value", "(Ljava/lang/Boolean;)Lkotlinx/serialization/json/JsonPrimitive;", "", "kotlinx-serialization-runtime"})
+public final class i {
+    public static final String a(f fVar) {
+        AppMethodBeat.i(225766);
+        p.h(fVar, "$this$content");
+        String content = fVar.hOP().getContent();
+        AppMethodBeat.o(225766);
+        return content;
+    }
+}

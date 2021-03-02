@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="xq" parent="@style/xo">
+    </style>
+    <style name="xr" parent="@style/xo">
+    </style>
+    <style name="xs" parent="@style/xx">
+    </style>
+    <style name="xt" parent="@style/xy">
+    </style>
+    <style name="xu" parent="@style/xz">
+    </style>
+    <style name="xv" parent="@style/y0">
+    </style>
+    <style name="xw" parent="@style/y8">
+    </style>
+</resources>

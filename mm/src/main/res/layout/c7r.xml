@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="64dp" android:layout_height="64dp" android:layout_marginTop="48dp" android:src="@raw/realname_done"/>
+    <TextView android:textSize="17dp" android:textColor="@color/fq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/i7g"/>
+    <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="48dp" android:textColor="@color/a2x" android:id="@+id/jjg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="" wallet:walletTypeFace="0"/>
+    <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <Button android:id="@+id/jjf" android:layout_marginBottom="96dp" android:text="@string/vl" style="@style/p3"/>
+</LinearLayout>

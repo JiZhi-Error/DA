@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/a_i" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/c5" android:paddingEnd="@dimen/c5">
+    <RelativeLayout android:id="@+id/eg_" android:background="@drawable/acw" android:padding="1dp" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginTop="2dp" android:layout_marginEnd="@dimen/ct">
+        <com.tencent.mm.ui.widget.RoundCornerImageView android:id="@+id/ega" android:layout_width="match_parent" android:layout_height="match_parent" app:roundHeight="@dimen/a_s" app:roundWidth="@dimen/a_s"/>
+    </RelativeLayout>
+    <TextView android:textSize="14dp" android:textColor="@color/ag2" android:id="@+id/egb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@+id/eg_"/>
+</RelativeLayout>

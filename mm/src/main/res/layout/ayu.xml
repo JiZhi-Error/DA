@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:clipChildren="false">
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/a0a" android:clipChildren="false" android:layout_width="56dp" android:layout_height="56dp" android:contentDescription="@string/f57" android:animateLayoutChanges="true">
+        <FrameLayout android:layout_gravity="center" android:id="@+id/g77" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.tencent.mm.ui.MMImageView android:layout_gravity="center_vertical" android:layout_width="24dp" android:layout_height="24dp" android:src="@raw/icons_outlined_multitask" android:scaleType="centerCrop"/>
+        </FrameLayout>
+    </FrameLayout>
+</merge>

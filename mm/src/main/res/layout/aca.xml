@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:background="@color/ac_" android:layout_width="wrap_content" android:layout_height="@dimen/cl" android:paddingStart="2dp">
+    <RelativeLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1">
+        <TextView android:textSize="@dimen/h_" android:textStyle="bold" android:textColor="@color/l4" android:ellipsize="end" android:gravity="center" android:id="@+id/ifz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false"/>
+        <ImageView android:id="@+id/ifw" android:visibility="invisible" android:layout_width="@dimen/ct" android:layout_height="@dimen/ct" android:layout_marginTop="-4dp" android:layout_alignTop="@+id/ifz" android:layout_toEndOf="@+id/ifz" style="@style/zs"/>
+        <ImageView android:id="@+id/a39" android:visibility="visible" android:layout_width="@dimen/c5" android:layout_height="@dimen/c5" android:layout_marginTop="-5.5dp" android:layout_alignTop="@+id/ifz" android:layout_marginStart="1dp" android:layout_toEndOf="@+id/ifz"/>
+        <FrameLayout android:id="@+id/ig1" android:background="@drawable/a1g" android:visibility="invisible" android:layout_width="14dp" android:layout_height="14dp" android:layout_marginTop="-10dp" android:layout_alignTop="@+id/ifz" android:layout_marginStart="-6dp" android:layout_toEndOf="@+id/ifz">
+            <ImageView android:id="@+id/ig0" android:padding="2dp" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@raw/finder_icon_live_onlive"/>
+        </FrameLayout>
+        <TextView android:textSize="9dp" android:textColor="@color/am" android:id="@+id/ig4" android:background="@drawable/a3j" android:paddingLeft="4dp" android:paddingTop="0dp" android:paddingRight="4dp" android:paddingBottom="0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="13dp" android:layout_marginTop="-9dp" android:layout_alignTop="@+id/ifz" android:layout_alignRight="@+id/mr"/>
+        <View android:id="@+id/mr" android:layout_width="@dimen/cb" android:layout_height="1dp" android:layout_alignTop="@+id/ifz" android:layout_toEndOf="@+id/ifz"/>
+    </RelativeLayout>
+</LinearLayout>

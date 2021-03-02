@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/h9a" android:background="@color/kz" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.plugin.appbrand.widget.recyclerview.LoadMoreRecyclerView android:id="@+id/bjb" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:dividerHeight="12dp" android:overScrollMode="never"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/b1h" android:background="@color/kz" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/b1g" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginTop="96dp" android:src="@raw/coupon" app:iconColor="@color/FG_2"/>
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/FG_2" android:id="@+id/b1i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/apz"/>
+    </LinearLayout>
+</RelativeLayout>

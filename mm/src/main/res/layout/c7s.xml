@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/BW_BG_95" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/h_e" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:layout_alignParentTop="true" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/zr" android:background="@drawable/b6i" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:minHeight="@dimen/b0">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/aqu" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="15dp" android:textColor="@color/a2x" android:gravity="left" android:layout_gravity="left" android:id="@+id/jia" android:layout_width="@dimen/em" android:layout_height="wrap_content" android:minHeight="0dp" android:text="@string/i78"/>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp">
+                        <ImageView android:id="@+id/a1s" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginRight="4dp"/>
+                        <TextView android:textSize="15dp" android:textColor="@color/fo" android:gravity="center_vertical" android:id="@+id/zs" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="18dp" android:text="" android:layout_weight="1"/>
+                        <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="12dp" android:layout_height="24dp" android:src="@raw/icons_outlined_arrow" android:scaleType="centerCrop" wallet:iconColor="@color/fp"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+                    <TextView android:textSize="15dp" android:textColor="@color/u_" android:id="@+id/dpd" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="126dp" android:text=""/>
+                    <TextView android:textSize="15dp" android:textColor="@color/u_" android:id="@+id/dpe" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="126dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/ar9" android:paddingLeft="32dp" android:paddingRight="32dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="@dimen/h_" android:textColor="@color/a2x" android:id="@+id/exk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/i7e"/>
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/fjf" android:paddingLeft="0dp" android:layout_marginTop="16dp" wallet:contentClickable="false" wallet:layoutRes="@layout/c9o" wallet:titleText="" wallet:walletTypeFace="0" style="@style/a0w"/>
+                <View android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="8dp"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/ewe" android:background="@drawable/a__" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="48dp" android:minHeight="80dp">
+                    <View android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1px"/>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <ImageView android:layout_width="48dp" android:layout_height="48dp" android:src="@raw/lqt_logo"/>
+                        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_weight="1">
+                            <TextView android:textSize="17dp" android:textColor="@color/fq" android:id="@+id/ewf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+                            <TextView android:textSize="14dp" android:textColor="@color/u_" android:id="@+id/ewd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+                        </LinearLayout>
+                        <ImageView android:layout_width="12dp" android:layout_height="24dp" android:src="@drawable/qt"/>
+                    </LinearLayout>
+                    <View android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1px"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

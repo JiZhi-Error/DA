@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="top|left|center_vertical|center_horizontal|center" android:height="20dp" android:width="20dp" android:drawable="@raw/fireworks" android:left="20dp" android:top="6dp"/>
+    <item android:gravity="top|right|center_vertical|center_horizontal|center" android:height="20dp" android:width="20dp" android:drawable="@raw/fireworks" android:right="12dp"/>
+    <item android:gravity="top|left|center_vertical|center_horizontal|center" android:height="28dp" android:width="28dp" android:drawable="@raw/fireworks" android:left="16dp" android:top="81dp"/>
+    <item android:gravity="top|right|center_vertical|center_horizontal|center" android:height="22dp" android:width="22dp" android:drawable="@raw/fireworks" android:top="103dp" android:right="4dp"/>
+</layer-list>

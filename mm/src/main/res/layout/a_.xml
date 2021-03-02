@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/ac_" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/n" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="17dp" android:textStyle="bold" android:textColor="@color/a2x" android:layout_gravity="left" android:id="@+id/aa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="@string/edm"/>
+        <TextView android:textSize="17dp" android:textColor="@color/uj" android:gravity="left" android:layout_gravity="left" android:id="@+id/a_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/ed5"/>
+        <Button android:textSize="17dp" android:textStyle="bold" android:layout_gravity="center_horizontal" android:id="@+id/dt1" android:layout_width="184dp" android:layout_height="40dp" android:layout_marginTop="56dp" android:layout_marginBottom="64dp" android:text="@string/f1r" style="@style/p1"/>
+    </LinearLayout>
+</LinearLayout>

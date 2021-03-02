@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/dfx" android:layout_width="match_parent" android:layout_height="56dp" android:layout_alignParentTop="true">
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="31dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <com.tencent.mm.plugin.game.media.TextViewWithBottomLine android:textSize="17dp" android:textStyle="bold" android:textColor="@color/fm" android:id="@+id/dhu" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/drl"/>
+            <com.tencent.mm.plugin.game.media.TextViewWithBottomLine android:textSize="17dp" android:textStyle="bold" android:textColor="@color/fm" android:id="@+id/dha" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="32dp" android:text="@string/dqh"/>
+        </LinearLayout>
+        <TextView android:textSize="17dp" android:textColor="@color/a2x" android:id="@+id/dft" android:layout_width="wrap_content" android:layout_height="31dp" android:layout_marginRight="16dp" android:text="@string/dp7" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+        <View android:background="#0d000000" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <android.support.v4.view.ViewPager android:id="@+id/dj5" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/dfx"/>
+</RelativeLayout>

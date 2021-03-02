@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/h8v" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@+id/jkp" android:background="@drawable/b6d" android:paddingLeft="6dp" android:paddingTop="6dp" android:paddingRight="6dp" android:paddingBottom="6dp" style="@style/mq">
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.tencent.mm.ui.widget.MMEditText android:textColor="@color/a2x" android:layout_gravity="bottom" android:id="@+id/jkq" android:background="@drawable/ca2" android:layout_width="0dp" android:layout_marginTop="8dp" android:maxHeight="@dimen/ae" android:minHeight="@dimen/ag" android:singleLine="false" android:layout_weight="1" android:inputType="none|text|textCapSentences|textMultiLine" android:textCursorDrawable="@drawable/b4t" style="@style/mb"/>
+            <com.tencent.mm.ui.widget.imageview.WeImageButton android:id="@+id/jkv" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/of" android:contentDescription="@string/auf"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/jku" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginStart="6dp">
+            <Button android:textColor="#1a000000" android:id="@+id/jkt" android:background="@drawable/asp" android:paddingLeft="@dimen/k5" android:paddingRight="@dimen/k5" android:layout_width="wrap_content" android:layout_height="@dimen/aj" android:layout_marginBottom="8dp" android:minWidth="@dimen/al" android:text="@string/b2d"/>
+            <Button android:textColor="@color/ag5" android:id="@+id/jks" android:background="@drawable/k7" android:paddingLeft="@dimen/k5" android:paddingRight="@dimen/k5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/aj" android:layout_marginBottom="8dp" android:minWidth="@dimen/al" android:text="@string/b2d"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

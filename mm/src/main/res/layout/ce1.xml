@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.tencent.mm.plugin.festival.ui.view.FestivalCdnImageView android:id="@+id/x1" android:layout_width="@dimen/cc" android:layout_height="@dimen/cc" android:layout_marginEnd="@dimen/bt"/>
+        <TextView android:textSize="@dimen/aqv" android:textColor="@color/BW_100_Alpha_0_5" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/fzg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:lineSpacingExtra="0dp" android:lineSpacingMultiplier="1" android:layout_marginEnd="@dimen/bt"/>
+        <TextView android:textSize="@dimen/aqv" android:textColor="@android:color/white" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/k3t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:lineSpacingExtra="0dp" android:lineSpacingMultiplier="1"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/dcg" android:layout_width="match_parent" android:layout_height="@dimen/b7">
+        <TextView android:textSize="@dimen/c" android:textColor="@color/a2w" android:gravity="center" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/dcf" android:background="@drawable/az3" android:layout_height="match_parent" android:text="@string/is" style="@style/os"/>
+    </FrameLayout>
+    <include android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/dcg" layout="@layout/fe"/>
+</RelativeLayout>

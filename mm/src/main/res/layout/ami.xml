@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/rj">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="0dp" android:layout_marginBottom="0dp" style="@style/lz">
+        <ImageView android:id="@+id/d_2" android:background="@drawable/a4z" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="60dp" android:src="@drawable/bdo" style="@style/k2"/>
+        <TextView android:textSize="22sp" android:ellipsize="end" android:id="@+id/da8" android:layout_marginTop="20dp" android:text="@string/dip" android:singleLine="true" style="@style/ko"/>
+        <TextView android:id="@+id/d_u" android:layout_marginTop="10dp" android:text="@string/dip" style="@style/k_"/>
+        <LinearLayout android:gravity="center" android:layout_marginTop="60dp" style="@style/nl">
+            <TextView android:id="@+id/d_9" android:visibility="invisible" android:text="@string/dhm" style="@style/jw"/>
+            <TextView android:id="@+id/d_7" android:visibility="invisible" android:text="@string/dhk" style="@style/jw"/>
+            <TextView android:autoLink="none|web|email|phone" android:id="@+id/d_8" android:visibility="invisible" android:layout_marginLeft="8dp" android:text="@string/dik" style="@style/kj"/>
+        </LinearLayout>
+        <Button android:textSize="15sp" android:id="@+id/b_q" android:layout_width="220dp" android:layout_marginTop="20dp" android:minHeight="34dp" android:text="@string/b9l" style="@style/kn"/>
+        <LinearLayout android:gravity="center" android:layout_marginTop="20dp" style="@style/nl">
+            <TextView android:text="@string/diq" style="@style/kk"/>
+            <Button android:id="@+id/j1n" android:layout_height="20dp" android:text="@string/dit" style="@style/kj"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@+id/j1m" android:visibility="gone" android:layout_marginTop="2dp" style="@style/nl">
+            <TextView android:textSize="10dp" android:text="@string/dis" style="@style/kk"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_marginBottom="15dp" style="@style/nl">
+        <ImageView android:layout_width="114dp" android:layout_height="18dp" android:src="@drawable/bdu"/>
+    </LinearLayout>
+</LinearLayout>

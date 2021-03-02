@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.forcenotify.ui.view.KeyEventConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/ct" android:paddingEnd="@dimen/ct">
+    <LinearLayout android:orientation="vertical" android:id="@+id/k03" android:background="@drawable/cv7" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constrainedHeight="true">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/dtx" android:padding="2dp" android:layout_width="@dimen/cc" android:layout_height="@dimen/cc" android:layout_marginTop="@dimen/cb" android:src="@raw/wechat_icon" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/cb" android:layout_alignParentStart="true" app:iconColor="@color/agx"/>
+            <TextView android:textSize="14dp" android:textColor="@color/agx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cb" android:text="@string/dhb" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/bt" android:layout_toEndOf="@+id/dtx"/>
+            <com.tencent.mm.ui.MMImageView android:id="@+id/jtk" android:background="@drawable/cti" android:padding="@dimen/bt" android:layout_width="@dimen/ce" android:layout_height="@dimen/ce" android:layout_marginTop="@dimen/c5" android:src="@drawable/bwd" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/c5" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/cb" android:layout_marginEnd="@dimen/cb">
+            <android.support.v7.widget.RecyclerView android:id="@+id/h_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never"/>
+            <View android:id="@+id/jzo" android:background="@color/e" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/cb" android:layout_alignTop="@+id/h_1"/>
+            <ImageView android:id="@+id/jzn" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/cb" android:src="@drawable/cv5" android:layout_below="@+id/jzo"/>
+            <ImageView android:id="@+id/jzm" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/cb" android:src="@drawable/cv3" android:layout_above="@+id/jzl"/>
+            <View android:id="@+id/jzl" android:background="@color/e" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/cb" android:layout_alignBottom="@+id/h_1"/>
+        </RelativeLayout>
+    </LinearLayout>
+</com.tencent.mm.plugin.forcenotify.ui.view.KeyEventConstraintLayout>

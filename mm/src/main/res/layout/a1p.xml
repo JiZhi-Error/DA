@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/rj">
+    <com.tencent.mm.ui.base.HeaderGridView android:id="@+id/hmf" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@android:color/transparent" android:numColumns="5" android:layout_above="@+id/hme"/>
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/hme" android:background="?attr/sh" android:padding="@dimen/k5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textColor="@color/fu" android:gravity="center" android:id="@+id/hmh" android:background="@drawable/aij" android:minWidth="@dimen/in" android:text="@string/bwl" android:layout_alignParentLeft="true" style="@style/os"/>
+        <Button android:textColor="@color/a5f" android:gravity="center" android:id="@+id/hmg" android:background="@drawable/aij" android:minWidth="@dimen/in" android:text="@string/tf" android:layout_alignParentRight="true" style="@style/os"/>
+    </RelativeLayout>
+</RelativeLayout>

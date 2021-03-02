@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="a3x" parent="@style/f6">
+        <item name="a0p">1</item>
+        <item name="a11">1</item>
+    </style>
+</resources>

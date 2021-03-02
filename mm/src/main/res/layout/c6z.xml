@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="80dp">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/g2b" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/g2_" android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/cj7" android:layout_marginStart="24dp" android:layout_marginEnd="16dp"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <TextView android:textSize="22dp" android:textColor="@color/BW_0_Alpha_0_9" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/g2e" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="34dp" android:maxWidth="200dp" android:text="name" android:maxLines="1" android:lines="1"/>
+            <TextView android:textSize="14dp" android:textColor="@color/BW_0_Alpha_0_5" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/g2f" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="20dp" android:maxWidth="200dp" android:text="action" android:maxLines="1" android:lines="1" android:layout_alignBottom="@+id/g2e"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/jlo" android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/cj7" android:layout_marginStart="24dp" android:layout_marginEnd="24dp"/>
+</FrameLayout>

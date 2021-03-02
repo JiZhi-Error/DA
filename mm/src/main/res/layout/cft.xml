@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.textstatus.emoji.ImeEmojiGridScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/h9a" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:fadeScrollbars="false" android:overScrollMode="never">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView android:id="@+id/h8v" android:scrollbars="none" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingStart="@dimen/ct" android:paddingEnd="@dimen/ct"/>
+        <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:id="@+id/jum" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/arm" android:layout_alignParentBottom="true">
+                <TextView android:textSize="13.31dp" android:textColor="@color/ag8" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/jun" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/je5" android:layout_weight="3" android:layout_marginStart="15dp" android:layout_marginEnd="15dp"/>
+                <View android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</com.tencent.mm.plugin.textstatus.emoji.ImeEmojiGridScrollView>

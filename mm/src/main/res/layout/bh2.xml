@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/a74" android:baselineAligned="false" style="@style/rj">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <ListView android:id="@+id/h4" android:focusable="true" android:scrollbars="none" android:transcriptMode="disabled" style="@style/np"/>
+        <include layout="@layout/c1d"/>
+    </FrameLayout>
+</LinearLayout>

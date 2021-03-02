@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="left" android:id="@+id/fg1" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/bb" android:layout_weight="1">
+        <com.tencent.mm.ui.MMImageView android:layout_gravity="center_vertical" android:id="@+id/dvz" android:background="@null" android:layout_width="@dimen/ba" android:layout_height="@dimen/ba" android:layout_marginRight="@dimen/cb"/>
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="center_vertical" android:id="@+id/iqp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:paddingTop="@dimen/cb" android:paddingBottom="@dimen/cb" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="@dimen/bb" android:layout_weight="1">
+                <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:ellipsize="end" android:id="@android:id/title" android:layout_marginRight="@dimen/k5" android:singleLine="true" style="@style/zz"/>
+                    <TextView android:textSize="@dimen/t" android:textColor="@color/uj" android:gravity="right" android:layout_gravity="center_vertical" android:id="@+id/dua" android:visibility="gone" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+                    <TextView android:id="@+id/ikq" android:background="@null" android:visibility="gone" android:text="@string/x4" style="@style/a6f"/>
+                    <ImageView android:id="@+id/ikj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b1a"/>
+                </LinearLayout>
+                <TextView android:gravity="left" android:id="@+id/bmr" android:paddingRight="@dimen/k5" android:visibility="gone" android:layout_width="wrap_content" android:layout_marginTop="@dimen/bt" style="@style/m0"/>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/bd" android:ellipsize="end" android:id="@+id/iks" android:background="@null" android:visibility="gone" android:maxWidth="180dp" android:singleLine="true" style="@style/rk"/>
+            <RelativeLayout android:id="@+id/h7f" android:background="@null" android:layout_width="@dimen/jx" android:layout_height="@dimen/jx">
+                <ImageView android:id="@+id/dwk" android:visibility="gone" android:layout_width="@dimen/ig" android:layout_height="@dimen/ig" android:src="@raw/default_avatar" android:scaleType="fitCenter" android:layout_centerInParent="true"/>
+                <ImageView android:gravity="center" android:id="@+id/h7d" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4dp" android:layout_marginRight="-4dp" android:src="@drawable/b1a" android:layout_alignTop="@+id/dwk" android:layout_alignRight="@+id/dwk"/>
+            </RelativeLayout>
+            <ImageView android:gravity="center" android:id="@+id/h72" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b1a" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+            <TextView android:textSize="@dimen/bd" android:ellipsize="end" android:id="@+id/ikr" android:background="@null" android:visibility="gone" android:maxWidth="130dp" android:singleLine="true" style="@style/rk"/>
+            <TextView android:id="@android:id/summary" android:paddingTop="@dimen/k5" android:paddingRight="@dimen/ih" android:paddingBottom="@dimen/k5" android:singleLine="true" style="@style/ml"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

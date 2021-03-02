@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@null" android:paddingLeft="@dimen/hs" android:paddingRight="@dimen/hs" android:paddingBottom="@dimen/hs" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/auf" android:background="@drawable/b69" android:paddingLeft="@dimen/hs" android:paddingRight="@dimen/k5" android:paddingBottom="@dimen/hs" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="81dp">
+        <ImageView android:id="@+id/eb5" android:layout_width="@dimen/ij" android:layout_height="@dimen/ij" android:src="@drawable/bca" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/dkc" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginLeft="@dimen/ir" android:layout_marginRight="@dimen/k" android:src="@raw/arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:iconColor="@color/en"/>
+        <com.tencent.mm.ui.base.NoMeasuredTextView android:textSize="@dimen/is" android:ellipsize="end" android:id="@+id/iol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/k5" android:singleLine="true" android:layout_toLeftOf="@+id/dkc" android:layout_toRightOf="@+id/eb5" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</LinearLayout>

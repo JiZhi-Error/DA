@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="bottom" android:orientation="horizontal" android:background="@drawable/aym" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/fcz" layout="@layout/c6d"/>
+    <include android:id="@+id/fd4" layout="@layout/c6d"/>
+    <include android:id="@+id/fdp" layout="@layout/c6d"/>
+    <include android:id="@+id/fdo" layout="@layout/c6d"/>
+</LinearLayout>

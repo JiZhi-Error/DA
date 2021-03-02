@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/h8y" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/dcj" android:background="@color/fm" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.tencent.mm.view.AnimationLayout android:id="@+id/n0" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tencent.mm.ui.tools.MMGestureGallery android:id="@+id/ivf" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.tencent.mm.view.AnimationLayout>
+    <RelativeLayout android:id="@+id/h_a" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/ci">
+        <TextView android:textColor="@color/ag2" android:gravity="center_vertical" android:id="@+id/ivb" android:background="#b2777777" android:paddingLeft="@dimen/ct" android:paddingRight="@dimen/ct" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/ci" android:layout_marginLeft="@dimen/cb" android:maxWidth="@dimen/ia" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+        <FrameLayout android:id="@+id/h_g" android:background="@drawable/arg" android:layout_width="@dimen/ci" android:layout_height="@dimen/ci" android:layout_marginRight="@dimen/cb" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="center" android:layout_width="@dimen/cc" android:layout_height="@dimen/cc" android:src="@raw/icons_filled_download" app:iconColor="@color/am"/>
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

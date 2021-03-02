@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/a" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:paddingLeft="32dp" android:paddingRight="32dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="14dp" android:textColor="@color/FG_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="39dp" android:text="@string/e0m"/>
+                    <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/ds2" android:background="@color/ac_" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:minHeight="0dp" wallet:contentMaxSize="9" wallet:layoutRes="@layout/aup" wallet:walletTypeFace="0" style="@style/a0x"/>
+                    <View android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="14dp"/>
+                    <Button android:enabled="false" android:textColor="@drawable/a7r" android:id="@+id/ds1" android:background="@drawable/a7v" android:layout_marginTop="30dp" android:text="@string/e05" style="@style/ou"/>
+                </LinearLayout>
+                <TextView android:textSize="15dp" android:textColor="@color/ag2" android:gravity="center" android:id="@+id/ds3" android:background="@color/a5e" android:paddingTop="7dp" android:paddingBottom="7dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/e0r" android:layout_alignParentTop="true"/>
+            </RelativeLayout>
+        </FrameLayout>
+    </ScrollView>
+    <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/c21"/>
+</LinearLayout>

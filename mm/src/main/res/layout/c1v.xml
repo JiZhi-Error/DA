@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/ac_" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/kc" android:textColor="@color/BW_100_Alpha_0_3" android:id="@+id/ipm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ci" android:layout_marginTop="@dimen/ct" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <RelativeLayout android:id="@+id/k24" android:layout_width="@dimen/cp" android:layout_height="@dimen/cp" android:layout_marginRight="@dimen/ce" app:layout_constraintBottom_toBottomOf="@+id/ipm" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="@+id/ipm">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:background="@drawable/cj" android:padding="@dimen/bt" android:layout_width="@dimen/ce" android:layout_height="@dimen/ce" android:src="@raw/icons_filled_search" android:layout_centerInParent="true" app:iconColor="@color/BW_100_Alpha_0_5"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/be3" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cb" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/ipm"/>
+</android.support.constraint.ConstraintLayout>

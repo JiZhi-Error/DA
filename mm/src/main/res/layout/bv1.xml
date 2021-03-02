@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.sns.ad.widget.countdown.PromotionBarLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="30dp">
+    <TextView android:textSize="16dp" android:textColor="@color/a80" android:ellipsize="end" android:id="@+id/g1" android:maxWidth="76dp" android:singleLine="true" android:layout_alignBaseline="@+id/hua" android:layout_marginStart="6dp" android:layout_alignParentStart="true" style="@style/hp"/>
+    <TextView android:ellipsize="end" android:id="@+id/hua" android:maxWidth="80dp" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginEnd="4dp" android:layout_toStartOf="@+id/g0" style="@style/hp"/>
+    <com.tencent.mm.plugin.sns.ad.widget.countdown.CountDownTimerLayout android:id="@+id/g0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="8dp" android:layout_alignParentEnd="true"/>
+</com.tencent.mm.plugin.sns.ad.widget.countdown.PromotionBarLayout>

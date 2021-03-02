@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/dgg" android:background="@drawable/b9w" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/l" android:textColor="@color/uj" android:ellipsize="end" android:id="@+id/dgl" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/jn" android:layout_marginRight="@dimen/jn" android:singleLine="true"/>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_below="@+id/ayf" style="@style/gi">
+    <FrameLayout android:paddingLeft="14dp" android:paddingRight="14dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:id="@+id/auf" android:background="@drawable/b2c" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16dp" android:textColor="@color/adc" android:id="@+id/at8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+                <TextView android:textSize="46dp" android:textColor="@color/adc" android:id="@+id/atu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                <TextView android:textSize="16dp" android:textColor="@color/adc" android:ellipsize="end" android:gravity="left" android:id="@+id/at9" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:maxLines="2" android:layout_toRightOf="@+id/atu" android:layout_alignBottom="@+id/atu"/>
+            </RelativeLayout>
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:background="#00ffffff" android:paddingTop="8dp" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:id="@+id/awt" android:background="@drawable/b2e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30dp" android:contentDescription="@string/xu"/>
+                <Button android:id="@+id/aws" android:background="@drawable/b2b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3dp" android:contentDescription="@string/tf"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="right" android:id="@+id/ayg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bq6"/>
+    </FrameLayout>
+</LinearLayout>

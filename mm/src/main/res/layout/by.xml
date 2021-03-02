@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/kz" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp">
+        <Button android:id="@+id/djq" android:layout_marginLeft="5dp" android:text="getDB" style="@style/ow"/>
+        <Button android:id="@+id/ahx" android:layout_marginLeft="5dp" android:text="calcExpt" style="@style/ow"/>
+        <Button android:id="@+id/blj" android:layout_marginLeft="5dp" android:text="delDB" style="@style/p0"/>
+        <Button android:id="@+id/h4k" android:layout_marginLeft="5dp" android:text="reset" style="@style/p0"/>
+        <Button android:id="@+id/hqv" android:layout_marginLeft="5dp" android:text="experience" style="@style/ow"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/hc" android:id="@+id/c71" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp"/>
+    <ListView android:id="@+id/h8_" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@color/afp" android:dividerHeight="1dp"/>
+</LinearLayout>

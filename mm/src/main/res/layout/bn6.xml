@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="@dimen/ie" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_marginRight="0dp" android:minWidth="@dimen/ie" android:minHeight="120dp" style="@style/sa">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ci" android:layout_marginBottom="@dimen/ci">
+            <TextView android:textSize="@dimen/t" android:textStyle="bold" android:textColor="@color/FG_0" android:ellipsize="end" android:gravity="center" android:id="@+id/btk" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bo7" android:includeFontPadding="false"/>
+            <TextView android:textSize="@dimen/t" android:textColor="@color/FG_1" android:ellipsize="end" android:gravity="center" android:id="@+id/btl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cb" android:text="@string/bo8" android:includeFontPadding="false"/>
+        </LinearLayout>
+        <ImageView style="@style/hx"/>
+        <TextView android:textSize="@dimen/t" android:textStyle="bold" android:textColor="@color/Link" android:gravity="center" android:id="@+id/btj" android:background="@drawable/b6c" android:layout_width="match_parent" android:layout_height="@dimen/cr" android:text="@string/ebe"/>
+        <ImageView style="@style/hx"/>
+        <TextView android:textSize="@dimen/t" android:textStyle="bold" android:textColor="@color/Link" android:gravity="center" android:id="@+id/btm" android:background="@drawable/b6c" android:layout_width="match_parent" android:layout_height="@dimen/cr" android:text="@string/boe"/>
+        <ImageView style="@style/hx"/>
+        <TextView android:textSize="@dimen/t" android:textStyle="bold" android:textColor="@color/FG_0" android:gravity="center" android:id="@+id/bti" android:background="@drawable/jk" android:layout_width="match_parent" android:layout_height="@dimen/cr" android:text="@string/bnu"/>
+    </LinearLayout>
+</LinearLayout>

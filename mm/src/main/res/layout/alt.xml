@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:background="@drawable/a80" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginLeft="2dp"/>
+        <TextView android:textSize="8dp" android:textStyle="bold" android:textColor="@color/ku" android:gravity="left" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:text="Matrix"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:minWidth="76dp">
+        <TextView android:textSize="8dp" android:textColor="@color/ku" android:gravity="left" android:id="@+id/c7p" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textSize="8dp" android:textColor="@color/ku" android:gravity="left" android:id="@+id/hb8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@android:color/holo_green_dark" android:id="@+id/d9n" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="60.00 FPS"/>
+    </LinearLayout>
+    <TextView android:textSize="8dp" android:textColor="@color/ku" android:gravity="left" android:id="@+id/iec" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="sum:"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="2dp" android:weightSum="4">
+        <TextView android:textSize="8dp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/ieb" android:background="@color/wp" android:layout_width="0dp" android:layout_height="wrap_content" android:maxHeight="20dp" android:text="0" android:layout_weight="1"/>
+        <TextView android:textSize="8dp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/iea" android:background="@color/wo" android:layout_width="0dp" android:layout_height="wrap_content" android:maxHeight="20dp" android:text="0" android:layout_weight="1"/>
+        <TextView android:textSize="8dp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/ie_" android:background="@color/wn" android:layout_width="0dp" android:layout_height="wrap_content" android:maxHeight="20dp" android:text="0" android:layout_weight="1"/>
+        <TextView android:textSize="8dp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/ie9" android:background="@color/wm" android:layout_width="0dp" android:layout_height="wrap_content" android:maxHeight="20dp" android:text="0" android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView android:textSize="8dp" android:textColor="@color/ku" android:gravity="left" android:id="@+id/gmf" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="current:"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="2dp" android:weightSum="4">
+        <TextView android:textSize="8dp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/eaq" android:background="@color/wp" android:layout_width="0dp" android:layout_height="wrap_content" android:maxHeight="20dp" android:text="0" android:layout_weight="1"/>
+        <TextView android:textSize="8dp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/eap" android:background="@color/wo" android:layout_width="0dp" android:layout_height="wrap_content" android:maxHeight="20dp" android:text="0" android:layout_weight="1"/>
+        <TextView android:textSize="8dp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/eao" android:background="@color/wn" android:layout_width="0dp" android:layout_height="wrap_content" android:maxHeight="20dp" android:text="0" android:layout_weight="1"/>
+        <TextView android:textSize="8dp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/ean" android:background="@color/wm" android:layout_width="0dp" android:layout_height="wrap_content" android:maxHeight="20dp" android:text="0" android:layout_weight="1"/>
+    </LinearLayout>
+    <view android:id="@+id/ar6" android:layout_width="match_parent" android:layout_height="140dp" class="com.tencent.matrix.trace.view.FloatFrameView$LineChartView"/>
+</LinearLayout>

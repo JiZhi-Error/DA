@@ -1,0 +1,109 @@
+package com.tencent.kinda.framework.widget.tools;
+
+import android.util.Pair;
+import com.tencent.matrix.trace.core.AppMethodBeat;
+
+public class ColorCompatUtil {
+    public static long getDarkModeColor(long j2, long j3) {
+        AppMethodBeat.i(162115);
+        if (j2 == Long.parseLong("ff000000", 16)) {
+            j3 = Long.parseLong("ffffffff", 16);
+        } else if (j2 == Long.parseLong("ff868686", 16) || j2 == Long.parseLong("868686", 16)) {
+            j3 = Long.parseLong("ff000000", 16);
+        } else if (j2 == Long.parseLong("FF576B95", 16) || j2 == Long.parseLong("576B95", 16)) {
+            j3 = Long.parseLong("ff7D90A9", 16);
+        } else if (j2 == Long.parseLong("ff1aad19", 16) || j2 == Long.parseLong("1aad19", 16)) {
+            j3 = Long.parseLong("ff1aad19", 16);
+        } else if (j2 == Long.parseLong("ff353535", 16) || j2 == Long.parseLong("353535", 16)) {
+            j3 = Long.parseLong("CCFFFFFF", 16);
+        } else if (j2 == Long.parseLong("ff888888", 16) || j2 == Long.parseLong("888888", 16)) {
+            j3 = Long.parseLong("80FFFFFF", 16);
+        } else if (j2 == Long.parseLong("fffa962a", 16) || j2 == Long.parseLong("fa962a", 16)) {
+            j3 = Long.parseLong("fffa962a", 16);
+        } else if (j2 == Long.parseLong("ff1abb09", 16) || j2 == Long.parseLong("1abb09", 16)) {
+            j3 = Long.parseLong("ff1aad19", 16);
+        } else if (j2 == Long.parseLong("ff6e726e", 16) || j2 == Long.parseLong("6e726e", 16)) {
+            j3 = Long.parseLong("80FFFFFF", 16);
+        } else if (j2 == Long.parseLong("FFFA9D3B", 16) || j2 == Long.parseLong("FA9D3B", 16)) {
+            j3 = Long.parseLong("ffFF972A", 16);
+        } else if (j2 == Long.parseLong("ffb2b2b2", 16) || j2 == Long.parseLong("b2b2b2", 16)) {
+            j3 = Long.parseLong("ff6B6B6B", 16);
+        } else if (j2 == Long.parseLong("fff5a623", 16) || j2 == Long.parseLong("f5a623", 16)) {
+            j3 = Long.parseLong("fff5a623", 16);
+        } else if (j2 == Long.parseLong("ff808080", 16) || j2 == Long.parseLong("808080", 16)) {
+            j3 = Long.parseLong("80FFFFFF", 16);
+        } else if (j2 == Long.parseLong("ff7b7b7b", 16) || j2 == Long.parseLong("7b7b7b", 16)) {
+            j3 = Long.parseLong("80FFFFFF", 16);
+        } else if (j2 == Long.parseLong("ff8e8e8e", 16) || j2 == Long.parseLong("8e8e8e", 16)) {
+            j3 = Long.parseLong("80FFFFFF", 16);
+        } else if (j2 == Long.parseLong("ff05b502", 16) || j2 == Long.parseLong("05b502", 16)) {
+            j3 = Long.parseLong("ff05b502", 16);
+        } else if (j2 == Long.parseLong("E6F2F2F2", 16)) {
+            j3 = Long.parseLong("E6F2F2F2", 16);
+        } else if (j2 == Long.parseLong("ff07C160", 16) || j2 == Long.parseLong("07C160", 16)) {
+            j3 = Long.parseLong("ff07C160", 16);
+        } else if (j2 == Long.parseLong("ffFFFFFF", 16) || j2 == Long.parseLong("FFFFFF", 16)) {
+            j3 = Long.parseLong("ff232323", 16);
+        } else if (j2 == Long.parseLong("ff949494", 16) || j2 == Long.parseLong("949494", 16)) {
+            j3 = Long.parseLong("80FFFFFF", 16);
+        } else if (j2 == Long.parseLong("ffF7F7F7", 16) || j2 == Long.parseLong("F7F7F7", 16)) {
+            j3 = Long.parseLong("ff2F2F2F", 16);
+        } else if (j2 == Long.parseLong("ffEDEDED", 16) || j2 == Long.parseLong("EDEDED", 16)) {
+            j3 = Long.parseLong("ff191919", 16);
+        } else if (j2 == Long.parseLong("ff4C4C4C", 16) || j2 == Long.parseLong("4C4C4C", 16)) {
+            j3 = Long.parseLong("ff606060", 16);
+        } else if (j2 == Long.parseLong("4C000000", 16)) {
+            j3 = Long.parseLong("4DFFFFFF", 16);
+        } else if (j2 == -1) {
+            j3 = Long.parseLong("ffFFFFFF", 16);
+        }
+        AppMethodBeat.o(162115);
+        return j3;
+    }
+
+    public static Pair<Boolean, Long> getDarkModeColorMMKButtonText(long j2) {
+        Pair<Boolean, Long> pair;
+        AppMethodBeat.i(19313);
+        if (j2 == Long.parseLong("ffFFFFFF", 16) || j2 == Long.parseLong("FFFFFF", 16)) {
+            pair = new Pair<>(Boolean.TRUE, Long.valueOf(Long.parseLong("CCFFFFFF", 16)));
+        } else {
+            pair = new Pair<>(Boolean.FALSE, 0L);
+        }
+        AppMethodBeat.o(19313);
+        return pair;
+    }
+
+    public static Pair<Boolean, Long> getDarkModeColorMMKRichLabelView(long j2) {
+        Pair<Boolean, Long> pair;
+        AppMethodBeat.i(19314);
+        if (j2 == Long.parseLong("ff000000", 16)) {
+            pair = new Pair<>(Boolean.TRUE, Long.valueOf(Long.parseLong("CCFFFFFF", 16)));
+        } else if (j2 == Long.parseLong("ff868686", 16) || j2 == Long.parseLong("868686", 16)) {
+            pair = new Pair<>(Boolean.TRUE, Long.valueOf(Long.parseLong("80FFFFFF", 16)));
+        } else if (j2 == Long.parseLong("ffB2B2B2", 16) || j2 == Long.parseLong("B2B2B2", 16)) {
+            pair = new Pair<>(Boolean.TRUE, Long.valueOf(Long.parseLong("80FFFFFF", 16)));
+        } else if (j2 == Long.parseLong("4C000000", 16)) {
+            pair = new Pair<>(Boolean.TRUE, Long.valueOf(Long.parseLong("4DFFFFFF", 16)));
+        } else if (j2 == Long.parseLong("7f000000", 16)) {
+            pair = new Pair<>(Boolean.TRUE, Long.valueOf(Long.parseLong("80FFFFFF", 16)));
+        } else {
+            pair = new Pair<>(Boolean.FALSE, 0L);
+        }
+        AppMethodBeat.o(19314);
+        return pair;
+    }
+
+    public static Pair<Boolean, Long> getDarkModeColorMMKLabelViewText(long j2) {
+        Pair<Boolean, Long> pair;
+        AppMethodBeat.i(19315);
+        if (j2 == Long.parseLong("ff000000", 16)) {
+            pair = new Pair<>(Boolean.TRUE, Long.valueOf(Long.parseLong("CCFFFFFF", 16)));
+        } else if (j2 == Long.parseLong("ffB2B2B2", 16) || j2 == Long.parseLong("B2B2B2", 16)) {
+            pair = new Pair<>(Boolean.TRUE, Long.valueOf(Long.parseLong("80000000", 16)));
+        } else {
+            pair = new Pair<>(Boolean.FALSE, 0L);
+        }
+        AppMethodBeat.o(19315);
+        return pair;
+    }
+}

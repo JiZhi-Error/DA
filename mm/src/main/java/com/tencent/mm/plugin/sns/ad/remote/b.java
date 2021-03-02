@@ -1,0 +1,12 @@
+package com.tencent.mm.plugin.sns.ad.remote;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target({ElementType.METHOD})
+@Retention(RetentionPolicy.RUNTIME)
+public @interface b {
+    boolean eXz() default true;
+}

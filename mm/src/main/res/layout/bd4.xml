@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/y" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/hc6" android:layout_width="match_parent" android:layout_height="@dimen/cn" android:layout_alignParentTop="true"/>
+    <RelativeLayout android:id="@+id/hc9" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    <FrameLayout android:id="@+id/hc8" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    <FrameLayout android:id="@+id/hc5" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:gravity="bottom" android:id="@+id/hc_" android:layout_width="match_parent" android:layout_height="128dp" android:layout_alignParentBottom="true"/>
+    <FrameLayout android:id="@+id/hc7" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true" android:layout_alignParentEnd="true"/>
+    <FrameLayout android:id="@+id/hc1" android:layout_width="match_parent" android:layout_height="@dimen/cs" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

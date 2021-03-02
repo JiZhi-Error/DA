@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lx">48dp</dimen>
+    <dimen name="nt">12dp</dimen>
+    <dimen name="nv">14dp</dimen>
+    <dimen name="oq">24dp</dimen>
+    <dimen name="or">52dp</dimen>
+    <dimen name="ot">@dimen/ow</dimen>
+    <dimen name="ow">24dp</dimen>
+    <dimen name="a_r">@dimen/ci</dimen>
+    <dimen name="apf">@dimen/b8</dimen>
+</resources>

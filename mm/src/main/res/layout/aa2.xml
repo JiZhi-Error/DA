@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/bfb" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/cb" android:paddingEnd="@dimen/cb">
+    <com.tencent.mm.ui.widget.MMNeat7extView android:textSize="15dp" android:textColor="@color/v7" android:ellipsize="end" android:id="@+id/ik5" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="@dimen/bt"/>
+</FrameLayout>

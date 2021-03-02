@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="80dp" android:layout_height="wrap_content">
+    <View android:id="@+id/itd" android:visibility="gone" android:layout_width="80dp" android:layout_height="15dp"/>
+    <RelativeLayout android:id="@+id/gpv" android:layout_width="100dp" android:layout_height="75dp" android:layout_below="@+id/itd" android:layout_centerHorizontal="true">
+        <com.tencent.mm.plugin.radar.ui.RadarStateView android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/gq7" android:visibility="gone" android:layout_width="60dp" android:layout_height="29dp" android:layout_marginBottom="3dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+        <ImageView android:id="@+id/gqc" android:background="@drawable/ask" android:padding="2dp" android:layout_width="68dp" android:layout_height="68dp" android:layout_centerInParent="true"/>
+        <ImageView android:id="@+id/gqd" android:layout_width="70dp" android:layout_height="70dp" android:src="@drawable/ask" android:scaleType="fitXY" android:layout_centerInParent="true" android:alpha="1"/>
+        <com.tencent.mm.plugin.radar.ui.RadarStateChooseView android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/gq6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_marginBottom="4dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="14sp" android:textColor="#d1d1d1" android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/gqe" android:layout_width="100dp" android:layout_height="wrap_content" android:minHeight="40dp" android:lines="2" android:layout_below="@+id/gpv" android:layout_centerHorizontal="true"/>
+    <View android:id="@+id/aba" android:visibility="gone" android:layout_width="80dp" android:layout_height="15dp" android:layout_below="@+id/gqe"/>
+</RelativeLayout>

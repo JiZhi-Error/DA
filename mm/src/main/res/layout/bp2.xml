@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/bdr" android:paddingLeft="@dimen/k5" android:paddingRight="@dimen/k5" android:visibility="gone" style="@style/nq"/>
+    <LinearLayout android:id="@+id/hd4" style="@style/m8">
+        <RelativeLayout android:layout_width="@dimen/ij" android:layout_height="@dimen/ij" android:layout_marginTop="@dimen/ib" android:layout_marginRight="@dimen/k5">
+            <ImageView android:id="@+id/wn" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/bar" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/k_" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_weight="1">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/ipo" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:textSize="@dimen/is" android:textColor="@color/a2x" android:ellipsize="end" android:id="@+id/fzd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="gggg" android:singleLine="true"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/j2v" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/a53" android:visibility="gone" android:layout_width="@dimen/is" android:layout_height="@dimen/is" android:src="@raw/biz_info_trademark_protection"/>
+                    <ImageView android:id="@+id/j2u" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/biz_verify_icon"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/uj" android:ellipsize="end" android:id="@+id/jrr" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/uj" android:ellipsize="end" android:id="@+id/dzc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:maxLines="2"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/d7x" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:layout_alignParentBottom="true">
+                <ImageView android:id="@+id/dtb" android:background="@color/ac_" android:visibility="gone" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginRight="3dp" android:src="@raw/app_attach_file_icon_epub"/>
+                <TextView android:textSize="13dp" android:textColor="@color/uj" android:gravity="center_vertical" android:id="@+id/d7w" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/mo"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

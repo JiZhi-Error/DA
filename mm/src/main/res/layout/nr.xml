@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/a74" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@android:id/list" android:background="@null" android:focusable="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/vd" android:layout_marginRight="@dimen/vd" android:transcriptMode="disabled" style="@style/g2"/>
+    <RelativeLayout android:id="@+id/bf4" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/dno" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <ViewStub android:id="@+id/ao4" android:layout="@layout/o7" android:inflatedId="@+id/ao4" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <ViewStub android:id="@+id/am4" android:layout="@layout/ms" android:inflatedId="@+id/am4" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <ImageView android:layout_gravity="center_horizontal" android:id="@+id/fzj" android:paddingLeft="@dimen/ib" android:paddingRight="@dimen/ib" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vv" android:src="@drawable/c35"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/fzk" android:paddingLeft="@dimen/ib" android:paddingRight="@dimen/ib" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp">
+                <TextView android:textSize="@dimen/c" android:textColor="@color/uj" android:gravity="center" android:id="@+id/fzm" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ir" android:text="@string/asb"/>
+                <TextView android:textSize="@dimen/is" android:textColor="@color/uj" android:gravity="center" android:id="@+id/fzl" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/aqx"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/am9" android:paddingLeft="@dimen/ib" android:paddingRight="@dimen/ib" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ir" android:layout_below="@+id/dno" android:layout_centerHorizontal="true">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@+id/am8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ci4"/>
+            <TextView android:textSize="@dimen/is" android:textColor="@color/x3" android:id="@+id/am_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ir" android:text="@string/aol"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

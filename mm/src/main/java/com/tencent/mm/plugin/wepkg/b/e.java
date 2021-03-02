@@ -1,0 +1,127 @@
+package com.tencent.mm.plugin.wepkg.b;
+
+import com.tencent.matrix.trace.core.AppMethodBeat;
+import com.tencent.mm.g.c.ht;
+import com.tencent.mm.sdk.storage.IAutoDBItem;
+import java.lang.reflect.Field;
+
+public final class e extends ht {
+    public static final IAutoDBItem.MAutoDBInfo iBg;
+
+    @Override // com.tencent.mm.sdk.storage.IAutoDBItem
+    public final IAutoDBItem.MAutoDBInfo getDBInfo() {
+        return iBg;
+    }
+
+    static {
+        AppMethodBeat.i(110570);
+        IAutoDBItem.MAutoDBInfo mAutoDBInfo = new IAutoDBItem.MAutoDBInfo();
+        mAutoDBInfo.fields = new Field[25];
+        mAutoDBInfo.columns = new String[26];
+        StringBuilder sb = new StringBuilder();
+        mAutoDBInfo.columns[0] = "pkgId";
+        mAutoDBInfo.colsMap.put("pkgId", "TEXT PRIMARY KEY ");
+        sb.append(" pkgId TEXT PRIMARY KEY ");
+        sb.append(", ");
+        mAutoDBInfo.primaryKey = "pkgId";
+        mAutoDBInfo.columns[1] = "appId";
+        mAutoDBInfo.colsMap.put("appId", "TEXT");
+        sb.append(" appId TEXT");
+        sb.append(", ");
+        mAutoDBInfo.columns[2] = "version";
+        mAutoDBInfo.colsMap.put("version", "TEXT");
+        sb.append(" version TEXT");
+        sb.append(", ");
+        mAutoDBInfo.columns[3] = "pkgPath";
+        mAutoDBInfo.colsMap.put("pkgPath", "TEXT");
+        sb.append(" pkgPath TEXT");
+        sb.append(", ");
+        mAutoDBInfo.columns[4] = "disableWvCache";
+        mAutoDBInfo.colsMap.put("disableWvCache", "INTEGER default 'true' ");
+        sb.append(" disableWvCache INTEGER default 'true' ");
+        sb.append(", ");
+        mAutoDBInfo.columns[5] = "clearPkgTime";
+        mAutoDBInfo.colsMap.put("clearPkgTime", "LONG");
+        sb.append(" clearPkgTime LONG");
+        sb.append(", ");
+        mAutoDBInfo.columns[6] = "checkIntervalTime";
+        mAutoDBInfo.colsMap.put("checkIntervalTime", "LONG");
+        sb.append(" checkIntervalTime LONG");
+        sb.append(", ");
+        mAutoDBInfo.columns[7] = "packMethod";
+        mAutoDBInfo.colsMap.put("packMethod", "INTEGER");
+        sb.append(" packMethod INTEGER");
+        sb.append(", ");
+        mAutoDBInfo.columns[8] = "domain";
+        mAutoDBInfo.colsMap.put("domain", "TEXT");
+        sb.append(" domain TEXT");
+        sb.append(", ");
+        mAutoDBInfo.columns[9] = "md5";
+        mAutoDBInfo.colsMap.put("md5", "TEXT");
+        sb.append(" md5 TEXT");
+        sb.append(", ");
+        mAutoDBInfo.columns[10] = "downloadUrl";
+        mAutoDBInfo.colsMap.put("downloadUrl", "TEXT");
+        sb.append(" downloadUrl TEXT");
+        sb.append(", ");
+        mAutoDBInfo.columns[11] = "pkgSize";
+        mAutoDBInfo.colsMap.put("pkgSize", "INTEGER");
+        sb.append(" pkgSize INTEGER");
+        sb.append(", ");
+        mAutoDBInfo.columns[12] = "downloadNetType";
+        mAutoDBInfo.colsMap.put("downloadNetType", "INTEGER");
+        sb.append(" downloadNetType INTEGER");
+        sb.append(", ");
+        mAutoDBInfo.columns[13] = "nextCheckTime";
+        mAutoDBInfo.colsMap.put("nextCheckTime", "LONG");
+        sb.append(" nextCheckTime LONG");
+        sb.append(", ");
+        mAutoDBInfo.columns[14] = "createTime";
+        mAutoDBInfo.colsMap.put("createTime", "LONG");
+        sb.append(" createTime LONG");
+        sb.append(", ");
+        mAutoDBInfo.columns[15] = "accessTime";
+        mAutoDBInfo.colsMap.put("accessTime", "LONG default '0' ");
+        sb.append(" accessTime LONG default '0' ");
+        sb.append(", ");
+        mAutoDBInfo.columns[16] = "charset";
+        mAutoDBInfo.colsMap.put("charset", "TEXT default 'UTF-8' ");
+        sb.append(" charset TEXT default 'UTF-8' ");
+        sb.append(", ");
+        mAutoDBInfo.columns[17] = "bigPackageReady";
+        mAutoDBInfo.colsMap.put("bigPackageReady", "INTEGER default 'false' ");
+        sb.append(" bigPackageReady INTEGER default 'false' ");
+        sb.append(", ");
+        mAutoDBInfo.columns[18] = "preloadFilesReady";
+        mAutoDBInfo.colsMap.put("preloadFilesReady", "INTEGER default 'false' ");
+        sb.append(" preloadFilesReady INTEGER default 'false' ");
+        sb.append(", ");
+        mAutoDBInfo.columns[19] = "preloadFilesAtomic";
+        mAutoDBInfo.colsMap.put("preloadFilesAtomic", "INTEGER default 'false' ");
+        sb.append(" preloadFilesAtomic INTEGER default 'false' ");
+        sb.append(", ");
+        mAutoDBInfo.columns[20] = "autoDownloadCount";
+        mAutoDBInfo.colsMap.put("autoDownloadCount", "INTEGER default '0' ");
+        sb.append(" autoDownloadCount INTEGER default '0' ");
+        sb.append(", ");
+        mAutoDBInfo.columns[21] = "disable";
+        mAutoDBInfo.colsMap.put("disable", "INTEGER default 'false' ");
+        sb.append(" disable INTEGER default 'false' ");
+        sb.append(", ");
+        mAutoDBInfo.columns[22] = "totalDownloadCount";
+        mAutoDBInfo.colsMap.put("totalDownloadCount", "INTEGER default '0' ");
+        sb.append(" totalDownloadCount INTEGER default '0' ");
+        sb.append(", ");
+        mAutoDBInfo.columns[23] = "packageDownloadCount";
+        mAutoDBInfo.colsMap.put("packageDownloadCount", "INTEGER default '0' ");
+        sb.append(" packageDownloadCount INTEGER default '0' ");
+        sb.append(", ");
+        mAutoDBInfo.columns[24] = "downloadTriggerType";
+        mAutoDBInfo.colsMap.put("downloadTriggerType", "INTEGER default '-1' ");
+        sb.append(" downloadTriggerType INTEGER default '-1' ");
+        mAutoDBInfo.columns[25] = "rowid";
+        mAutoDBInfo.sql = sb.toString();
+        iBg = mAutoDBInfo;
+        AppMethodBeat.o(110570);
+    }
+}

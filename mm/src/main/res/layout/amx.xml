@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/a32" android:background="@color/BW_93" android:layout_width="match_parent" android:layout_height="match_parent" android:onClick="onClickBg">
+    <TextView android:textSize="@dimen/is" android:textColor="@color/uj" android:gravity="center_horizontal" android:id="@+id/g02" android:paddingTop="@dimen/hy" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ListView android:id="@+id/hf1" android:focusable="false" android:visibility="gone" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:transcriptMode="disabled" style="@style/np"/>
+    <RelativeLayout android:id="@+id/ja3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/hek" android:paddingTop="20dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a71"/>
+        <TextView android:textSize="14dp" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/ekc"/>
+    </LinearLayout>
+    <include layout="@layout/amw"/>
+</FrameLayout>

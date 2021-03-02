@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:gravity="center" android:layout_width="match_parent" android:layout_height="120dp" android:layout_marginTop="40dp" android:src="@raw/fix_tools_uplog"/>
+        <TextView android:textSize="18dp" android:textColor="@color/a2x" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:layout_marginTop="27dp" android:layout_marginRight="25dp" android:text="@string/dcs"/>
+        <LinearLayout android:id="@+id/b18" android:background="@drawable/a4m" android:paddingLeft="@dimen/br" android:paddingRight="@dimen/br" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:baselineAligned="false" android:minHeight="@dimen/k4">
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:paddingLeft="@dimen/ih" android:layout_width="0dp" android:layout_height="match_parent" android:minHeight="@dimen/k4" android:layout_weight="1">
+                <TextView android:id="@+id/d5h" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/dcm" android:singleLine="true" android:layout_weight="1" style="@style/mi"/>
+                <TextView android:id="@+id/d5g" android:paddingTop="@dimen/k5" android:paddingRight="@dimen/ih" android:paddingBottom="@dimen/k5" android:singleLine="true" style="@style/ml"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+        </LinearLayout>
+        <Button android:id="@+id/d5l" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br" android:layout_marginTop="40dp" android:layout_marginRight="@dimen/br" android:text="@string/dcq" style="@style/ou"/>
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/uj" android:gravity="center_vertical" android:paddingLeft="@dimen/r" android:paddingRight="@dimen/jv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/dcp"/>
+    </LinearLayout>
+</ScrollView>

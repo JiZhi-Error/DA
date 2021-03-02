@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/fda" android:layout_marginStart="@dimen/c5" style="@style/hx"/>
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="52dp" android:paddingStart="@dimen/c5" android:paddingEnd="@dimen/c5">
+        <TextView android:textSize="14dp" android:textColor="@color/a2x" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/nk" android:singleLine="true" android:layout_weight="1"/>
+        <LinearLayout android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/dt5" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/d3"/>
+            <TextView android:textSize="14dp" android:textColor="@color/a2x" android:layout_gravity="center_vertical" android:id="@+id/ft7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6dp"/>
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="5dp" android:layout_height="7dp" android:layout_marginTop="1px" android:src="@raw/arrow_right" android:layout_marginStart="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

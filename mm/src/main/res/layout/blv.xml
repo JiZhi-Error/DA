@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/h94" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/dop" android:background="@color/a2r" android:paddingTop="@dimen/ce" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/hie" android:layout_width="@dimen/ce" android:layout_height="@dimen/ce" android:src="@raw/icon_below_arrow" android:layout_marginStart="10dp"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/gxi" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ct" android:layout_marginStart="@dimen/bt">
+                <TextView android:textSize="@dimen/t" android:textStyle="bold" android:textColor="@color/a2x" android:id="@+id/dzd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gik"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/i55" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/t" android:textStyle="bold" android:textColor="@color/a2x" android:id="@+id/gxh" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <TextView android:textSize="@dimen/t" android:textColor="@color/uj" android:id="@+id/gxg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/amd" android:layout_marginStart="@dimen/cb"/>
+                </LinearLayout>
+                <TextView android:textSize="@dimen/k6" android:textColor="@color/l4" android:id="@+id/fb6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/gis"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_gravity="bottom" android:id="@+id/aar" android:background="@color/FG_3" android:layout_width="match_parent" android:layout_height="1px"/>
+    </LinearLayout>
+</FrameLayout>

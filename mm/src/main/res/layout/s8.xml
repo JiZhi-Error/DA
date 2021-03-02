@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/gs">
+    <include layout="@layout/qp" style="@style/go"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/auf" android:background="@drawable/mv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="0dp" style="@style/gt">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/azc" android:background="@raw/voip_voicecall" style="@style/h7"/>
+        <TextView android:id="@+id/azd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bt" android:includeFontPadding="false" style="@style/zz"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/ayb" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginLeft="@dimen/k5" android:src="@drawable/b1a"/>
+</LinearLayout>

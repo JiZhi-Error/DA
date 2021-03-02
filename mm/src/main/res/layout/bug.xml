@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.widget.RoundedCornerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="bottom" android:id="@+id/d68" android:background="@drawable/aul" android:clickable="true" android:layout_width="match_parent" android:layout_height="80dp" android:layout_marginBottom="16dp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/d6_" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="12dp" android:textColor="#ececec" android:ellipsize="end" android:id="@+id/d6b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:text="this is a float_desc_txt" android:maxLines="3" android:includeFontPadding="false" android:shadowColor="@color/BW_0_Alpha_0_5" android:shadowDx="0" android:shadowDy="0" android:shadowRadius="2" android:layout_weight="1"/>
+        <FrameLayout android:id="@+id/d6a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="24dp" android:layout_weight="0"/>
+    </LinearLayout>
+</com.tencent.mm.ui.widget.RoundedCornerFrameLayout>

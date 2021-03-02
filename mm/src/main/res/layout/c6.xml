@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/g8e" android:background="@color/c" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/cas" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </ScrollView>
+    <ImageView android:id="@+id/hvm" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitStart"/>
+    <com.tencent.mm.plugin.sns.ui.widget.ad.OverScrollLinearout android:orientation="vertical" android:id="@+id/hw9" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView android:id="@+id/bez" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.tencent.mm.plugin.sns.ui.widget.ad.OverScrollLinearout>
+    <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/hz_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:src="@drawable/bwm" android:scaleType="centerInside"/>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/hza" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15dp">
+        <TextView android:textSize="14dp" android:textColor="@color/ag2" android:id="@+id/fz1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/h4m" android:shadowColor="#42000000" android:shadowDx="0" android:shadowDy="1" android:shadowRadius="5"/>
+        <ImageView android:id="@+id/fz3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:src="@drawable/bwv"/>
+    </LinearLayout>
+</FrameLayout>

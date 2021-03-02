@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="120dp">
+    <View android:layout_gravity="center" android:id="@+id/cb7" android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="50dp"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/cb8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+        <TextView android:textSize="11dp" android:textColor="@color/uj" android:id="@+id/cb5" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c8a"/>
+        <com.tencent.mm.ui.widget.imageview.WeImageButton android:id="@+id/cb6" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g" android:layout_marginRight="@dimen/ib" android:src="@raw/fav_capacity_foot_arrow" app:btnIconColor="@color/en"/>
+    </LinearLayout>
+</LinearLayout>

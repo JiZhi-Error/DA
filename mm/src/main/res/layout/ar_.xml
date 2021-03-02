@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="center" android:id="@+id/dh1" android:layout_width="@dimen/k9" android:layout_height="@dimen/k9" android:layout_marginLeft="@dimen/ge" android:layout_marginTop="@dimen/ge" android:layout_marginRight="@dimen/tp" android:layout_marginBottom="@dimen/ge" android:src="@raw/icons_outlined_me" android:layout_centerVertical="true"/>
+</RelativeLayout>

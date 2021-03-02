@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/a7o" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="79dp">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="20dp" android:layout_weight="1">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="14dp" android:textColor="@color/BW_0_Alpha_0_3" android:id="@+id/dqu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+            <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="20dp" android:textColor="@color/a2x" android:id="@+id/dqs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text=""/>
+        </LinearLayout>
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="center_vertical" android:layout_width="12dp" android:layout_height="24dp" android:layout_marginRight="20dp" android:src="@raw/icons_outlined_arrow" app:iconColor="@color/FG_1"/>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@+id/dqt" android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="20dp"/>
+</LinearLayout>

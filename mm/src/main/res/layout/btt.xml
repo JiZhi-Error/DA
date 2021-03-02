@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+    <com.tencent.mm.ui.widget.RoundedCornerFrameLayout android:id="@+id/cx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp">
+        <ImageView android:id="@+id/cw" android:layout_width="40dp" android:layout_height="40dp"/>
+    </com.tencent.mm.ui.widget.RoundedCornerFrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:layout_weight="1">
+        <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="@color/FG_0" android:ellipsize="end" android:id="@+id/dm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textSize="13sp" android:textColor="@color/FG_1" android:ellipsize="end" android:id="@+id/cr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:singleLine="true"/>
+    </LinearLayout>
+    <Button android:textSize="14sp" android:textStyle="bold" android:textColor="@color/fx" android:id="@+id/ck" android:background="@drawable/auu" android:paddingLeft="12dp" android:paddingTop="6dp" android:paddingRight="12dp" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="0" android:lineSpacingExtra="0dp" android:textAllCaps="false"/>
+</LinearLayout>

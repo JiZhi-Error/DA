@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/a8e" android:paddingLeft="@dimen/cb" android:paddingRight="@dimen/cb" android:paddingBottom="@dimen/cb" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/awj" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ct">
+        <RelativeLayout android:orientation="vertical" android:id="@+id/awk" android:layout_width="match_parent" android:layout_height="@dimen/x1">
+            <ImageView android:id="@+id/bgv" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/awn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c5" android:layout_below="@+id/awk">
+            <com.tencent.mm.ui.widget.MMNeat7extView android:textSize="@dimen/t" android:textColor="@color/a2x" android:ellipsize="end" android:id="@+id/awo" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="@dimen/tg"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/awl" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/km"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@+id/ggb" android:background="@drawable/hz" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+</LinearLayout>

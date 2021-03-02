@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/a2h" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/e1c" android:padding="10dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+        <ImageView android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b_"/>
+    </FrameLayout>
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="54dp" android:layout_marginRight="54dp">
+        <RelativeLayout android:id="@+id/e1h" android:layout_width="wrap_content" android:layout_height="@dimen/a9f">
+            <TextView android:textSize="30dp" android:textColor="@color/a2x" android:gravity="center" android:id="@+id/e1i" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/a9f" android:maxLines="3" android:layout_alignParentBottom="true" android:layout_centerInParent="true" android:fontFamily="sans-serif-light"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/e1d" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_below="@+id/e1h">
+            <TextView android:textSize="16dp" android:textColor="@color/a2x" android:gravity="center" android:id="@+id/e1e" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:layout_gravity="center" android:id="@+id/e1g" android:layout_width="140dp" android:layout_height="140dp" android:layout_marginTop="@dimen/a9g" android:layout_below="@+id/e1d" android:layout_centerHorizontal="true"/>
+        <Button android:gravity="center" android:id="@+id/e1f" android:layout_marginBottom="@dimen/a9e" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/qt"/>
+    </RelativeLayout>
+</RelativeLayout>

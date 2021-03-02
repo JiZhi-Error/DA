@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="a_u">@dimen/ce</dimen>
+    <dimen name="a_v">@dimen/ci</dimen>
+    <dimen name="aa2">@dimen/ct</dimen>
+    <dimen name="aa3">@dimen/ce</dimen>
+    <dimen name="aa4">@dimen/cb</dimen>
+    <dimen name="aa5">@dimen/ct</dimen>
+    <dimen name="aa6">@dimen/ce</dimen>
+</resources>

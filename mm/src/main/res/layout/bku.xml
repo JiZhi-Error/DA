@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/bh1" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/jmq" android:layout_width="match_parent" android:layout_height="150dp" android:scaleType="centerCrop"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/jmn" android:background="@drawable/b5a" android:paddingLeft="@dimen/k5" android:paddingTop="@dimen/cb" android:paddingRight="@dimen/k5" android:paddingBottom="@dimen/k5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.tencent.mm.ui.widget.MMNeat7extView android:textSize="@dimen/h_" android:textColor="@color/ag2" android:ellipsize="end" android:id="@+id/ir0" android:paddingTop="20dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="1dp"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/gcn" android:paddingLeft="-4dp" android:paddingTop="1dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="center_vertical" android:id="@+id/gcg" android:layout_width="@dimen/k9" android:layout_height="@dimen/k9" android:src="@raw/icons_filled_play" app:iconColor="@color/am"/>
+            <TextView android:textSize="@dimen/k6" android:textColor="@color/ag2" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/j3s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:singleLine="true"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:orientation="vertical" android:id="@+id/ggb" android:background="@drawable/aq7" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="150dp" android:layout_alignTop="@+id/jmq" android:layout_alignBottom="@+id/jmq"/>
+</RelativeLayout>

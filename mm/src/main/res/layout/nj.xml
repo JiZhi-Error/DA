@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/lf" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/cb" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/b1l" android:layout_width="@dimen/ce" android:layout_height="@dimen/ce" android:layout_marginRight="@dimen/cb"/>
+        <TextView android:textSize="@dimen/is" android:textColor="@color/fq" android:id="@+id/b1m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+        <ImageView android:id="@+id/b1r" android:layout_marginLeft="6dp" style="@style/zs"/>
+        <TextView android:id="@+id/b1q" android:layout_marginLeft="6dp" style="@style/rk"/>
+        <Space android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/bd" android:textColor="@color/fp" android:id="@+id/b1j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:text=""/>
+        <ImageView android:id="@+id/b1s" android:layout_marginRight="6dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/zs"/>
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="@dimen/cb" android:layout_height="@dimen/ce" android:src="@raw/icons_filled_arrow" app:iconColor="@color/BW_0_Alpha_0_2"/>
+    </LinearLayout>
+    <View android:id="@+id/b1k" android:background="@color/BW_0_Alpha_0_1" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="56dp"/>
+</LinearLayout>

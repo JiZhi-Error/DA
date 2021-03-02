@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/b6j" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="17dp" android:textStyle="bold" android:textColor="@color/fr" android:gravity="center_horizontal" android:id="@+id/ipq" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="标题"/>
+    <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/bet" android:layout_width="272dp" android:layout_height="153dp"/>
+    <TextView android:textSize="17dp" android:textColor="@color/a2x" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/bfe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="16dp" android:layout_marginRight="24dp" android:text="弹窗内容"/>
+    <View android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="27dp"/>
+    <TextView android:textSize="17dp" android:textStyle="bold" android:textColor="@color/fx" android:gravity="center_horizontal" android:id="@+id/aea" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="知道了"/>
+</LinearLayout>

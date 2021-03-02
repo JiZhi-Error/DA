@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:background="@drawable/aeh" android:layout_width="280dp" android:layout_height="290dp">
+        <ImageView android:id="@+id/ip6" android:background="@drawable/cf1" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/exx" android:background="@raw/sns_luckymoney_post_title" android:layout_width="210dp" android:layout_height="117dp" android:layout_marginTop="30dp" android:layout_centerHorizontal="true">
+            <TextView android:textSize="26dp" android:textColor="#ebcd9b" android:id="@+id/f55" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/h8f"/>
+            <TextView android:textSize="8dp" android:textColor="#ebcd9b" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/h8h"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/is" android:textColor="#ffe2b1" android:gravity="center" android:id="@+id/ipa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:layout_marginRight="30dp" android:text="@string/h86" android:layout_below="@+id/exx" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="@dimen/l" android:textColor="#d84e43" android:gravity="center" android:id="@+id/dkf" android:background="@drawable/avh" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="30dp" android:text="@string/enu" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</LinearLayout>

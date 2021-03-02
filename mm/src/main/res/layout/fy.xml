@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/hcv" android:background="@color/a74" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/idq" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/bb">
+            <LinearLayout android:gravity="center_vertical" android:background="@drawable/ay2" android:paddingLeft="@dimen/hs" android:paddingRight="@dimen/hs" android:layout_width="match_parent" android:layout_height="@dimen/bb">
+                <TextView android:textSize="@dimen/is" android:textColor="@color/BW_0_Alpha_0_9" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/a3g" android:layout_weight="1" android:layout_centerVertical="true"/>
+                <include android:id="@+id/f6k" layout="@layout/b8r"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/bd" android:textColor="@color/l4" android:id="@+id/bmr" android:paddingLeft="@dimen/hs" android:paddingTop="7.5dp" android:paddingRight="@dimen/hs" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/j1i" android:paddingBottom="50dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/bd" android:textColor="@color/l4" android:id="@+id/ecw" android:paddingTop="@dimen/hv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hs" android:text="@string/a3f"/>
+            <com.tencent.mm.view.TouchableLayout android:id="@+id/iuc" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <android.support.v7.widget.RecyclerView android:id="@+id/j1h" android:background="@color/afz" android:paddingLeft="@dimen/hs" android:paddingTop="1px" android:paddingRight="@dimen/hs" android:paddingBottom="1px" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/k5" android:nestedScrollingEnabled="false"/>
+            </com.tencent.mm.view.TouchableLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bi4" android:background="@color/afz" android:paddingLeft="@dimen/hs" android:paddingRight="@dimen/hs" android:layout_width="match_parent" android:layout_height="55dp">
+                <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="left|center_vertical|center_horizontal|center" android:layout_width="44dp" android:layout_height="44dp" android:src="@raw/icons_filled_add" android:scaleType="center" app:iconColor="@color/BW_0_Alpha_0_3"/>
+                <TextView android:textSize="@dimen/is" android:textColor="@color/a2x" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/hs" android:text="@string/a3d"/>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/bd" android:textColor="@color/l4" android:gravity="center_vertical" android:id="@+id/j1o" android:background="@color/afz" android:paddingLeft="@dimen/hs" android:paddingRight="@dimen/hs" android:visibility="gone" android:layout_width="match_parent" android:layout_height="50dp" android:text="@string/a3h"/>
+            <TextView android:textSize="@dimen/bd" android:textColor="@color/l4" android:gravity="center_vertical" android:id="@+id/j18" android:paddingLeft="@dimen/hs" android:paddingTop="8dp" android:paddingRight="@dimen/hs" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

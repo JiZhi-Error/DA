@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/ed4" android:background="@color/ac" android:paddingLeft="@dimen/ce" android:paddingRight="@dimen/ce" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="@dimen/cm" android:layout_marginTop="@dimen/cm" android:layout_marginBottom="@dimen/cc">
+        <com.tencent.mm.plugin.mv.ui.view.MusicMvMarqueeTextView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/i2e" android:fadingEdge="horizontal" android:fadingEdgeLength="@dimen/ct" android:layout_width="wrap_content" android:layout_height="wrap_content" android:requiresFadingEdge="horizontal"/>
+    </LinearLayout>
+    <com.tencent.mm.view.recyclerview.WxRecyclerView android:id="@+id/f5m" android:scrollbars="none" android:fadingEdge="vertical" android:fadingEdgeLength="@dimen/ce" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:overScrollMode="never" android:requiresFadingEdge="vertical"/>
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/xy" android:paddingTop="@dimen/ci" android:paddingBottom="@dimen/cp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="center" android:background="@drawable/alb" android:layout_width="@dimen/cn" android:layout_height="@dimen/ce"/>
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="center" android:layout_width="@dimen/cn" android:layout_height="@dimen/ce" android:src="@raw/icons_filled_arrow" android:rotation="270" app:iconColor="@color/am"/>
+    </FrameLayout>
+</LinearLayout>

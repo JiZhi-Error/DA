@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center" android:id="@+id/hni" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/coj" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textColor="@color/a2x" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/gym" android:drawablePadding="10dp" style="@style/u4"/>
+        <TextView android:textColor="@color/a2x" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15dp" android:text="@string/gyk" style="@style/u3"/>
+        <TextView android:textColor="@color/a2x" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="5dp" android:layout_marginRight="15dp" android:layout_marginBottom="15dp" android:text="@string/gyl" style="@style/u3"/>
+        <Button android:id="@+id/hnh" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_marginBottom="12dp" android:text="@string/gyi" style="@style/ou"/>
+    </LinearLayout>
+</RelativeLayout>

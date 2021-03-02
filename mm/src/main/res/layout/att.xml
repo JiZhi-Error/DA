@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/rj">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:id="@+id/dld" android:background="@color/a2h" android:focusable="true" android:scrollbars="none" android:transcriptMode="disabled" style="@style/np"/>
+        <TextView android:textSize="@dimen/is" android:textColor="@color/a2x" android:gravity="center" android:id="@+id/dl_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/f9"/>
+    </FrameLayout>
+</LinearLayout>

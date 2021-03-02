@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@android:id/title" android:background="@color/a" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="@dimen/ct" android:maxHeight="@dimen/ct" android:minHeight="@dimen/ct" android:contentDescription="分隔栏"/>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/f75" android:background="@color/afz" android:padding="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="88dp">
+    <RelativeLayout android:id="@+id/f76" android:background="@drawable/agu" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/f74" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/f73" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginTop="12dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/FG_0" android:ellipsize="none" android:gravity="center" android:id="@+id/f78" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:singleLine="false" android:layout_below="@+id/f73" android:layout_centerHorizontal="true" style="@style/mp"/>
+            <TextView android:textSize="@dimen/y" android:textColor="@color/Orange" android:ellipsize="none" android:gravity="center" android:id="@+id/f72" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:singleLine="false" android:layout_below="@+id/f78" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <ImageView android:id="@+id/fxf" android:visibility="gone" android:layout_width="32dp" android:layout_height="14dp" android:scaleType="fitXY"/>
+    </RelativeLayout>
+</RelativeLayout>

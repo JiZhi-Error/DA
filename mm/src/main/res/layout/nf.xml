@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/h9a" android:background="@color/BW_93" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.plugin.appbrand.widget.recyclerview.LoadMoreRecyclerView android:id="@+id/b2e" android:focusable="true" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:dividerHeight="8dp" android:overScrollMode="never"/>
+    <LinearLayout android:gravity="center" android:id="@+id/b2d" android:background="@color/afz" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.3">
+        <ProgressBar android:visibility="visible" android:layout_width="24dp" android:layout_height="24dp" android:indeterminateDrawable="@drawable/ape"/>
+    </LinearLayout>
+</RelativeLayout>

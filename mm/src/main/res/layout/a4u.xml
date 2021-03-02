@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@null" android:paddingTop="@dimen/k5" android:paddingBottom="@dimen/k5" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/gig" android:text="@string/c17" style="@style/i6"/>
+        </RelativeLayout>
+        <com.tencent.mm.ui.base.MMHorList android:id="@+id/gif" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</merge>

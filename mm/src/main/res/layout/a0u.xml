@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/dlg" android:background="@color/BW_97" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1px"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:background="@color/BW_97" android:paddingLeft="@dimen/a1f" android:paddingRight="@dimen/a1f" android:layout_width="match_parent" android:layout_height="48dp">
+        <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.tencent.mm.ui.widget.imageview.WeImageButton android:id="@+id/dle" android:background="@null" android:padding="@dimen/k5" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/sz" android:layout_centerInParent="true"/>
+            <TextView android:id="@+id/dlf" android:background="@color/afp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <com.tencent.mm.ui.widget.imageview.WeImageButton android:id="@+id/dli" android:background="@null" android:padding="@dimen/k5" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/st" android:layout_weight="1"/>
+        <com.tencent.mm.ui.widget.imageview.WeImageButton android:id="@+id/dlh" android:background="@null" android:padding="@dimen/k5" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/sn" android:layout_weight="1"/>
+        <com.tencent.mm.ui.widget.imageview.WeImageButton android:id="@+id/dlj" android:background="@null" android:padding="@dimen/k5" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/t5" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1px"/>
+    </LinearLayout>
+    <include layout="@layout/a1a"/>
+</LinearLayout>

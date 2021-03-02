@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="@dimen/a2k" style="@style/mz">
+    <RelativeLayout android:id="@+id/c09" android:layout_width="match_parent" android:layout_height="@dimen/a2k">
+        <ImageView android:id="@+id/c1x" android:paddingRight="@dimen/a2q" android:layout_width="@dimen/a2k" android:layout_height="@dimen/a2k" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <TextView android:gravity="center_vertical" android:id="@+id/c1y" android:background="@drawable/b9w" android:layout_width="wrap_content" android:layout_height="@dimen/a2k" android:layout_toLeftOf="@+id/c1z" android:layout_toRightOf="@+id/c1x" android:layout_alignParentTop="true" style="@style/mp"/>
+        <ImageView android:id="@+id/c1z" android:background="@drawable/b9w" android:paddingLeft="@dimen/hw" android:paddingRight="@dimen/ir" android:layout_width="wrap_content" android:layout_height="@dimen/a2k" android:src="@raw/emotionstore_emotionalign_icon" android:maxHeight="@dimen/a2k" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</LinearLayout>

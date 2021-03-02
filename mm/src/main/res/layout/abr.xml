@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.view.TouchableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/a" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@+id/cmp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <TextView android:layout_gravity="center_horizontal" android:id="@+id/c35" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cl" android:text="@string/cq_" style="@style/hv"/>
+</com.tencent.mm.view.TouchableLayout>

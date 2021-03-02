@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/fjk" android:background="@drawable/azq" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/k4">
+        <ImageView android:gravity="center_vertical" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="10dp" android:layout_marginRight="4dp" android:src="@raw/monitor_banner_icon"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/abs" android:ellipsize="marquee" android:gravity="left" android:id="@+id/ax9" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:maxLines="1" android:marqueeRepeatLimit="marquee_forever" style="@style/mi"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/b4d" android:padding="10dp" android:visibility="gone" android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/jb" android:adjustViewBounds="true"/>
+    </LinearLayout>
+</LinearLayout>

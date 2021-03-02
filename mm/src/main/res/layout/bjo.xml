@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/k4">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/be9" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="@dimen/k4" android:layout_weight="1">
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/be3" android:paddingTop="@dimen/k5" android:paddingBottom="@dimen/k5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/i2">
+                <TextView android:gravity="left" android:id="@+id/bcm" android:layout_width="@dimen/em" android:layout_height="0dp" android:text="@string/bdj" android:singleLine="true" android:layout_weight="1" style="@style/mi"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/ieh" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/bcp" android:background="@raw/profile_star_icon" android:layout_width="20dp" android:layout_height="20dp"/>
+                    <ImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/bcn" android:background="@raw/circle_notreceive" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="@dimen/ct"/>
+                    <ImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/bco" android:background="@raw/circle_notvisible" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="@dimen/ct"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

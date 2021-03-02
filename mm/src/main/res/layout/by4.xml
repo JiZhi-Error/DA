@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="5dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.plugin.sns.ui.SnsUnScaleTextView android:textSize="30dp" android:textStyle="bold" android:textColor="@color/a2x" android:id="@+id/i20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/akj" android:layout_marginBottom="@dimen/akf" android:text="1900" android:singleLine="true"/>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="58dp" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/daa" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="3dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <View android:background="@drawable/a4l" android:layout_width="24dp" android:layout_height="24dp"/>
+        <com.tencent.mm.plugin.finder.feed.RoundLinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/da_" android:layout_width="@dimen/cc" android:layout_height="@dimen/cc"/>
+        </com.tencent.mm.plugin.finder.feed.RoundLinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/dac" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="17dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <View android:background="@drawable/a4l" android:layout_width="24dp" android:layout_height="24dp"/>
+        <com.tencent.mm.plugin.finder.feed.RoundLinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/dab" android:layout_width="@dimen/cc" android:layout_height="@dimen/cc"/>
+        </com.tencent.mm.plugin.finder.feed.RoundLinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/dae" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="33dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <View android:background="@drawable/a4l" android:layout_width="24dp" android:layout_height="24dp"/>
+        <com.tencent.mm.plugin.finder.feed.RoundLinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/dad" android:layout_width="@dimen/cc" android:layout_height="@dimen/cc"/>
+        </com.tencent.mm.plugin.finder.feed.RoundLinearLayout>
+    </FrameLayout>
+    <ImageView android:gravity="center" android:id="@+id/h7d" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4dp" android:layout_marginRight="-3dp" android:src="@drawable/b1a" android:layout_alignTop="@+id/daa" android:layout_alignRight="@+id/daa"/>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/al" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/h8v" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ViewStub android:id="@+id/b7e" android:layout="@layout/vb" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/g29" android:background="@drawable/py" android:padding="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="10dp" android:layout_alignParentTop="true">
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/ag2" android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/a2b" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="2dp"/>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/g29" android:layout_alignParentTop="false">
+            <ListView android:id="@android:id/list" android:background="@drawable/pq" android:padding="0dp" android:scrollbars="none" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:listSelector="#00000000" android:dividerHeight="0px" android:overScrollMode="never"/>
+            <LinearLayout android:gravity="center_horizontal" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/b73" android:background="@drawable/pv" android:paddingTop="0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:id="@+id/b7h" android:background="@drawable/b3z" android:paddingLeft="@dimen/aox" android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginTop="0dp">
+                        <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@raw/icons_outlined_pay_receive_money" android:scaleType="centerInside" app:iconColor="@color/ak"/>
+                        <TextView android:textSize="@dimen/is" android:textColor="@color/ak" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/fi6" android:layout_weight="1"/>
+                    </LinearLayout>
+                    <ImageView android:id="@+id/b7o" android:padding="0dp" android:layout_width="56dp" android:layout_height="56dp" android:layout_marginTop="100dp" android:scaleType="fitCenter"/>
+                    <TextView android:textSize="@dimen/is" android:textColor="@color/n" android:id="@+id/b7q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hs" android:singleLine="true" android:includeFontPadding="false"/>
+                    <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="48dp" android:textColor="@color/n" android:id="@+id/b7p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:singleLine="true" android:includeFontPadding="false" app:walletTypeFace="0"/>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

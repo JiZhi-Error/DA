@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cdr" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_marginRight="10dp" android:text="@string/cd5" android:layout_weight="0" style="@style/j_"/>
+        <View android:background="@color/p7" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="2dp" android:layout_marginRight="10dp" android:layout_marginBottom="2dp"/>
+    </LinearLayout>
+    <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/cdq" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="4dp"/>
+    <TextView android:ellipsize="end" android:id="@+id/ccm" android:layout_width="wrap_content" android:layout_marginRight="10dp" android:maxWidth="200dp" android:text="{name}" style="@style/j_"/>
+    <TextView android:textSize="10dp" android:textColor="@color/BW_0_Alpha_0_9" android:ellipsize="end" android:id="@+id/cdu" android:background="@drawable/vb" android:paddingLeft="5dp" android:paddingRight="5dp" android:visibility="gone" android:layout_height="16dp" android:layout_marginLeft="-6dp" android:layout_marginRight="10dp" style="@style/j_"/>
+    <TextView android:gravity="center_vertical" android:id="@+id/cdl" android:layout_width="0dp" android:text="{time}" android:layout_weight="1" style="@style/j_"/>
+    <ImageView android:id="@+id/cdi" android:visibility="gone" android:layout_width="14dp" android:layout_height="14dp" android:src="@raw/fav_list_tag"/>
+</LinearLayout>

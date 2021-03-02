@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.FriendSnsPreference android:key="album_dyna_photo_ui_title" android:title="@string/h5v"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.mm.ui.FinderIconViewTipPreference android:icon="@raw/icons_outlined_finder_icon" android:iconColor="@color/Orange" android:key="find_friends_by_finder" android:path="finder" android:title="@string/ceo"/>
+    <PreferenceSmallCategory/>
+    <NormalIconPreference android:icon="@raw/icons_outlined_scan" android:iconColor="@color/Indigo" android:key="find_friends_by_qrcode" android:title="@string/cey"/>
+    <NormalIconPreference android:icon="@raw/icons_outlined_shake" android:iconColor="@color/Indigo" android:key="find_friends_by_shake" android:title="@string/gzg"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.mm.plugin.newtips.NormalIconNewTipPreference android:icon="@raw/icons_outlined_news" android:iconColor="@color/Yellow" android:key="find_friends_by_look" android:path="topstories" android:title="@string/cf5"/>
+    <com.tencent.mm.plugin.newtips.NormalIconNewTipPreference android:icon="@raw/icons_outlined_searchlogo" android:iconColor="@color/Red" android:key="find_friends_by_search" android:path="search" android:title="@string/cf_"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.mm.ui.FinderNearbyIconViewTipPreference android:icon="@raw/icons_outlined_live_nearby" android:iconColor="@color/Indigo" android:key="find_live_friends_by_near" android:title="@string/faj"/>
+    <NormalIconPreference android:icon="@raw/icons_outlined_nearby" android:iconColor="@color/Indigo" android:key="find_friends_by_near" android:title="@string/fad"/>
+    <com.tencent.mm.plugin.newtips.NormalIconNewTipPreference android:icon="@raw/my_life_around_default_icon" android:key="my_life_around" android:path="dining_nearby" android:title="@string/FF_Entry_Nearby"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.mm.plugin.newtips.NormalIconNewTipPreference android:icon="@raw/icons_outlined_shop" android:iconColor="@color/Red" android:key="jd_market_entrance" android:path="shopping"/>
+    <com.tencent.mm.plugin.newtips.NormalIconNewTipPreference android:icon="?attr/ge" android:key="more_tab_game_recommend" android:path="game" android:title="@string/ds3"/>
+    <PreferenceSmallCategory/>
+    <NormalIconPreference android:icon="@raw/icons_outlined_miniprogram" android:iconColor="@color/Purple" android:key="app_brand_entrance" android:title="@string/ko"/>
+    <PreferenceSmallCategory/>
+    <NormalIconPreference android:icon="@raw/icons_outlined_wechatout" android:iconColor="@color/Brand" android:key="ip_call_entrance" android:title="@string/e6i"/>
+    <PreferenceSmallCategory/>
+    <PreferenceSmallCategory/>
+</PreferenceScreen>

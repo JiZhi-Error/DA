@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/bes" android:background="#ff191919" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/rj">
+    <TextView android:textSize="15dp" android:textColor="@color/l4" android:gravity="center" android:id="@+id/g24" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/im"/>
+    <android.support.v7.widget.RecyclerView android:id="@+id/cgf" android:background="#ff191919" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/k4"/>
+    <TextView android:textSize="@dimen/hc" android:textColor="@color/bl" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/bki" android:background="@color/u_" android:paddingLeft="@dimen/k5" android:paddingTop="@dimen/kb" android:paddingRight="@dimen/k5" android:paddingBottom="@dimen/kb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/d8c" android:background="@color/ko" android:layout_width="match_parent" android:layout_height="@dimen/k4">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/cil" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="165dp">
+            <TextView android:textSize="@dimen/is" android:textColor="@color/ag2" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/cib" android:paddingLeft="@dimen/hs" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/b3u"/>
+            <TextView android:textSize="@dimen/k6" android:textColor="@color/ag2" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/cic" android:paddingLeft="@dimen/i2" android:paddingRight="@dimen/hs" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/b3u"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toRightOf="@+id/cil" android:layout_centerVertical="true">
+            <ImageButton android:id="@+id/g74" android:background="@null" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@raw/radio_off"/>
+            <TextView android:textSize="@dimen/is" android:textColor="@color/ag2" android:gravity="center_vertical" android:id="@+id/g76" android:paddingLeft="@dimen/k5" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/b3z" android:layout_toRightOf="@+id/g74" android:layout_centerVertical="true"/>
+        </LinearLayout>
+        <Button android:enabled="false" android:textSize="@dimen/is" android:textColor="@color/ag2" android:gravity="center" android:id="@+id/ieo" android:layout_marginLeft="@dimen/hs" android:layout_marginRight="@dimen/hs" android:minWidth="64dp" android:text="@string/x_" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/ow"/>
+    </RelativeLayout>
+</FrameLayout>

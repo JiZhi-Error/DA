@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/a0p" android:layout_width="match_parent" android:layout_height="match_parent">
+    <org.libpag.PAGView android:id="@+id/cr4" android:layout_width="@dimen/cr" android:layout_height="@dimen/cr" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="15dp" android:textColor="@color/ag2" android:id="@+id/cr5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ct" android:text="@string/css" android:layout_below="@+id/cr4" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/ct" android:layout_marginEnd="@dimen/ct"/>
+</RelativeLayout>

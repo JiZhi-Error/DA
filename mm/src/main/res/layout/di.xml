@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="@dimen/qn">
+    <ImageView android:id="@+id/ni" android:paddingLeft="20dp" android:paddingRight="16dp" android:layout_width="56dp" android:layout_height="match_parent" android:src="@raw/app_brand_star_delete" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+    <ImageView android:id="@+id/nh" android:paddingLeft="16dp" android:paddingRight="20dp" android:layout_width="52dp" android:layout_height="match_parent" android:src="@raw/app_brand_collection_sort_handle_mark" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    <View android:id="@+id/c7o" android:layout_alignLeft="@+id/nh" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/a1o"/>
+    <ViewStub android:id="@+id/bfa" android:background="@null" android:layout="@layout/e8" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/nh" android:layout_toRightOf="@+id/ni" android:layout_alignParentTop="true"/>
+</RelativeLayout>

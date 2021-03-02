@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.ui.widget.MMNeat7extView android:textSize="@dimen/y" android:textColor="@color/g0" android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/bn5" android:paddingLeft="30dp" android:paddingRight="30dp" android:paddingBottom="9dp" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:maxLines="3"/>
+</LinearLayout>

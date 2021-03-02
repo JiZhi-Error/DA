@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/YellowK" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.plugin.kidswatch.ui.login.KidsWatchHeadComponent android:id="@+id/dnl" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/ajo" android:background="@drawable/a9e" android:paddingTop="@dimen/cl" android:paddingBottom="@dimen/cl" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/ce" android:layout_marginTop="@dimen/cn" android:layout_marginRight="@dimen/ce">
+            <TextView android:textSize="22dp" android:textColor="@color/a2z" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ci" android:text="@string/ea_" android:layout_marginStart="@dimen/cl" android:layout_marginEnd="@dimen/cl"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/cl">
+                    <TextView android:background="@drawable/a9i" android:layout_width="6dp" android:layout_height="6dp" android:layout_marginStart="28dp" android:layout_marginEnd="6dp"/>
+                    <TextView android:textSize="@dimen/bd" android:textColor="@color/a2z" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/eae" android:layout_weight="1"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/cl" android:layout_marginEnd="@dimen/cl">
+                    <TextView android:textSize="@dimen/bd" android:textColor="@color/l5" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ct" android:text="@string/eaf"/>
+                    <View android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="@dimen/ce" android:layout_marginBottom="@dimen/ce"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginEnd="@dimen/cl">
+                    <TextView android:background="@drawable/a9i" android:layout_width="6dp" android:layout_height="6dp" android:layout_marginStart="28dp" android:layout_marginEnd="6dp"/>
+                    <TextView android:textSize="@dimen/bd" android:textColor="@color/a2z" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/eam" android:maxLines="1" android:layout_weight="1"/>
+                </LinearLayout>
+                <TextView android:textSize="@dimen/bd" android:textColor="@color/l5" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/iim" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ct" android:text="@string/ean" android:layout_marginStart="@dimen/cl" android:layout_marginEnd="@dimen/cl"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/bqp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@+id/bqs" android:background="@color/fm" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/ben" android:background="@drawable/arn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <RelativeLayout android:id="@+id/b4i" android:layout_width="match_parent" android:layout_height="@dimen/aht">
+                <TextView android:textSize="15dp" android:textColor="@color/BW_0_Alpha_0_9" android:id="@+id/br5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gcf" android:layout_centerInParent="true"/>
+                <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/b4g" android:padding="2dp" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginLeft="22dp" android:src="@raw/icons_outlined_close" android:layout_centerVertical="true" app:iconColor="@color/BW_0_Alpha_0_9"/>
+            </RelativeLayout>
+            <com.tencent.mm.plugin.scanner.box.BoxWebViewContainer android:id="@+id/jkn" android:background="@color/f" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/ahv"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/y4" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</RelativeLayout>

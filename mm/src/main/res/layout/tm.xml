@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/gs">
+    <View android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/gu">
+        <TextView android:id="@+id/ayn" android:visibility="gone" style="@style/gy"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/ayb" android:layout_marginRight="6dp" style="@style/h2"/>
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/ayk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" style="@style/a71"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp">
+                <FrameLayout android:id="@+id/auf" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center" android:id="@+id/aul" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <ImageView android:id="@+id/aun" android:background="@drawable/mf" android:layout_width="@dimen/a6" android:layout_height="@dimen/a6"/>
+                    <ImageView android:layout_gravity="center" android:id="@+id/ayc" android:background="@null" android:layout_width="@dimen/ab" android:layout_height="@dimen/ab"/>
+                </FrameLayout>
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:ellipsize="end" android:id="@+id/atq" android:layout_marginLeft="0dp" android:singleLine="true" style="@style/gj"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.tencent.mm.ui.chatting.view.ChattingAvatarImageView android:id="@+id/au2" android:focusable="false" android:visibility="gone" style="@style/gr"/>
+</LinearLayout>

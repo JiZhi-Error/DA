@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.plugin.sns.storage.AdLandingPagesStorage.AdLandingPageComponent.widget.SphereImageView.SphereImageView android:id="@+id/i3l" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <ImageView android:id="@+id/fa8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <ProgressBar android:gravity="center" android:id="@+id/glr" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp" android:layout_centerInParent="true" style="@style/a61"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/iok" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@+id/ioi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bww"/>
+        <TextView android:textSize="18dp" android:textColor="@color/ag2" android:id="@+id/ios" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/h4n" android:shadowColor="#7f000000" android:shadowDx="0.5" android:shadowDy="0.5" android:shadowRadius="10"/>
+    </LinearLayout>
+</RelativeLayout>

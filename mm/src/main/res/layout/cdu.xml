@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/cu7" android:paddingLeft="@dimen/cl" android:paddingTop="@dimen/cl" android:paddingRight="@dimen/cl" android:paddingBottom="@dimen/cb" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="18dp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/fzg" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:textSize="15dp" android:textColor="@color/BW_100_Alpha_0_3" android:gravity="center" android:id="@+id/k23" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp"/>
+    <TextView android:textSize="22dp" android:textColor="@color/BW_100_Alpha_0_8" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/k3r" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c5" android:minHeight="216dp" android:lineSpacingExtra="11dp"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bu">
+        <View android:layout_gravity="center_vertical" android:background="@color/BW_100_Alpha_0_1" android:layout_width="@dimen/ce" android:layout_height="1dp"/>
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="@dimen/c5" android:layout_height="@dimen/c5" android:src="@raw/icons_filled_star2021" android:layout_marginStart="@dimen/ct" android:layout_marginEnd="@dimen/ct" app:iconAlpha="0.5" app:iconColor="@android:color/white"/>
+        <View android:layout_gravity="center_vertical" android:background="@color/BW_100_Alpha_0_1" android:layout_width="@dimen/ce" android:layout_height="1dp"/>
+    </LinearLayout>
+</LinearLayout>

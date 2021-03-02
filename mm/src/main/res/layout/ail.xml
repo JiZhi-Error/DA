@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/fbz" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.tencent.mm.ui.widget.RoundedCornerFrameLayout android:id="@+id/j44" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cornerRadius="4dp">
+        <ImageView android:id="@+id/ime" android:background="@color/fm" android:layout_width="120dp" android:layout_height="120dp" android:scaleType="fitCenter"/>
+        <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:visibility="gone" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginTop="@dimen/ct" android:layout_marginRight="@dimen/ct" android:src="@drawable/a4h"/>
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/h3h" android:visibility="gone" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="@dimen/ct" android:layout_marginTop="@dimen/ct" android:src="@raw/finder_feed_retransmission" app:iconColor="@color/afz"/>
+        <View android:id="@+id/doj" android:background="@drawable/a31" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/cm"/>
+    </com.tencent.mm.ui.widget.RoundedCornerFrameLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/hho" android:background="@drawable/a3o" android:paddingLeft="@dimen/c5" android:paddingRight="@dimen/c5" android:layout_width="wrap_content" android:layout_height="@dimen/ci" android:layout_marginTop="@dimen/cb">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/cb" android:layout_height="@dimen/cb" android:src="@raw/finder_video_cover_icon" app:iconColor="@color/FG_0"/>
+        <TextView android:textSize="@dimen/k6" android:textColor="@color/FG_0" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bt" android:text="选择封面"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.view.TouchableLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/h8v" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/hq0" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.design.widget.CoordinatorLayout android:orientation="vertical" android:id="@+id/hpr" android:background="@color/BW_93" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.tencent.mm.view.RefreshLoadMoreLayout android:orientation="vertical" android:id="@+id/h7t" android:layout_width="match_parent" android:layout_height="match_parent" app:loadMoreLayout="@layout/b21">
+                <android.support.v7.widget.RecyclerView android:id="@+id/gka" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </com.tencent.mm.view.RefreshLoadMoreLayout>
+        </android.support.design.widget.CoordinatorLayout>
+        <ViewStub android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/fku" android:layout="@layout/ah0" android:layout_width="match_parent" android:layout_height="@dimen/bz"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/hp3" android:background="@color/ac_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/dcj" android:background="@color/afz" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.tencent.mm.view.AnimationLayout android:id="@+id/hp5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="60dp">
+            <com.tencent.mm.view.NinePatchCropImageView android:id="@+id/hp4" android:background="@color/BW_90" android:layout_width="match_parent" android:layout_height="100dp" android:scaleType="centerCrop"/>
+        </com.tencent.mm.view.AnimationLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/hpd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/a8m"/>
+    </FrameLayout>
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@+id/hpe" android:visibility="gone" android:layout_width="@dimen/ce" android:layout_height="@dimen/ce" android:layout_marginTop="220dp" android:indeterminateDrawable="@drawable/apb"/>
+    <TextView android:gravity="center_horizontal" android:id="@+id/h5w" android:paddingTop="144dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/dak" style="@style/zy"/>
+    <include layout="@layout/abw"/>
+</com.tencent.mm.view.TouchableLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#fafafc" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="48dp">
+        <ImageButton android:id="@+id/fee" android:background="@null" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="0dp" android:src="@drawable/unipay_icon_return" android:layout_alignParentLeft="true" android:contentDescription="返回"/>
+        <ImageButton android:id="@+id/fef" android:background="@null" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="0dp" android:src="@drawable/unipay_icon_close" android:layout_toRightOf="@+id/fee" android:contentDescription="关闭"/>
+        <TextView android:textSize="17sp" android:textColor="#000000" android:gravity="center" android:id="@+id/fei" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="页面头" android:layout_centerInParent="true"/>
+        <ImageButton android:id="@+id/feh" android:background="@null" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="0dp" android:src="@drawable/unipay_icon_refresh" android:layout_alignParentRight="true" android:contentDescription="刷新"/>
+    </RelativeLayout>
+    <View android:background="#e0e0e0" android:layout_width="match_parent" android:layout_height="1px"/>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/ifp" android:background="@color/a74" android:padding="@dimen/k5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/hc" android:textColor="@color/uj" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/ifo" android:layout_width="0dp" android:layout_height="wrap_content" android:text="{正在同步}" android:layout_weight="1"/>
+    <Button android:textColor="@color/afp" android:layout_gravity="center" android:id="@+id/ifn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/p5"/>
+</LinearLayout>

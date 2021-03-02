@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/a1c" android:layout_width="@dimen/ci" android:layout_height="@dimen/ci">
+    <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="center" android:id="@+id/j5k" android:layout_width="@dimen/cc" android:layout_height="@dimen/cc" android:src="@raw/icons_filled_htov" app:iconColor="@color/am"/>
+</FrameLayout>

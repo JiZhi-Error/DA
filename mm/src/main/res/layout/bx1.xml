@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/hi1" android:background="@drawable/qa" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cb" android:minHeight="@dimen/bb">
+    <CheckBox android:layout_gravity="center_vertical" android:id="@+id/hx1" android:background="@drawable/ahw" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="false" android:layout_width="@dimen/at" android:layout_height="@dimen/aq" android:layout_marginStart="@dimen/hs" android:layout_marginEnd="@dimen/hs"/>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/hwy" android:layout_width="@dimen/aw" android:layout_height="@dimen/aw" android:layout_marginRight="@dimen/cb"/>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/b9w" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/k_" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.tencent.mm.ui.base.EllipsizeTextView android:id="@+id/hx3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{title}" android:singleLine="true" style="@style/mp"/>
+                <TextView android:id="@+id/hx2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="{tip}" style="@style/mp"/>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/kc" android:textColor="#555555" android:id="@+id/hwz" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="{desc}" android:singleLine="true" style="@style/mo"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/hx0" android:layout_width="@dimen/ak4" android:layout_height="@dimen/ak1" android:layout_marginLeft="@dimen/ak2" android:layout_marginRight="@dimen/ak3" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@null"/>
+    </LinearLayout>
+</LinearLayout>

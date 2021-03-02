@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/ac_" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/iua" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/my"/>
+    <android.support.design.widget.CoordinatorLayout android:id="@+id/my" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/gs3" android:background="@drawable/s0" android:layout_width="match_parent" android:layout_height="@dimen/amz" android:layout_alignParentBottom="true" app:behavior_peekHeight="0dp" app:layout_behavior="@string/f0t">
+            <RelativeLayout android:id="@+id/gs7" android:layout_width="match_parent" android:layout_height="@dimen/ana">
+                <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/b4j" android:layout_width="@dimen/anc" android:layout_height="@dimen/anc" android:src="@raw/close_arrow" android:layout_centerVertical="true" android:layout_marginStart="@dimen/anb" android:layout_alignParentStart="true" app:iconColor="@color/FG_0"/>
+                <TextView android:textSize="@dimen/a_h" android:textColor="@color/BW_0_Alpha_0_9" android:id="@+id/dpc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ebz" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+            <View android:id="@+id/e7k" android:background="@color/BW_0_Alpha_0_1" android:layout_width="match_parent" android:layout_height="@dimen/a0p" android:layout_below="@+id/gs7" android:layout_marginStart="@dimen/a_g" android:layout_marginEnd="@dimen/a_g"/>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/e7j" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/e7k"/>
+        </RelativeLayout>
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

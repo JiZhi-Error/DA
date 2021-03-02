@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/w" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/iq_" android:layout_width="match_parent" android:layout_height="@dimen/cm" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0">
+        <TextView android:textSize="17dp" android:textColor="@color/BW_100_Alpha_0_8" android:layout_gravity="center_vertical" android:id="@+id/aik" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cb" android:text="@string/czy"/>
+        <TextView android:textSize="17dp" android:textColor="@color/BW_100_Alpha_0_8" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/jct"/>
+        <TextView android:textSize="17dp" android:textColor="@color/am" android:gravity="center" android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/d54" android:background="@drawable/a21" android:paddingLeft="@dimen/c5" android:paddingRight="@dimen/c5" android:layout_width="wrap_content" android:layout_height="@dimen/ci" android:layout_marginRight="@dimen/cb" android:text="@string/d00"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/jnl" android:background="@color/y" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView android:id="@+id/jnm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/cb" android:layout_marginEnd="@dimen/cb"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/fyc" android:background="@color/ad5" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/fy7" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/fy9" android:background="@drawable/amz" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/fyd" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ce">
+            <TextView android:textSize="15dp" android:textColor="@color/BW_100_Alpha_0_8" android:id="@+id/fye" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="@string/fch"/>
+            <View android:background="@drawable/a75" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_below="@+id/fye"/>
+        </RelativeLayout>
+        <android.support.v7.widget.RecyclerView android:id="@+id/fya" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ce"/>
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="44dp" android:layout_marginBottom="66dp">
+            <Button android:textSize="17dp" android:textColor="@color/BW_100_Alpha_0_8" android:id="@+id/fy8" android:background="@drawable/amw" android:layout_width="120dp" android:layout_height="40dp" android:text="@string/sz"/>
+            <Button android:textSize="17dp" android:textColor="@color/BW_100_Alpha_0_8" android:id="@+id/fyb" android:background="@drawable/amy" android:layout_width="120dp" android:layout_height="40dp" android:text="@string/vl" android:layout_marginStart="@dimen/cb" android:layout_toEndOf="@+id/fy8"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

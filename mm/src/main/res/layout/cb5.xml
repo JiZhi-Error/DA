@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/f" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/jqw" android:layout_width="64dp" android:layout_height="64dp" android:layout_marginTop="48dp" android:src="@raw/realname_done"/>
+    <TextView android:textSize="22dp" android:textStyle="bold" android:textColor="@color/fq" android:id="@+id/jqv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/ixs"/>
+    <TextView android:textSize="17dp" android:textColor="@color/fq" android:id="@+id/jqu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text=""/>
+    <android.support.v4.widget.Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <Button android:textStyle="bold" android:id="@+id/jqs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="" style="@style/ov"/>
+    <Button android:textStyle="bold" android:id="@+id/jqt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="96dp" android:text="@string/ixh" style="@style/p3"/>
+</LinearLayout>

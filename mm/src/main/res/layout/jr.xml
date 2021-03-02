@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/rj">
+    <com.tencent.mm.plugin.bizui.widget.StoryListView android:id="@+id/a8k" android:background="#00000000" style="@style/np"/>
+    <TextView android:id="@+id/c30" android:visibility="gone" style="@style/mh"/>
+</LinearLayout>

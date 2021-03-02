@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48dp" android:paddingStart="16dp" android:paddingEnd="16dp">
+        <TextView android:gravity="center_vertical" android:id="@+id/j2o" android:layout_width="80dp" android:layout_height="match_parent" android:text="@string/acx"/>
+        <SeekBar android:id="@+id/j2n" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48dp" android:paddingStart="16dp" android:paddingEnd="16dp">
+        <TextView android:gravity="center_vertical" android:id="@+id/j2q" android:layout_width="80dp" android:layout_height="match_parent" android:text="@string/ad2"/>
+        <SeekBar android:id="@+id/j2p" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48dp" android:paddingStart="16dp" android:paddingEnd="16dp">
+        <TextView android:gravity="center_vertical" android:id="@+id/j2s" android:layout_width="80dp" android:layout_height="match_parent" android:text="@string/hv7"/>
+        <SeekBar android:id="@+id/j2r" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

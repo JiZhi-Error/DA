@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/fmn" android:background="#f2f2f2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/fmi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="140dp" android:src="@drawable/cgl" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="20dp" android:textColor="@color/a2x" android:gravity="center" android:id="@+id/fn7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48dp" android:text="@string/h_k" android:layout_below="@+id/fmi" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="12dp" android:textColor="@color/l4" android:gravity="center" android:id="@+id/fmd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/h_j" android:layout_below="@+id/fn7" android:layout_centerHorizontal="true"/>
+    <LinearLayout android:id="@+id/aev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="167dp" android:layout_below="@+id/fmi" android:layout_centerHorizontal="true">
+        <Button android:gravity="center" android:id="@+id/xt" android:background="@drawable/avu" android:paddingLeft="@dimen/k5" android:paddingRight="@dimen/k5" android:layout_width="150dp" android:layout_height="43dp" android:layout_marginRight="12dp" android:layout_marginBottom="40dp" android:text="@string/h_h" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        <Button android:gravity="center" android:id="@+id/dke" android:background="@drawable/avu" android:paddingLeft="@dimen/k5" android:paddingRight="@dimen/k5" android:layout_width="150dp" android:layout_height="43dp" android:layout_marginBottom="40dp" android:text="@string/h_i" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+package com.tinkerboots.sdk.b;
+
+import android.content.Context;
+import com.tencent.matrix.trace.core.AppMethodBeat;
+
+public final class c {
+    public static Context context;
+
+    public static Context getContext() {
+        AppMethodBeat.i(3462);
+        if (context == null) {
+            RuntimeException runtimeException = new RuntimeException("TinkerClientContext, context is null, please init first");
+            AppMethodBeat.o(3462);
+            throw runtimeException;
+        }
+        Context context2 = context;
+        AppMethodBeat.o(3462);
+        return context2;
+    }
+}

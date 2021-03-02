@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="54dp" android:layout_marginLeft="50dp" android:layout_marginTop="20dp" android:layout_marginRight="50dp">
+        <View android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1px"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <ImageView android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/fts_hot_article"/>
+            <TextView android:textSize="@dimen/ka" android:id="@+id/dq6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/h70"/>
+        </LinearLayout>
+        <View android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1px"/>
+    </LinearLayout>
+</LinearLayout>

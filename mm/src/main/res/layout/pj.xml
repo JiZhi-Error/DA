@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bx">
+        <TextView android:textSize="@dimen/hd" android:textColor="@color/a2x" android:gravity="center_vertical" android:id="@+id/iwm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ci" android:layout_marginEnd="@dimen/ci"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ci" android:layout_marginStart="@dimen/ci" android:layout_marginEnd="@dimen/ci">
+            <ImageView android:id="@+id/e47" android:layout_width="@dimen/cl" android:layout_height="@dimen/cl" android:src="@drawable/bca"/>
+            <TextView android:textSize="@dimen/t" android:textColor="@color/a2x" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/ixm" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/ct"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/bd" android:textColor="@color/l3" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/iwn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ce" android:lineSpacingExtra="@dimen/ct" android:layout_marginStart="@dimen/ci" android:layout_marginEnd="@dimen/ci"/>
+    </LinearLayout>
+    <Button android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/ael" android:layout_marginBottom="@dimen/bx" android:text="@string/aun" style="@style/ov"/>
+</FrameLayout>

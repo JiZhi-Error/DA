@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:scrollbars="none" style="@style/rj">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/lz">
+        <ImageView android:id="@+id/hg9" android:paddingBottom="33dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/accounts_warning_icon" android:contentDescription="@string/hb"/>
+        <TextView android:gravity="center" android:id="@+id/hg_" android:text="@string/gaa" style="@style/m0"/>
+        <Button android:id="@+id/g4w" android:layout_marginTop="15dp" android:text="@string/gai" style="@style/ou"/>
+        <Button android:id="@+id/b44" android:visibility="gone" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="@string/gac" style="@style/p1"/>
+    </LinearLayout>
+</ScrollView>

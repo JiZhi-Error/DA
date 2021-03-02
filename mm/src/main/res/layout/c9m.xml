@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/b3r" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:paddingTop="11dp" android:paddingBottom="12dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="14dp" android:textColor="@color/ae9" android:id="@+id/exd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{title}"/>
+        <TextView android:textSize="14dp" android:textColor="@drawable/b3o" android:id="@+id/exc" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{desc}"/>
+    </LinearLayout>
+    <RadioButton android:layout_gravity="center_vertical" android:id="@+id/exf" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/oi"/>
+</LinearLayout>

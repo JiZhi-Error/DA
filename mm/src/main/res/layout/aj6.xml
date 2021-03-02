@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.view.HardTouchableLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/bea" android:background="@color/FG_2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.CoordinatorLayout android:id="@+id/bg4" android:background="@color/c" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.design.widget.AppBarLayout android:orientation="vertical" android:id="@+id/sm" android:background="@color/c" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="10dp" app:expanded="true">
+            <FrameLayout android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/dnv" android:background="@color/c" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/b9" app:layout_scrollFlags="3"/>
+            <FrameLayout android:background="@color/a" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.tencent.mm.view.HardTouchableLayout android:id="@+id/ifu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/cb">
+                    <android.support.design.widget.TabLayout android:layout_gravity="center" android:id="@+id/ift" android:layout_width="wrap_content" android:layout_height="@dimen/ci" app:tabBackground="@color/ac_" app:tabGravity="1" app:tabIndicator="@drawable/a3c" app:tabIndicatorColor="@color/a2x" app:tabIndicatorHeight="2dp" app:tabMode="1" app:tabPaddingEnd="0dp" app:tabPaddingStart="0dp" app:tabRippleColor="@color/ac_" app:tabSelectedTextColor="@color/a2x" app:tabTextColor="@color/l4"/>
+                </com.tencent.mm.view.HardTouchableLayout>
+                <View android:layout_gravity="bottom" android:id="@+id/igc" android:background="@color/FG_3" android:layout_width="match_parent" android:layout_height="1px"/>
+            </FrameLayout>
+        </android.support.design.widget.AppBarLayout>
+        <com.tencent.mm.plugin.finder.view.FinderViewPager android:id="@+id/j7c" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/a0e"/>
+    </android.support.design.widget.CoordinatorLayout>
+    <include layout="@layout/aiq"/>
+</com.tencent.mm.view.HardTouchableLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingBottom="@dimen/hs" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.ui.widget.MMEditText android:textSize="@dimen/is" android:textColor="@color/a2x" android:textColorHint="@color/uk" android:id="@+id/bxz" android:background="@drawable/ca3" android:padding="@dimen/g" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="false" android:maxLength="128" android:inputType="text" android:textCursorDrawable="@null"/>
+    <TextView android:textSize="@dimen/ka" android:textColor="@color/uj" android:id="@+id/ipe" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/k5"/>
+</LinearLayout>

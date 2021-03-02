@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#ffffffff" style="@style/rj">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="18dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/a2x" android:gravity="center" android:id="@+id/hlu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:text="@string/cfs" style="@style/m0"/>
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:textSize="20dp" android:id="@+id/hlv" android:background="@drawable/atv" android:paddingLeft="50dp" android:text="@string/cff" style="@style/ou"/>
+                <ImageView android:layout_gravity="center_vertical" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bno"/>
+                <ImageView android:layout_gravity="center_vertical" android:paddingLeft="62dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bnp"/>
+            </FrameLayout>
+        </LinearLayout>
+        <RelativeLayout android:orientation="vertical" android:background="#fff3f3f3" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:gravity="left" android:id="@+id/d4g" android:paddingLeft="14dp" android:paddingTop="20dp" android:paddingRight="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:text="@string/cfg" style="@style/m0"/>
+            <TextView android:gravity="center" android:id="@+id/d4h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ir" android:text="@string/cfv" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/l5"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

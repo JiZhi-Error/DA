@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/a2h" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/do9" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ivu" android:background="@drawable/azp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/k4">
+                <TextView android:textSize="@dimen/hc" android:textColor="@color/uj" android:layout_gravity="center_vertical" android:id="@+id/jj6" android:layout_marginLeft="10dp" android:layout_weight="1" style="@style/mk"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/b4d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:src="@drawable/azu"/>
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:src="@raw/trust_friend"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/n" android:textColor="@color/a2x" android:gravity="center" android:paddingTop="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/gvk"/>
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/uj" android:layout_gravity="center_horizontal" android:id="@+id/ivq" android:paddingLeft="14dp" android:paddingTop="19dp" android:paddingRight="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/gvo"/>
+        <TextView android:id="@+id/ivs" android:paddingLeft="14dp" android:paddingTop="14dp" android:paddingRight="14dp" android:text="@string/gvl" style="@style/l5"/>
+        <TextView android:layout_marginLeft="14dp" android:layout_marginTop="17dp" android:layout_marginRight="14dp" style="@style/ma"/>
+        <RelativeLayout android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.tencent.mm.ui.widget.MMScrollGridView android:id="@+id/ivr" android:fadingEdge="none" android:fadingEdgeLength="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_marginTop="@dimen/a8u" android:layout_marginRight="14dp" android:listSelector="@drawable/b0w" android:overScrollMode="never"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

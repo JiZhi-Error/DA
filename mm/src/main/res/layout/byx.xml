@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/i6w" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/i6t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/ce" android:layout_alignParentEnd="true">
+            <TextView android:textSize="14dp" android:textColor="@color/ag2" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/i6u" android:background="@drawable/awl" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/c5" android:paddingEnd="@dimen/c5" android:layout_marginEnd="@dimen/c5"/>
+            <TextView android:textSize="14dp" android:textColor="@color/ag2" android:gravity="center" android:id="@+id/i6s" android:background="@drawable/awl" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:paddingStart="@dimen/c5" android:paddingEnd="@dimen/c5" android:layout_marginEnd="4dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/i6v" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/ce" android:layout_alignParentEnd="true">
+        <LinearLayout android:orientation="vertical" android:id="@+id/i6r" android:background="@drawable/ax2" android:layout_width="48dp" android:layout_height="48dp">
+            <com.tencent.mm.plugin.story.ui.view.StoryCommentBubbleView android:id="@+id/i8x" android:padding="12dp" android:layout_width="48dp" android:layout_height="48dp"/>
+        </LinearLayout>
+        <TextView android:textSize="12dp" android:textColor="@color/ag2" android:layout_gravity="center_horizontal" android:id="@+id/i8y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ct" android:text="@string/hi_"/>
+    </LinearLayout>
+</merge>

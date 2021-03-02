@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/so">
+    <ImageView style="@style/sp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/blk"/> //暂时注掉 
+        <include layout="@layout/blq"/>
+        <TextView android:textColor="@color/uj" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/c3g" android:text="@string/cbn" android:drawableLeft="@raw/chatfrom_voice_playing_new" android:drawablePadding="20dp" style="@style/sw"/>
+        <ImageView android:layout_width="match_parent" android:layout_height="1px" style="@style/ss"/>
+    </LinearLayout>
+</LinearLayout>

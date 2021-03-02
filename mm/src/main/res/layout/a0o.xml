@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:id="@+id/bwa" android:layout_width="match_parent" android:layout_height="@dimen/anh">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center" android:layout_width="0dp" android:layout_height="@dimen/anh" android:layout_weight="1">
+            <TextView android:textSize="30sp" android:textColor="@color/e9" android:gravity="center" android:id="@+id/b5g" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1"/>
+            <ImageView android:id="@+id/b4x" android:background="@drawable/c68" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="0dp" android:layout_height="@dimen/anh" android:layout_weight="1">
+            <TextView android:textSize="30sp" android:textColor="@color/e9" android:gravity="center" android:id="@+id/b5h" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1"/>
+            <ImageView android:id="@+id/b4y" android:background="@drawable/c68" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="0dp" android:layout_height="@dimen/anh" android:layout_weight="1">
+            <TextView android:textSize="30sp" android:textColor="@color/e9" android:gravity="center" android:id="@+id/b5i" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1"/>
+            <ImageView android:id="@+id/b4z" android:background="@drawable/c68" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="0dp" android:layout_height="@dimen/anh" android:layout_weight="1">
+            <TextView android:textSize="30sp" android:textColor="@color/e9" android:gravity="center" android:id="@+id/b5j" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1"/>
+            <ImageView android:id="@+id/b50" android:background="@drawable/c68" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="0dp" android:layout_height="@dimen/anh" android:layout_weight="1">
+            <TextView android:textSize="30sp" android:textColor="@color/e9" android:gravity="center" android:id="@+id/b5k" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1"/>
+            <ImageView android:id="@+id/b51" android:background="@drawable/c68" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="0dp" android:layout_height="@dimen/anh" android:layout_weight="1">
+            <TextView android:textSize="30sp" android:textColor="@color/e9" android:gravity="center" android:id="@+id/b5l" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1"/>
+            <ImageView android:id="@+id/b52" android:background="@drawable/c68" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <com.tencent.mm.plugin.appbrand.widget.sms.VerifyCodeEditText android:id="@+id/j30" android:background="@null" android:layout_width="match_parent" android:layout_height="@dimen/anh" android:cursorVisible="false" android:maxLines="1" android:maxLength="6" android:digits="1234567890" android:layout_centerVertical="true" android:inputType="phone"/>
+</RelativeLayout>

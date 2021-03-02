@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?attr/a30" android:layout_width="200dp" android:layout_height="101dp">
+    <TextView android:textSize="@dimen/hc" android:textColor="@color/abl" android:id="@+id/i27" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="12dp" android:text="@string/dwe"/>
+    <View android:id="@+id/i26" android:background="@color/a7t" android:layout_width="168dp" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginTop="12.5dp" android:layout_below="@+id/i27"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_below="@+id/i26">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/i25" android:layout_width="24dp" android:layout_height="24dp" android:src="@raw/icons_outlined_table"/>
+        <TextView android:textSize="@dimen/l" android:textColor="@color/BW_0_Alpha_0_9" android:id="@+id/i24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/dwd" android:layout_toRightOf="@+id/i25" android:layout_centerVertical="true"/>
+        <RelativeLayout android:id="@+id/h6v" android:layout_width="12dp" android:layout_height="24dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/i23" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/icons_outlined_arrow" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/k2t" android:background="@drawable/cuf" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/k2s" android:background="@drawable/ctz" android:layout_width="@dimen/cl" android:layout_height="@dimen/cb" android:layout_marginTop="@dimen/cc">
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="@dimen/ct" android:layout_height="@dimen/cb" android:src="@raw/icons_filled_arrow" android:scaleType="fitCenter" android:layout_centerInParent="true" android:rotation="90" app:iconColor="#ffffff"/>
+        </RelativeLayout>
+        <TextView android:textSize="15dp" android:textColor="@color/BW_100_Alpha_0_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cj" android:layout_marginBottom="@dimen/ci" android:text="@string/j9j"/>
+        <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="clip_horizontal" android:orientation="vertical" android:id="@+id/k2o" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </ScrollView>
+    </LinearLayout>
+</merge>

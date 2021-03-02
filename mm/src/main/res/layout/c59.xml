@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:background="@color/fm" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/btd" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ProgressBar android:id="@+id/j4h" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="50dp" android:layout_marginRight="20dp" style="?android:attr/progressBarStyleHorizontal"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/is" android:textColor="@color/ag2" android:gravity="center" android:id="@+id/dvg" android:background="@color/fm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textSize="@dimen/is" android:textColor="@color/ag2" android:id="@+id/j4i" android:background="@color/fm" android:layout_width="80dp" android:layout_height="wrap_content" android:layout_marginRight="50dp"/>
+        <TextView android:textSize="@dimen/is" android:textColor="@color/ag2" android:id="@+id/j4j" android:background="@color/fm" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textSize="@dimen/is" android:textColor="@color/ag2" android:id="@+id/j4g" android:background="@color/fm" android:paddingLeft="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

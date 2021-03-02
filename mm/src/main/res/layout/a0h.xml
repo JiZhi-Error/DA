@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/afz" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:overScrollMode="never">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/byk" android:paddingLeft="30dp" android:paddingRight="30dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@+id/byl" android:layout_width="60dp" android:layout_height="67dp" android:layout_marginTop="45dp" android:src="@drawable/c_x" android:scaleType="centerCrop"/>
+                <TextView android:textSize="17dp" android:textColor="@color/a2x" android:id="@+id/byq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text=""/>
+                <View android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="30dp"/>
+                <TextView android:textSize="14dp" android:textColor="@color/a2t" android:layout_gravity="left" android:id="@+id/byp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23dp" android:text=""/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/byo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp"/>
+                <Button android:id="@+id/bym" android:layout_marginTop="40dp" android:text="@string/bpt" style="@style/p1"/>
+            </LinearLayout>
+            <TextView android:textSize="13dp" android:textColor="#ff576b95" android:gravity="bottom" android:id="@+id/byj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="18dp" android:text="" android:layout_below="@+id/byk" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <View android:id="@+id/byn" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</ScrollView>

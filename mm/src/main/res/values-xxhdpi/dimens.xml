@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="o0">12dp</dimen>
+    <dimen name="aq5">18dp</dimen>
+    <dimen name="aq6">48dp</dimen>
+    <dimen name="aq7">48dp</dimen>
+    <dimen name="aq8">72dp</dimen>
+    <dimen name="a01">90dp</dimen>
+    <dimen name="a09">280dp</dimen>
+    <dimen name="a9g">70dp</dimen>
+    <dimen name="a9h">52dp</dimen>
+    <dimen name="a9i">50dp</dimen>
+    <dimen name="a9j">20dp</dimen>
+    <dimen name="a9k">25dp</dimen>
+    <dimen name="a9l">8dp</dimen>
+    <dimen name="a9m">16dp</dimen>
+    <dimen name="a9q">39dp</dimen>
+    <dimen name="a9u">37dp</dimen>
+    <dimen name="a9v">24dp</dimen>
+    <dimen name="a9w">14dp</dimen>
+    <dimen name="a9x">12dp</dimen>
+    <dimen name="alp">130dp</dimen>
+    <dimen name="aq9">40dp</dimen>
+    <dimen name="aq_">56dp</dimen>
+    <dimen name="aqa">18dp</dimen>
+    <dimen name="aqb">152dp</dimen>
+    <dimen name="aqc">104dp</dimen>
+    <dimen name="aqd">79dp</dimen>
+    <dimen name="aqe">215dp</dimen>
+</resources>

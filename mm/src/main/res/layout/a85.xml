@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/kz" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/v6" android:paddingLeft="30dp" android:paddingTop="20dp" android:paddingRight="20dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="10dp" android:layout_marginRight="12dp">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/cdt" android:layout_width="match_parent" android:layout_height="40dp">
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/g7" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/cd8" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/ccg" android:maxLines="1"/>
+            <View android:layout_gravity="center" android:background="#dadada" android:layout_width="1px" android:layout_height="match_parent" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/g7" android:gravity="center" android:id="@+id/cdc" android:layout_width="0dp" android:layout_height="40dp" android:text="@string/ccl" android:layout_weight="1"/>
+            <View android:layout_gravity="center" android:background="#dadada" android:layout_width="1px" android:layout_height="match_parent" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/g7" android:gravity="center" android:id="@+id/cd7" android:layout_width="0dp" android:layout_height="40dp" android:text="@string/ccc" android:layout_weight="1"/>
+            <View android:layout_gravity="center" android:background="#dadada" android:layout_width="1px" android:layout_height="match_parent" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/g7" android:gravity="center" android:id="@+id/cd_" android:layout_width="0dp" android:layout_height="40dp" android:text="@string/cci" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="40dp">
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/g7" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/cdb" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/cck" android:maxLines="1"/>
+            <View android:layout_gravity="center" android:background="#dadada" android:layout_width="1px" android:layout_height="match_parent" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/g7" android:gravity="center" android:id="@+id/cdd" android:layout_width="0dp" android:layout_height="40dp" android:text="@string/ccn" android:layout_weight="1"/>
+            <View android:layout_gravity="center" android:background="#dadada" android:layout_width="1px" android:layout_height="match_parent" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/g7" android:gravity="center" android:id="@+id/cda" android:layout_width="0dp" android:layout_height="40dp" android:text="@string/ccj" android:layout_weight="1"/>
+            <View android:layout_gravity="center" android:background="#dadada" android:layout_width="1px" android:layout_height="match_parent" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/g7" android:gravity="center" android:id="@+id/cd9" android:layout_width="0dp" android:layout_height="40dp" android:text="@string/cch" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.masssend.ui.MassSendLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/fay" style="@style/rj">
+    <LinearLayout android:orientation="vertical" android:background="@color/j4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:background="@color/kz" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/hc" android:textColor="@color/uj" android:id="@+id/fat" android:paddingLeft="@dimen/jv" android:paddingTop="@dimen/jv" android:paddingRight="@dimen/jv" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <TextView android:textSize="@dimen/is" android:textColor="@color/a2x" android:id="@+id/fau" android:paddingLeft="@dimen/jv" android:paddingTop="@dimen/k5" android:paddingRight="@dimen/jv" android:paddingBottom="@dimen/jv" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <com.tencent.mm.pluginsdk.ui.chat.ChatFooter android:orientation="vertical" android:id="@+id/ftn" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</com.tencent.mm.plugin.masssend.ui.MassSendLayout>

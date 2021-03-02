@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="k_">#90000000</color>
+    <color name="kb">#90000000</color>
+    <color name="kc">#de000000</color>
+    <color name="ke">@android:color/white</color>
+    <color name="kf">#deffffff</color>
+    <color name="kg">@android:color/black</color>
+    <color name="kh">#deffffff</color>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/BW_93" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/bfe"/>
+    <com.tencent.mm.plugin.finder.view.FinderViewPager android:orientation="horizontal" android:id="@+id/j7c" android:background="@color/BW_100" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <TextView android:textSize="@dimen/eo" android:textColor="@color/FG_2" android:gravity="center" android:id="@+id/c39" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/fak" android:includeFontPadding="false"/>
+</LinearLayout>

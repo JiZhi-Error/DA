@@ -1,0 +1,84 @@
+package kotlin.l.b.a.b.k.a;
+
+import com.tencent.matrix.trace.core.AppMethodBeat;
+import kotlin.l.b.a.b.b.b;
+import kotlin.l.b.a.b.b.f;
+import kotlin.l.b.a.b.b.w;
+import kotlin.l.b.a.b.e.a;
+
+public final /* synthetic */ class ab {
+    public static final /* synthetic */ int[] $EnumSwitchMapping$0;
+    public static final /* synthetic */ int[] TLD;
+    public static final /* synthetic */ int[] haE;
+    public static final /* synthetic */ int[] uqL;
+    public static final /* synthetic */ int[] vke;
+    public static final /* synthetic */ int[] vkf;
+    public static final /* synthetic */ int[] vlj;
+    public static final /* synthetic */ int[] vlk;
+    public static final /* synthetic */ int[] vll;
+
+    static {
+        AppMethodBeat.i(60349);
+        int[] iArr = new int[a.i.values().length];
+        $EnumSwitchMapping$0 = iArr;
+        iArr[a.i.DECLARATION.ordinal()] = 1;
+        $EnumSwitchMapping$0[a.i.FAKE_OVERRIDE.ordinal()] = 2;
+        $EnumSwitchMapping$0[a.i.DELEGATION.ordinal()] = 3;
+        $EnumSwitchMapping$0[a.i.SYNTHESIZED.ordinal()] = 4;
+        int[] iArr2 = new int[b.a.values().length];
+        haE = iArr2;
+        iArr2[b.a.DECLARATION.ordinal()] = 1;
+        haE[b.a.FAKE_OVERRIDE.ordinal()] = 2;
+        haE[b.a.DELEGATION.ordinal()] = 3;
+        haE[b.a.SYNTHESIZED.ordinal()] = 4;
+        int[] iArr3 = new int[a.j.values().length];
+        uqL = iArr3;
+        iArr3[a.j.FINAL.ordinal()] = 1;
+        uqL[a.j.OPEN.ordinal()] = 2;
+        uqL[a.j.ABSTRACT.ordinal()] = 3;
+        uqL[a.j.SEALED.ordinal()] = 4;
+        int[] iArr4 = new int[w.values().length];
+        vke = iArr4;
+        iArr4[w.FINAL.ordinal()] = 1;
+        vke[w.OPEN.ordinal()] = 2;
+        vke[w.ABSTRACT.ordinal()] = 3;
+        vke[w.SEALED.ordinal()] = 4;
+        int[] iArr5 = new int[a.w.values().length];
+        vkf = iArr5;
+        iArr5[a.w.INTERNAL.ordinal()] = 1;
+        vkf[a.w.PRIVATE.ordinal()] = 2;
+        vkf[a.w.PRIVATE_TO_THIS.ordinal()] = 3;
+        vkf[a.w.PROTECTED.ordinal()] = 4;
+        vkf[a.w.PUBLIC.ordinal()] = 5;
+        vkf[a.w.LOCAL.ordinal()] = 6;
+        int[] iArr6 = new int[a.b.EnumC2306b.values().length];
+        vlj = iArr6;
+        iArr6[a.b.EnumC2306b.CLASS.ordinal()] = 1;
+        vlj[a.b.EnumC2306b.INTERFACE.ordinal()] = 2;
+        vlj[a.b.EnumC2306b.ENUM_CLASS.ordinal()] = 3;
+        vlj[a.b.EnumC2306b.ENUM_ENTRY.ordinal()] = 4;
+        vlj[a.b.EnumC2306b.ANNOTATION_CLASS.ordinal()] = 5;
+        vlj[a.b.EnumC2306b.OBJECT.ordinal()] = 6;
+        vlj[a.b.EnumC2306b.COMPANION_OBJECT.ordinal()] = 7;
+        int[] iArr7 = new int[f.values().length];
+        vlk = iArr7;
+        iArr7[f.CLASS.ordinal()] = 1;
+        vlk[f.INTERFACE.ordinal()] = 2;
+        vlk[f.ENUM_CLASS.ordinal()] = 3;
+        vlk[f.ENUM_ENTRY.ordinal()] = 4;
+        vlk[f.ANNOTATION_CLASS.ordinal()] = 5;
+        vlk[f.OBJECT.ordinal()] = 6;
+        int[] iArr8 = new int[a.r.b.values().length];
+        vll = iArr8;
+        iArr8[a.r.b.IN.ordinal()] = 1;
+        vll[a.r.b.OUT.ordinal()] = 2;
+        vll[a.r.b.INV.ordinal()] = 3;
+        int[] iArr9 = new int[a.p.C2320a.b.values().length];
+        TLD = iArr9;
+        iArr9[a.p.C2320a.b.IN.ordinal()] = 1;
+        TLD[a.p.C2320a.b.OUT.ordinal()] = 2;
+        TLD[a.p.C2320a.b.INV.ordinal()] = 3;
+        TLD[a.p.C2320a.b.STAR.ordinal()] = 4;
+        AppMethodBeat.o(60349);
+    }
+}

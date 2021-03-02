@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="60dp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/gau" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/gar" android:visibility="gone" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/ck8" android:scaleType="fitCenter" android:layout_marginEnd="15dp"/>
+        <TextView android:textSize="@dimen/l" android:textColor="@color/a2x" android:id="@+id/gas" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="15dp"/>
+        <TextView android:textSize="14dp" android:textColor="@color/uj" android:id="@+id/gat" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/a34" android:layout_weight="1" android:layout_marginEnd="15dp"/>
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/gaq" android:visibility="gone" android:layout_width="@dimen/ce" android:layout_height="@dimen/ce" android:src="@raw/icons_outlined_done" app:iconColor="@color/Brand"/>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent" android:layout_alignParentBottom="true" style="@style/hx"/>
+</RelativeLayout>

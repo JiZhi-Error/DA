@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/j6y" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@+id/bgx" android:background="#a4000000" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/bgv" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/bha" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@+id/bh_" android:layout_width="36dp" android:layout_height="36dp" android:src="@drawable/bro"/>
+            <TextView android:textSize="@dimen/is" android:textColor="@color/ag2" android:id="@+id/bhe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/k5"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <com.tencent.mm.plugin.appbrand.jsapi.video.danmu.DanmuView android:id="@+id/bka" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/j6y" android:layout_alignTop="@+id/j6y" android:layout_alignRight="@+id/j6y" android:layout_alignBottom="@+id/j6y"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/i1" android:background="@drawable/e4" android:visibility="gone" android:layout_width="130dp" android:layout_height="130dp" android:layout_centerInParent="true">
+        <ImageView android:id="@+id/i0" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginTop="21dp" android:scaleType="fitCenter"/>
+        <TextView android:textSize="@dimen/is" android:textColor="@color/ag2" android:id="@+id/hy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/et6"/>
+        <com.tencent.mm.plugin.appbrand.jsapi.video.ui.AppBrandDotPercentIndicator android:id="@+id/i2" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/is" android:textColor="@color/ag2" android:gravity="center" android:id="@+id/gl7" android:background="@drawable/e4" android:paddingLeft="@dimen/k5" android:paddingTop="@dimen/ir" android:paddingRight="@dimen/k5" android:paddingBottom="@dimen/ir" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <FrameLayout android:id="@+id/gct" android:visibility="gone" android:layout_width="match_parent" android:layout_height="2dp" android:layout_alignParentBottom="true">
+        <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/gcr" android:background="#10eeeeee" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/gcs" android:background="#eeeeee" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</RelativeLayout>

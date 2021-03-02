@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="aq0">36dp</dimen>
+    <dimen name="a_e">180dp</dimen>
+    <dimen name="aq1">6dp</dimen>
+    <dimen name="aq2">40dp</dimen>
+    <dimen name="aq3">32dp</dimen>
+    <dimen name="aq4">30dp</dimen>
+</resources>

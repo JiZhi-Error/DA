@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@+id/yd" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" style="@style/np"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/yf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <ProgressBar android:gravity="center" android:id="@+id/yk" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="50dp" style="@style/a5t"/>
+        <TextView android:textColor="@color/uj" android:gravity="center" android:id="@+id/ye" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="@string/a58"/>
+    </LinearLayout>
+    <View android:id="@+id/yj" android:background="@color/a7t" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/yh" android:background="@color/afz" android:paddingTop="16dp" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ym" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:layout_weight="1">
+            <TextView android:textSize="15dp" android:textColor="@color/uj" android:id="@+id/yn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_centerVertical="true"/>
+            <TextView android:textSize="15dp" android:textColor="@color/uj" android:id="@+id/yo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_centerVertical="true"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/yp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:layout_weight="1">
+            <TextView android:textSize="15dp" android:textColor="@color/uj" android:id="@+id/yq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_centerVertical="true"/>
+            <TextView android:textSize="15dp" android:textColor="@color/uj" android:id="@+id/yr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_centerVertical="true"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ya" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:layout_weight="1">
+            <TextView android:textSize="15dp" android:textColor="@color/uj" android:id="@+id/yb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_centerVertical="true"/>
+            <TextView android:textSize="15dp" android:textColor="@color/uj" android:id="@+id/yc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_centerVertical="true"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <RelativeLayout android:background="@drawable/qa" android:layout_width="match_parent" android:layout_height="48dp">
+        <TextView android:textSize="16dp" android:textColor="@color/ev" android:gravity="center_vertical" android:id="@+id/yl" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/a4y"/>
+        <TextView android:textSize="16dp" android:textColor="@color/ev" android:id="@+id/yg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a50" android:layout_centerInParent="true"/>
+        <Button android:id="@+id/yi" android:layout_marginRight="15dp" android:text="@string/a53" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/ow"/>
+    </RelativeLayout>
+</LinearLayout>

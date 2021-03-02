@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/d7h" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@color/rv" android:scaleType="centerCrop"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:id="@+id/iqm" android:layout_width="match_parent" android:layout_height="@dimen/cn" android:layout_marginTop="@dimen/cb" android:layout_marginStart="@dimen/cb" android:layout_marginEnd="@dimen/cb">
+            <TextView android:textSize="15dp" android:textColor="@color/v9" android:gravity="center" android:id="@+id/iqq" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="@dimen/ct" android:layout_height="@dimen/cb" android:src="@raw/icons_filled_arrow" android:layout_marginStart="@dimen/ct" app:iconColor="@color/v6"/>
+        </LinearLayout>
+        <com.tencent.mm.view.recyclerview.WxRecyclerView android:id="@+id/dbo" android:background="@color/ac_" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:paddingStart="@dimen/ct" android:paddingEnd="@dimen/ct"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/cr">
+            <TextView android:textSize="14dp" android:textColor="@color/v6" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cjy"/>
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="@dimen/ct" android:layout_height="@dimen/cb" android:src="@raw/icons_filled_arrow" android:rotation="-90" android:layout_marginStart="@dimen/ct" app:iconColor="@color/v6"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

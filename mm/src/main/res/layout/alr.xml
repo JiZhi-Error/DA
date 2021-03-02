@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:gravity="center" android:id="@+id/d5j" android:layout_width="match_parent" android:layout_height="110dp" android:layout_marginTop="40dp"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/i4p" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp">
+            <TextView android:textSize="18dp" android:textColor="@color/a2x" android:gravity="center" android:id="@+id/d5m" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:layout_marginRight="25dp"/>
+            <ProgressBar android:id="@+id/d5k" android:paddingLeft="40dp" android:paddingRight="40dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" style="@style/oe"/>
+            <Button android:id="@+id/d5i" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br" android:layout_marginTop="32dp" android:layout_marginRight="@dimen/br" android:text="@string/dcd" style="@style/ou"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:background="@drawable/b64" android:paddingLeft="@dimen/ab7" android:paddingRight="@dimen/ab7" android:layout_width="match_parent" android:layout_height="72dp" android:minHeight="72dp">
+    <TextView android:textSize="@dimen/is" android:textColor="@color/a2x" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/f4u" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/esq" android:singleLine="true"/>
+    <com.tencent.mm.ui.widget.MMEditText android:textSize="@dimen/l" android:textColor="@color/a2x" android:textColorHint="@color/fp" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/f4t" android:background="@null" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/ab7" android:maxLines="3" android:maxLength="25" android:layout_weight="1"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/f08" android:visibility="visible" android:layout_width="45dp" android:layout_height="45dp" android:layout_centerVertical="true">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/f09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aem" android:scaleType="fitXY"/>
+        <com.tencent.mm.emoji.view.BaseEmojiView android:id="@+id/f07" android:background="@drawable/af0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/i2"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:layout_width="64dp" android:layout_height="64dp">
+                <ImageView android:id="@+id/tl" android:layout_width="53.3dp" android:layout_height="53.3dp" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="top|left|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="10dp" android:gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/tk" android:background="@drawable/ei" android:paddingLeft="6dp" android:paddingRight="6dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="top|right|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="10dp" android:textColor="@color/ag2" android:gravity="center" android:id="@+id/tn" android:background="@drawable/amr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="40dp" android:text="@string/x4"/>
+        </LinearLayout>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/ka" android:textColor="@color/a2x" android:gravity="center" android:layout_gravity="center" android:id="@+id/tm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+</LinearLayout>

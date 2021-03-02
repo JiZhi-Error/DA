@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/iqb" android:visibility="gone" android:layout_width="@dimen/ado" android:layout_height="@dimen/ado"/>
+        <ImageView android:id="@+id/iqc" android:visibility="gone" android:layout_width="@dimen/ado" android:layout_height="@dimen/ado" android:layout_marginLeft="@dimen/k5"/>
+        <ImageView android:id="@+id/iqd" android:visibility="gone" android:layout_width="@dimen/ado" android:layout_height="@dimen/ado" android:layout_marginLeft="@dimen/k5"/>
+        <ImageView android:id="@+id/iqe" android:visibility="gone" android:layout_width="@dimen/ado" android:layout_height="@dimen/ado" android:layout_marginLeft="@dimen/k5"/>
+        <ImageView android:id="@+id/iqf" android:visibility="gone" android:layout_width="@dimen/ado" android:layout_height="@dimen/ado" android:layout_marginLeft="@dimen/k5"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/iqg" android:visibility="gone" android:layout_width="@dimen/ado" android:layout_height="@dimen/ado" android:layout_marginTop="@dimen/i2"/>
+        <ImageView android:id="@+id/iqh" android:visibility="gone" android:layout_width="@dimen/ado" android:layout_height="@dimen/ado" android:layout_marginLeft="@dimen/k5" android:layout_marginTop="@dimen/i2"/>
+        <ImageView android:id="@+id/iqi" android:visibility="gone" android:layout_width="@dimen/ado" android:layout_height="@dimen/ado" android:layout_marginLeft="@dimen/k5" android:layout_marginTop="@dimen/i2"/>
+        <ImageView android:id="@+id/iqj" android:visibility="gone" android:layout_width="@dimen/ado" android:layout_height="@dimen/ado" android:layout_marginLeft="@dimen/k5" android:layout_marginTop="@dimen/i2"/>
+    </LinearLayout>
+</LinearLayout>

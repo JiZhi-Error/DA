@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/jrq" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+        <TextView android:textColor="@color/uj" android:id="@+id/ir3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{title_tv}" android:layout_centerHorizontal="true"/>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/ir3" android:layout_centerHorizontal="true">
+            <ImageView android:id="@+id/n2" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+            <ImageView android:id="@+id/n3" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+            <ImageView android:id="@+id/n4" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+            <ImageView android:id="@+id/n5" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+            <ImageView android:id="@+id/fki" android:paddingTop="7dp" android:paddingBottom="7dp" android:visibility="gone" android:layout_width="26dp" android:layout_height="40dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:src="@raw/fts_wxapp_more"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

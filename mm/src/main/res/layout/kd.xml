@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/ib" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/a54" android:paddingLeft="@dimen/hs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.5dp" android:layout_marginBottom="13.5dp">
+        <TextView android:textSize="15dp" android:textColor="@color/FG_2" android:ellipsize="end" android:gravity="bottom" android:id="@+id/fz_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true"/>
+        <TextView android:textSize="15dp" android:textColor="@drawable/i_" android:ellipsize="end" android:gravity="bottom" android:id="@+id/e5p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/k5" android:singleLine="true" android:layout_toLeftOf="@+id/b4i" android:layout_toRightOf="@+id/fz_" android:layout_centerVertical="true"/>
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@+id/b4i" android:paddingTop="3dp" android:paddingRight="@dimen/cb" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/b4h" android:layout_width="22dp" android:layout_height="15dp" android:src="@raw/biz_rec_card_close_icon" app:iconColor="@color/FG_2"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <ViewStub android:id="@+id/j8b" android:layout="@layout/kh" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ViewStub android:id="@+id/j8h" android:layout="@layout/ki" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/a6i" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

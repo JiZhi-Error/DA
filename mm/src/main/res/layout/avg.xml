@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/dvm" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+    <Button android:textSize="@dimen/kc" android:textColor="@color/ag2" android:gravity="center" android:id="@+id/biv" android:background="@drawable/a8b" android:paddingLeft="@dimen/ct" android:paddingRight="@dimen/ct" android:paddingBottom="0.5dp" android:visibility="invisible" android:layout_width="@dimen/a9_" android:layout_height="@dimen/a99" android:minHeight="@dimen/a99" android:text="@string/bju" android:layout_centerInParent="true" android:onClick="onClick"/>
+    <Button android:textSize="@dimen/kc" android:textColor="@color/ag2" android:id="@+id/biw" android:background="@drawable/a8b" android:paddingRight="8dp" android:visibility="gone" android:layout_width="@dimen/a9_" android:layout_height="@dimen/a99" android:drawableRight="@raw/image_gallery_load_hd_cancel_icon" android:layout_centerInParent="true" android:onClick="onClick"/>
+    <LinearLayout android:gravity="center" android:id="@+id/bix" android:background="@drawable/a8b" android:layout_width="@dimen/a9_" android:layout_height="@dimen/a99" android:layout_centerInParent="true">
+        <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:src="@raw/image_gallery_image_download_done_icon"/>
+        <TextView android:textSize="@dimen/kc" android:textColor="@color/ag2" android:id="@+id/bir" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bjw"/>
+    </LinearLayout>
+</RelativeLayout>

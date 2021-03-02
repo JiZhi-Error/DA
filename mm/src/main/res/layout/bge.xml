@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.plugin.wenote.model.nativenote.manager.WXRTEditText android:textSize="@dimen/t" android:textColor="@color/a2x" android:gravity="top" android:id="@+id/h9p" android:background="@null" android:paddingLeft="@dimen/af6" android:paddingTop="8dp" android:paddingRight="@dimen/af6" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" android:inputType="none|text|textCapSentences|textAutoCorrect|textMultiLine|textNoSuggestions" android:imeOptions="actionUnspecified|actionGo|actionSend|actionDone|flagNoEnterAction" android:textCursorDrawable="@drawable/an4"/>
+</LinearLayout>

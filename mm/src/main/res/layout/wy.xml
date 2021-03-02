@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/a7b" app:layout_constraintDimensionRatio="366:205" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/fh"/>
+    <android.support.constraint.Barrier android:id="@+id/a78" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierDirection="2" app:constraint_referenced_ids="biz_slot_show_desc_tv,biz_slot_title_neat_tv"/>
+    <include layout="@layout/wv"/>
+    <ImageView android:id="@+id/a7l" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic" app:layout_constraintBottom_toTopOf="@+id/biz_slot_title_neat_tv" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="@+id/a7b"/>
+    <TextView android:textSize="@dimen/k6" android:textColor="@color/ag2" android:id="@+id/a7k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/i2" android:shadowColor="@color/BW_0_Alpha_0_5" android:shadowRadius="10" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/a7l"/>
+</android.support.constraint.ConstraintLayout>

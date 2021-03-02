@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/rj">
+    <ScrollView android:scrollbars="none" style="@style/om">
+        <LinearLayout android:gravity="center_horizontal" android:paddingLeft="@dimen/br" android:paddingTop="@dimen/hw" android:paddingRight="@dimen/br" android:paddingBottom="@dimen/hw" style="@style/lz">
+            <ImageView android:id="@+id/hm0" android:paddingBottom="@dimen/hw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/mobile_unbind_icon"/>
+            <TextView android:textSize="@dimen/c" android:textColor="@color/a2x" android:gravity="center" android:id="@+id/hly" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/hs" android:maxLines="4" android:singleLine="false" android:lineSpacingExtra="4dp" style="@style/ob"/>
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/uj" android:gravity="center" android:id="@+id/hlx" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/hw" android:maxLines="4" android:singleLine="false" android:lineSpacingExtra="4dp" style="@style/ob"/>
+            <Button android:id="@+id/hlw" android:layout_marginBottom="@dimen/hs" style="@style/ou"/>
+            <Button android:id="@+id/hlz" android:layout_marginBottom="@dimen/kc" style="@style/p2"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

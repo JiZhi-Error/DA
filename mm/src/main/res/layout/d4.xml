@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="@dimen/cb" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textStyle="bold" android:textColor="@color/fq" android:layout_gravity="left|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Activity Monitor: "/>
+    <TextView android:textStyle="bold" android:gravity="left" android:id="@+id/fci" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/nc" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

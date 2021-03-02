@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.tencent.mm.plugin.sns.ui.SnsTextView android:textSize="@dimen/is" android:textColor="@color/a2x" android:gravity="center_vertical" android:id="@+id/bn7" android:background="@drawable/avl" android:paddingLeft="2dp" android:paddingTop="3dp" android:paddingRight="2dp" android:paddingBottom="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:singleLine="true"/>
+    <com.tencent.mm.plugin.sns.ui.widget.SnsPostDescPreloadTextView android:textSize="@dimen/is" android:textColor="@color/a2x" android:gravity="center_vertical" android:id="@+id/bn6" android:background="@drawable/avs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp"/>
+    <TextView android:textSize="@dimen/is" android:textColor="@color/x0" android:gravity="center" android:id="@+id/bn4" android:background="@drawable/auv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:singleLine="true"/>
+</LinearLayout>

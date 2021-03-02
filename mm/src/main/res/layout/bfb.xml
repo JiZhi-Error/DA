@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/h97" android:background="@color/afz" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <FrameLayout android:id="@+id/d5q" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

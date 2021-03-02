@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/ib" android:paddingBottom="@dimen/ib" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.plugin.patmsg.ui.AvatarPatTipImageView android:gravity="center_horizontal" android:id="@+id/hgi" android:src="@drawable/bcb" style="@style/t3"/>
+    <TextView android:id="@+id/hgk" android:layout_marginTop="@dimen/g" style="@style/t4"/>
+    <TextView android:textColor="#fd8f44" android:id="@+id/hgl" android:visibility="gone" style="@style/t4"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:background="@drawable/ai_" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/a2x" android:id="@+id/d4i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/cg_" android:layout_centerHorizontal="true"/>
+        <Button android:id="@+id/cj3" android:layout_width="match_parent" android:layout_marginLeft="30dp" android:layout_marginTop="10dp" android:layout_marginRight="30dp" android:layout_below="@+id/d4i" style="@style/ou"/>
+        <TextView android:textColor="@color/l4" android:id="@+id/d4f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_below="@+id/cj3" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <TextView android:textColor="@color/uj" android:id="@+id/cj4" android:background="#fff0f0f0" android:paddingLeft="15dp" android:paddingTop="3dp" android:paddingBottom="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cga"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/dgg" style="@style/kq">
+        <ImageView android:id="@+id/dgj" android:layout_width="@dimen/ij" android:layout_height="@dimen/ij" android:layout_marginRight="@dimen/jq" android:layout_alignParentLeft="true"/>
+        <TextView android:id="@+id/dge" android:layout_marginLeft="5dp" android:minHeight="24dp" android:layout_alignTop="@+id/dgj" android:layout_alignParentRight="true" style="@style/mo"/>
+        <TextView android:gravity="center_vertical" android:id="@+id/dgl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="24dp" android:layout_toLeftOf="@+id/dge" android:layout_toRightOf="@+id/dgj" android:layout_alignTop="@+id/dgj" style="@style/mp"/>
+        <TextView android:gravity="center_vertical" android:id="@+id/dgh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:minHeight="24dp" android:singleLine="true" android:layout_toRightOf="@+id/dgj" android:layout_alignLeft="@+id/dgl" android:layout_alignBottom="@+id/dgj" style="@style/mo"/>
+    </RelativeLayout>
+</FrameLayout>

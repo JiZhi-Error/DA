@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="ct9">r/z/ct9.png</drawable>
+    <drawable name="icon_toast_ok">r/z/icon_toast_ok.png</drawable>
+    <drawable name="ct_">r/z/ct_.png</drawable>
+    <drawable name="cta">r/z/cta.png</drawable>
+    <drawable name="ctb">r/z/ctb.png</drawable>
+</resources>

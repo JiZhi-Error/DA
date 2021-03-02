@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="54dp" android:layout_height="54dp" android:layout_marginTop="53dp" android:src="@raw/remittance_received"/>
+    <TextView android:textSize="@dimen/hd" android:textStyle="bold" android:textColor="@color/a2x" android:id="@+id/bn6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="37dp" android:text="@string/bpp"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <Button android:id="@+id/d4y" android:layout_width="184dp" android:layout_height="40dp" android:layout_marginBottom="96dp" android:text="@string/bpo" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/ou"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/qa" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="80dp">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/ad" android:layout_width="@dimen/ln" android:layout_height="@dimen/ln" android:src="@raw/aa_record_default_icon" android:scaleType="fitXY"/>
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/ag" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="2dp" android:layout_weight="1">
+            <TextView android:textSize="@dimen/lp" android:textColor="@color/a2x" android:ellipsize="end" android:id="@+id/ae" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false"/>
+            <TextView android:textSize="@dimen/ky" android:textColor="@color/FG_2" android:ellipsize="end" android:id="@+id/ai" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxLines="1"/>
+            <TextView android:textSize="@dimen/ky" android:textColor="@color/FG_2" android:ellipsize="end" android:id="@+id/af" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:maxLines="1"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp">
+            <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="@dimen/lp" android:textColor="@color/a2x" android:id="@+id/ac" android:layout_width="wrap_content" android:layout_height="wrap_content" wallet:walletTypeFace="7"/>
+            <TextView android:textSize="@dimen/ky" android:textColor="@color/FG_2" android:id="@+id/ah" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@+id/brt" android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="62dp" android:layout_marginTop="16dp"/>
+</LinearLayout>

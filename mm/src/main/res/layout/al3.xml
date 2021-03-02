@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/g8t" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14dp" android:textColor="@color/v9" android:gravity="start" android:id="@+id/j4a" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/cn" android:includeFontPadding="false"/>
+        <SeekBar android:id="@+id/ggj" android:background="@null" android:paddingTop="0dp" android:paddingBottom="0dp" android:visibility="invisible" android:layout_width="0dp" android:layout_height="@dimen/cr" android:maxHeight="2dp" android:max="500" android:progress="500" android:progressDrawable="@drawable/b1v" android:thumb="@drawable/b1s" android:layout_weight="1" android:paddingStart="8dp" android:paddingEnd="8dp" android:splitTrack="false"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/dbq" android:background="@drawable/ym" android:paddingTop="4dp" android:paddingBottom="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="6dp" android:paddingEnd="8dp" android:layout_marginStart="@dimen/c5">
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/dbp" android:layout_width="@dimen/cb" android:layout_height="@dimen/cb" android:src="@raw/icons_filled_play2" android:layout_marginEnd="2dp" app:iconColor="@color/v9"/>
+            <TextView android:textSize="14dp" android:textColor="@color/v9" android:gravity="center" android:id="@+id/et3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/cl"/>
+        </LinearLayout>
+        <TextView android:textSize="14dp" android:textColor="@color/v9" android:gravity="end" android:id="@+id/j6k" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/cn" android:includeFontPadding="false"/>
+    </LinearLayout>
+</merge>

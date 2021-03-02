@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/i_" android:id="@+id/bl0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true"/>
+    <com.tencent.mm.plugin.mmsight.api.MMSightRecordView android:id="@+id/gxs" android:layout_width="300dp" android:layout_height="450dp" android:layout_centerInParent="true"/>
+    <ImageView android:id="@+id/dvz" android:layout_width="125dp" android:layout_height="78dp" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    <Button android:id="@+id/ihl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="take picture" android:layout_below="@+id/gxs" android:layout_centerHorizontal="true"/>
+    <Button android:id="@+id/i4o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="start record" android:layout_below="@+id/ihl" android:layout_centerHorizontal="true"/>
+    <Button android:id="@+id/if_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="switch camera" android:layout_below="@+id/i4o" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

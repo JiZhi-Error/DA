@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/bqp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@+id/bqs" android:background="@color/ac_" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/ben" android:background="@drawable/arn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <LinearLayout android:gravity="center" android:id="@+id/b4i" android:layout_width="match_parent" android:layout_height="@dimen/aht">
+                <FrameLayout android:layout_gravity="center" android:id="@+id/b4g" android:background="@drawable/arm" android:layout_width="48dp" android:layout_height="24dp">
+                    <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="center" android:layout_width="20dp" android:layout_height="20dp" android:src="@raw/icons_filled_arrow" android:rotation="90" app:iconColor="@color/FG_0"/>
+                </FrameLayout>
+            </LinearLayout>
+            <com.tencent.mm.plugin.scanner.box.BoxWebViewContainer android:id="@+id/jkn" android:background="@color/f" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/ahv"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/y4" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</RelativeLayout>

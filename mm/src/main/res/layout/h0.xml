@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.appbrand.widget.input.panel.AppBrandSmileyGrid xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/hth" android:fadingEdgeLength="0dp" android:layout_width="300dp" android:layout_height="300dp" android:listSelector="@drawable/aij" android:cacheColorHint="#00000000"/>

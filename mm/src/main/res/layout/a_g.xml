@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.TabLayout android:id="@+id/byc" android:background="@color/ac_" android:layout_width="0dp" android:layout_height="@dimen/cp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:tabGravity="1" app:tabIndicator="@drawable/yh" app:tabIndicatorColor="@color/am" app:tabIndicatorFullWidth="@dimen/ce" app:tabIndicatorHeight="2dp" app:tabPadding="@dimen/cb" app:tabSelectedTextColor="@color/am" app:tabTextColor="@color/BW_100_Alpha_0_3"/>
+    <android.support.v4.view.ViewPager android:id="@+id/byd" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/byc"/>
+</merge>

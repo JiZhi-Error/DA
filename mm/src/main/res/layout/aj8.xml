@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2.7">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <FrameLayout android:id="@+id/a2p" android:background="@drawable/yd" android:layout_width="@dimen/cl" android:layout_height="@dimen/cl">
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="center" android:id="@+id/a2n" android:padding="@dimen/ct" android:layout_width="@dimen/cl" android:layout_height="@dimen/cl" android:src="@raw/icons_filled_cutie"/>
+            <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/a2o" android:visibility="gone" android:layout_width="@dimen/cb" android:layout_height="@dimen/cb"/>
+        </FrameLayout>
+        <TextView android:textSize="@dimen/eo" android:textColor="@color/am" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ct" android:text="@string/fvn"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <FrameLayout android:id="@+id/i61" android:background="@drawable/yd" android:layout_width="@dimen/cl" android:layout_height="@dimen/cl">
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="center" android:id="@+id/i5z" android:padding="@dimen/ct" android:layout_width="@dimen/cl" android:layout_height="@dimen/cl" android:src="@raw/icons_filled_sticker"/>
+            <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/i60" android:visibility="gone" android:layout_width="@dimen/cb" android:layout_height="@dimen/cb"/>
+        </FrameLayout>
+        <TextView android:textSize="@dimen/eo" android:textColor="@color/am" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ct" android:text="@string/fwr"/>
+    </LinearLayout>
+</LinearLayout>

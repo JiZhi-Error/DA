@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto" android:background="@color/afz" style="@style/rj">
+    <TextView android:textSize="27dp" android:textColor="@color/a2x" android:gravity="center_horizontal" android:id="@+id/jhz" android:layout_marginLeft="@dimen/hs" android:layout_marginTop="44dp" android:layout_marginRight="@dimen/hs" android:text="@string/e07" style="@style/a0r"/>
+    <TextView android:textSize="14dp" android:textColor="@color/a2x" android:gravity="center_horizontal" android:id="@+id/jhv" android:layout_marginLeft="69dp" android:layout_marginTop="25dp" android:layout_marginRight="69dp" android:text="@string/e09" style="@style/a0r"/>
+    <TextView android:textSize="14dp" android:textColor="@color/a2x" android:gravity="center_horizontal" android:id="@+id/jhw" android:visibility="gone" android:layout_marginLeft="69dp" android:layout_marginTop="7dp" android:layout_marginRight="69dp" style="@style/a0r"/>
+    <com.tencent.mm.wallet_core.ui.formview.EditHintPasswdView android:id="@+id/dyp" android:layout_marginLeft="51dp" android:layout_marginTop="66dp" android:layout_marginRight="51dp" wallet:format="1" style="@style/qn"/>
+    <include layout="@layout/pe"/>
+</LinearLayout>

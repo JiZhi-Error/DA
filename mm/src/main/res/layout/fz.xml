@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/bk" android:textColor="@color/l4" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/rk" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/ly"/>
+    <com.tencent.mm.plugin.appbrand.widget.sms.EditVerifyCodeView android:id="@+id/rj" android:layout_width="match_parent" android:layout_height="@dimen/anh" android:layout_marginTop="20dp"/>
+    <TextView android:textSize="@dimen/bk" android:textColor="@color/l4" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/r5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/ln"/>
+</LinearLayout>

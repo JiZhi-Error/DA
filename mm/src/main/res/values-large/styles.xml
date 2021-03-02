@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="c4" parent="@style/c2">
+    </style>
+    <style name="ca" parent="@style/c9">
+    </style>
+    <style name="ci" parent="@style/cg">
+    </style>
+    <style name="cr" parent="@style/cp">
+    </style>
+</resources>

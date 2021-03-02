@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/a5w" android:paddingLeft="32dp" android:paddingTop="40dp" android:paddingRight="32dp" android:paddingBottom="26dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="17dp" android:textColor="@color/l4" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dsv"/>
+        <TextView android:textSize="14dp" android:textColor="@color/uj" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="@string/dsu" android:singleLine="false"/>
+        <com.tencent.mm.plugin.game.media.FixAspectRatioImageView android:id="@+id/dd0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:scaleType="fitCenter" app:fix_ratio="0.5627"/>
+        <Button android:textSize="17dp" android:textColor="@color/a2x" android:layout_gravity="center_horizontal" android:id="@+id/dd1" android:background="@drawable/a5p" android:layout_width="184dp" android:layout_height="40dp" android:layout_marginTop="40dp" android:layout_marginBottom="40dp" android:text="@string/dph"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/jz3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/eo" android:textColor="@color/BW_100_Alpha_0_5" android:id="@+id/jz2" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_centerVertical="true"/>
+</FrameLayout>

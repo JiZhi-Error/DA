@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.base.preference.HeadImgNewPreference android:key="settings_change_avatar" android:layout="@layout/b8j" android:title="@string/gnm"/>
+    <Preference android:key="settings_name" android:layout="@layout/b8j" android:title="@string/gre"/>
+    <Preference android:key="settings_pat" android:layout="@layout/b8j" android:title="@string/fjn"/>
+    <Preference android:key="settings_username" android:layout="@layout/b8j" android:title="@string/gw_"/>
+    <Preference android:key="settings_qrcode" android:layout="@layout/b8j" android:title="@string/gt4" android:widgetLayout="@layout/b_3"/>
+    <Preference android:key="settings_finder_recent_like" android:layout="@layout/b8j" android:title="@string/gp3"/>
+    <Preference android:key="settings_more_info" android:layout="@layout/b8j" android:title="@string/wp"/>
+    <PreferenceSmallCategory/>
+    <Preference android:key="settings_wecoin" android:layout="@layout/b8j" android:title="@string/gqe"/>
+    <PreferenceSmallCategory/>
+    <Preference android:key="settings_address" android:layout="@layout/b8j" android:title="@string/gnc"/>
+    <Preference android:key="settings_invoice" android:layout="@layout/b8j" android:title="@string/gpg"/>
+</PreferenceScreen>

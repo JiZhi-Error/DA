@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="274dp" android:minHeight="229dp">
+    <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="center_horizontal" android:id="@+id/box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="38dp" android:src="@raw/connect_mac_popup" app:iconColor="@color/FG_0_5"/>
+    <TextView android:textSize="@dimen/hc" android:textColor="@color/fr" android:layout_gravity="center_horizontal" android:id="@+id/boy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+    <TextView android:textSize="@dimen/hc" android:textColor="@color/fr" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginBottom="14dp" android:text="@string/j1c"/>
+    <TextView android:textSize="@dimen/i_" android:textColor="@color/go" android:gravity="center" android:id="@+id/j07" android:background="@drawable/az3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:layout_marginBottom="12dp" android:text="@string/j1a" android:layout_weight="1"/>
+</LinearLayout>

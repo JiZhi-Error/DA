@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/iy" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/mz">
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/e2m" android:paddingTop="@dimen/k5" android:paddingBottom="@dimen/k5" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/iq">
+        <ImageView android:id="@+id/hyg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_marginStart="@dimen/ajz" android:layout_marginEnd="@dimen/ak0" android:layout_alignParentStart="true"/>
+        <ImageView android:id="@+id/hyj" android:layout_width="@dimen/ak4" android:layout_height="@dimen/ak1" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_marginStart="@dimen/ak2" android:layout_marginEnd="@dimen/ak3" android:layout_alignParentEnd="true"/>
+        <TextView android:textSize="@dimen/is" android:textColor="@color/a2x" android:id="@+id/hyn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/g" android:layout_alignParentTop="true" android:layout_toStartOf="@+id/hyj" android:layout_toEndOf="@+id/hyg"/>
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/a8x" android:ellipsize="end" android:id="@+id/hym" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@+id/hyn" android:layout_toStartOf="@+id/hyj" android:layout_toEndOf="@+id/hyg"/>
+        <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_alignParentStart="true">
+            <TextView android:textSize="@dimen/is" android:textColor="@color/a92" android:id="@+id/hyl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/h7p"/>
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/a9f" android:ellipsize="end" android:id="@+id/hyk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:singleLine="true" android:layout_below="@+id/hyl" android:paddingEnd="60dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

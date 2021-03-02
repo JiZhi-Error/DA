@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mall="http://schemas.android.com/apk/res-auto" android:background="@color/a2h" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:paddingLeft="@dimen/hs" android:paddingRight="@dimen/hs" android:paddingBottom="5dp" style="@style/rj">
+        <FrameLayout android:id="@+id/f_9" android:visibility="gone" android:layout_width="match_parent" android:layout_height="52dp">
+            <ImageView android:id="@+id/f_a" android:layout_width="match_parent" android:layout_height="52dp" android:scaleType="fitXY"/>
+            <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/f__" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hs" android:src="@drawable/bmj"/>
+        </FrameLayout>
+        <com.tencent.mm.plugin.recharge.ui.MallEditText android:id="@+id/f7c" android:background="@drawable/t9" android:layout_width="match_parent" android:layout_height="45dp" android:layout_marginTop="15dp" android:imeOptions="actionNext" mall:mallEditType="1" mall:mallHint="@string/exr"/>
+        <TextView android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/f91" android:layout_marginLeft="8dp" android:layout_marginTop="15dp" android:layout_marginBottom="8dp" style="@style/mo"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/f7_" android:background="@drawable/aid" android:layout_width="match_parent" android:layout_height="50dp">
+            <TextView android:textSize="@dimen/is" android:textColor="@color/a2x" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/f96" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="@dimen/g" android:minWidth="80dp" android:editable="false" android:imeOptions="actionNext"/>
+            <TextView android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/f_d" android:paddingRight="@dimen/hs" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginRight="6dp" android:layout_weight="1" style="@style/mo"/>
+        </LinearLayout>
+        <TextView android:textColor="@color/a5c" android:id="@+id/f_b" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginBottom="8dp" style="@style/sl"/>
+        <Button android:id="@+id/fz0" android:layout_width="match_parent" android:layout_marginLeft="0dp" android:layout_marginRight="0dp" android:text="@string/exj" style="@style/ou"/>
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/x0" android:id="@+id/f_c" android:paddingTop="30dp" android:layout_width="wrap_content" android:text="@string/ext" style="@style/p_"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/a8b" android:paddingLeft="@dimen/cb" android:paddingRight="@dimen/cb" android:paddingBottom="@dimen/cb" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/awj" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="vertical" android:id="@+id/awk" android:layout_width="match_parent" android:layout_height="@dimen/x1" android:layout_marginTop="@dimen/ct">
+            <ImageView android:id="@+id/bgv" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+            <ImageView android:id="@+id/bh9" android:background="@drawable/hx" android:layout_width="match_parent" android:layout_height="42dp" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ct" android:layout_alignBottom="@+id/awk">
+            <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/cb">
+                <ImageView android:id="@+id/gbm" android:background="@raw/chatting_item_biz_pic_icon" android:layout_width="24dp" android:layout_height="24dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                <TextView android:textSize="@dimen/hc" android:textColor="@color/am" android:id="@+id/gbu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bt" android:layout_toRightOf="@+id/gbm" android:layout_centerVertical="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/awl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bt" android:layout_below="@+id/awk">
+            <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/km"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/ggb" android:background="@drawable/hx" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignTop="@+id/axw" android:layout_alignBottom="@+id/axw"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="286dp" android:layout_height="wrap_content">
+    <FrameLayout android:orientation="vertical" android:id="@+id/k0e" android:background="@drawable/afn" android:layout_width="280dp" android:layout_height="496dp" android:minHeight="496dp">
+        <ImageView android:id="@+id/k0f" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="8dp" android:src="@drawable/cvx" android:scaleType="fitXY"/>
+        <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/k0g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="112dp" android:src="@drawable/cvy" android:layout_centerHorizontal="true"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/k0k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_below="@+id/k0g" android:layout_centerHorizontal="true">
+                <TextView android:textSize="17dp" android:textColor="@color/yj" android:id="@+id/k0i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+                <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/k0j" android:layout_width="12dp" android:layout_height="24dp" android:layout_marginLeft="4dp" android:src="@raw/icons_outlined_arrow" app:iconColor="#ba9c6a"/>
+            </LinearLayout>
+            <TextView android:textSize="14dp" android:textColor="@color/yj" android:id="@+id/k0h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="" android:layout_below="@+id/k0k" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

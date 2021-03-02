@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.ui.widget.MMCollapsibleTextView android:textSize="@dimen/is" android:textColor="@color/BW_0_Alpha_0_9" android:textColorLink="@color/Link" android:id="@+id/a7g" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="26dp" android:minHeight="116dp" android:maxLines="3" android:lineSpacingExtra="8dp" android:layout_marginStart="@dimen/ir" android:layout_marginEnd="@dimen/ir" app:collapseButtonPosition="0" app:noCollapseCenter="true"/>
+    <TextView android:textSize="@dimen/k6" android:textColor="@color/BW_0_Alpha_0_2" android:id="@+id/biz_slot_show_desc_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_below="@+id/a7g"/>
+</RelativeLayout>

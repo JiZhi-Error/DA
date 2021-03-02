@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/cbt" android:background="?attr/sh" android:visibility="gone" android:layout_width="match_parent" android:layout_height="48dp" android:layout_alignParentBottom="true">
+    <View android:id="@+id/cd1" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1"/>
+    <com.tencent.mm.ui.widget.imageview.WeImageButton android:layout_gravity="center" android:id="@+id/cbu" android:background="@null" android:padding="@dimen/k" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/uy" android:scaleType="fitXY"/>
+    <View android:id="@+id/cd2" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1"/>
+    <com.tencent.mm.ui.widget.imageview.WeImageButton android:layout_gravity="center" android:id="@+id/cbr" android:background="@null" android:padding="@dimen/k" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/uw" android:scaleType="fitXY"/>
+    <View android:id="@+id/cd3" android:layout_width="0dp" android:layout_height="24dp" android:layout_weight="1"/>
+    <com.tencent.mm.ui.widget.imageview.WeImageButton android:layout_gravity="center" android:id="@+id/cbs" android:background="@null" android:padding="@dimen/k" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ux" android:scaleType="fitXY"/>
+    <View android:id="@+id/cd4" android:layout_width="0dp" android:layout_height="24dp" android:layout_weight="1"/>
+</LinearLayout>

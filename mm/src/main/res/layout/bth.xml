@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginBottom="8dp">
+    <com.tencent.mm.ui.widget.RoundCornerImageView android:id="@+id/jq" android:layout_width="40dp" android:layout_height="40dp" android:layout_alignParentStart="true" app:roundHeight="1dp" app:roundWidth="1dp"/>
+    <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/it" android:layout_width="7dp" android:layout_height="14dp" android:src="@raw/arrow_right" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true" app:iconColor="@color/am"/>
+    <TextView android:textSize="17dp" android:textColor="@color/BW_100_Alpha_0_3" android:ellipsize="end" android:id="@+id/j3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="666" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginEnd="8dp" android:layout_toStartOf="@+id/it"/>
+    <TextView android:textSize="17dp" android:textColor="@color/ag2" android:ellipsize="middle" android:id="@+id/kh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="大山大河" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="12dp" android:layout_marginEnd="12dp" android:layout_toStartOf="@+id/j3" android:layout_toEndOf="@+id/jq"/>
+    <View android:background="@color/BW_100_Alpha_0_1" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignParentBottom="true" android:layout_alignStart="@+id/kh"/>
+</RelativeLayout>

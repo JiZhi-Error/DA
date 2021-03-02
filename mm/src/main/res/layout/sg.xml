@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:background="@null" android:paddingLeft="@dimen/hs" android:paddingTop="@dimen/k5" android:paddingRight="@dimen/hs" android:paddingBottom="@dimen/k5" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/iq">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <TextView android:textColor="@color/a2x" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/ipm" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" style="@style/mp"/>
+        <TextView android:textSize="@dimen/kc" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/iol" android:layout_width="match_parent" android:layout_height="0dp" android:singleLine="true" android:layout_weight="1" style="@style/mo"/>
+    </LinearLayout>
+    <Button android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/bto" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tm" style="@style/ow"/>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="center_horizontal" android:background="@color/a" android:paddingTop="@dimen/hw" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/esk" android:layout_width="@dimen/hu" android:layout_height="@dimen/hu" android:src="@drawable/bzb" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="@dimen/is" android:id="@+id/c4e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hw" android:text="@string/byy" android:layout_below="@+id/esk" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/uj" android:id="@+id/c4f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hs" android:text="" android:layout_below="@+id/c4e" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_horizontal" android:id="@+id/hd5" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:id="@+id/ed2" android:background="@color/n_" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@color/ac_" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="1px" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <TextView android:textColor="@color/uj" android:gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/h_s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/hw" android:maxLines="2" android:singleLine="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</FrameLayout>

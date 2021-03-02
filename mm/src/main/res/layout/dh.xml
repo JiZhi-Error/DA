@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dslv="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.ui.widget.sortlist.DragSortListView android:id="@android:id/list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@android:color/transparent" dslv:collapsed_height="2dp" dslv:drag_enabled="true" dslv:drag_handle_id="@+id/nh" dslv:drag_scroll_start="0.33" dslv:drag_start_mode="0" dslv:float_alpha="0.4" dslv:max_drag_scroll_speed="0.5" dslv:remove_enabled="false" dslv:remove_mode="1" dslv:slide_shuffle_speed="0.3" dslv:sort_enabled="true" dslv:track_drag_sort="false" dslv:use_default_controller="true"/>
+</FrameLayout>

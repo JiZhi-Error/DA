@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/gkh" android:background="@drawable/b9w" android:paddingLeft="@dimen/cb" android:paddingTop="60dp" android:paddingRight="@dimen/cb" android:paddingBottom="@dimen/ci" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/baa" android:layout_width="@dimen/h" android:layout_height="@dimen/h" android:scaleType="centerCrop"/>
+        <View android:layout_width="@dimen/hs" style="@style/p7"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:id="@+id/bb8" style="@style/mj"/>
+            <View style="@style/p7"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@+id/bbn" style="@style/mk"/>
+                <View android:layout_width="match_parent" android:layout_weight="1" style="@style/p7"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/bau" android:background="@color/afz" android:paddingLeft="@dimen/jv" android:paddingTop="@dimen/k5" android:paddingRight="@dimen/jv" android:paddingBottom="@dimen/k5" android:minHeight="@dimen/k4" android:singleLine="false" style="@style/m0"/>
+</LinearLayout>

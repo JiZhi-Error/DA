@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/afz" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/k4">
+    <ImageView android:id="@+id/a2a" android:background="@null" android:layout_width="match_parent" android:layout_height="156dp" android:scaleType="fitXY" android:minHeight="156dp"/>
+</RelativeLayout>

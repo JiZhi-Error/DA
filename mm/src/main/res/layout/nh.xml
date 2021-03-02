@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/afz" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="0dp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/b1y" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp">
+        <ImageView android:id="@+id/b20" android:layout_width="26dp" android:layout_height="26dp" android:src="@raw/card_default_merchant_icon"/>
+        <TextView android:textSize="14dp" android:textStyle="bold" android:textColor="@color/a2x" android:id="@+id/b24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text=""/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/b1t" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="36dp" android:layout_marginBottom="16dp" android:minHeight="25dp" android:dividerPadding="8dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/b1w" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="36dp">
+        <TextView android:textSize="@dimen/bd" android:textColor="@color/u_" android:id="@+id/b1x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+        <ImageView android:id="@+id/b1v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:src="@drawable/c2_"/>
+    </LinearLayout>
+    <View android:background="@color/FG_3" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="36dp"/>
+</LinearLayout>

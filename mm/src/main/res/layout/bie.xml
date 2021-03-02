@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/aij" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/ge_" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="@dimen/cl" android:layout_height="@dimen/cl" android:src="@drawable/bkx" android:layout_centerInParent="true"/>
+</RelativeLayout>

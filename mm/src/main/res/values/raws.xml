@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="android_wear_micro_apk">r/ao/android_wear_micro_apk.apk</raw>
+    <raw name="close_lower_volume">r/ao/close_lower_volume.wav</raw>
+    <raw name="domain_mainland">r/ao/domain_mainland.json</raw>
+    <raw name="face_ready_gif">r/ao/face_ready_gif.gif</raw>
+    <raw name="finder_bgm_icon">r/ao/finder_bgm_icon.gif</raw>
+    <raw name="float_ball_state_game_download">r/ao/float_ball_state_game_download.gif</raw>
+    <raw name="float_ball_state_location">r/ao/float_ball_state_location.gif</raw>
+    <raw name="float_ball_state_music">r/ao/float_ball_state_music.gif</raw>
+    <raw name="invalid_idkey">r/ao/invalid_idkey.txt</raw>
+    <raw name="ipcall_phonering">r/ao/ipcall_phonering.mp3</raw>
+    <raw name="live_micing_icon">r/ao/live_micing_icon.gif</raw>
+    <raw name="lucky_money_newyear_creat_loading">r/ao/lucky_money_newyear_creat_loading.gif</raw>
+    <raw name="lucky_money_newyear_particle">r/ao/lucky_money_newyear_particle.gif</raw>
+    <raw name="off">r/ao/off.mp3</raw>
+    <raw name="on">r/ao/on.mp3</raw>
+    <raw name="phonering">r/ao/phonering.mp3</raw>
+    <raw name="playend">r/ao/playend.mp3</raw>
+    <raw name="video_background_play_audio">r/ao/video_background_play_audio.gif</raw>
+    <raw name="voip_bad_netstatus_hint">r/ao/voip_bad_netstatus_hint.mp3</raw>
+    <raw name="websearch_dark_loading">r/ao/websearch_dark_loading.gif</raw>
+    <raw name="websearch_light_loading">r/ao/websearch_light_loading.gif</raw>
+    <raw name="words_cn_0">r/ao/words_cn_0.json</raw>
+    <raw name="words_en_0">r/ao/words_en_0.json</raw>
+    <raw name="words_hk_0">r/ao/words_hk_0.json</raw>
+    <raw name="words_tw_0">r/ao/words_tw_0.json</raw>
+</resources>

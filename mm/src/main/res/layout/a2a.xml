@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bt" android:layout_marginBottom="@dimen/bt">
+    <com.tencent.mm.ui.MMImageView android:layout_gravity="center" android:id="@+id/ur" android:background="?attr/ka" android:padding="4dp" android:layout_width="@dimen/a2z" android:layout_height="@dimen/a2z" android:scaleType="fitCenter"/>
+</FrameLayout>

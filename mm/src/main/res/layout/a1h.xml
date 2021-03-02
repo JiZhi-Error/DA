@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/m9" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="@dimen/cb" android:layout_marginStart="@dimen/ct" android:layout_marginEnd="@dimen/ct"/>

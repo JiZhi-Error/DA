@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.ui.base.sortview.CatalogView android:id="@+id/apx" android:background="@color/f0" android:paddingLeft="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/nq"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/beh" android:background="@drawable/asu" android:paddingLeft="20dp" android:layout_width="match_parent" android:layout_height="50dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:layout_gravity="center_vertical" android:id="@+id/adz" android:background="@color/ac_" android:layout_width="26dp" android:layout_height="26dp" android:scaleType="fitCenter"/>
+            <TextView android:textSize="@dimen/is" android:textColor="@color/a2x" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/ae0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/k" android:text="" android:maxLines="2"/>
+        </LinearLayout>
+        <View android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1px"/>
+    </LinearLayout>
+</LinearLayout>

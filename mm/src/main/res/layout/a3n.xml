@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.webview.ui.tools.WebViewKeyboardLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/jkw" android:background="#eeeeee" style="@style/rj">
+    <FrameLayout android:id="@+id/h8y" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <FrameLayout android:id="@+id/be3" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="containerFrameLayout">
+            <include layout="@layout/cbt"/>
+            <com.tencent.mm.plugin.webview.ui.tools.LogoWebViewWrapper android:id="@+id/esn" android:layout_width="match_parent" android:layout_height="match_parent">
+                <FrameLayout android:id="@+id/eso" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="containerFrameLayout"/>
+            </com.tencent.mm.plugin.webview.ui.tools.LogoWebViewWrapper>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/gym" android:background="#eeeeee" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="refreshFrameLayout">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/i" android:layout_marginBottom="@dimen/i" android:src="@raw/webview_refresh_icon"/>
+                <TextView android:textSize="18sp" android:textColor="#dddddd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/j09" style="@style/qo"/>
+            </LinearLayout>
+        </FrameLayout>
+        <com.tencent.mm.ui.base.MMFalseProgressBar android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/jk9" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" android:progressDrawable="@drawable/aik" android:contentDescription="progressBar"/>
+    </FrameLayout>
+    <include layout="@layout/cb_"/>
+</com.tencent.mm.plugin.webview.ui.tools.WebViewKeyboardLinearLayout>

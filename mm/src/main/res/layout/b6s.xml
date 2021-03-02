@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:background="@color/a2h" android:layout_width="match_parent" android:layout_height="match_parent">
+    <HorizontalScrollView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <com.tencent.mm.ui.matrix.recyclerview.JsonRecyclerView android:id="@+id/e5e" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </HorizontalScrollView>
+</LinearLayout>

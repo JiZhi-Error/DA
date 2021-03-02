@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceTitleCategory android:key="settings_netstat_info"/>
+    <Preference android:key="settings_netstat_mobile" android:layout="@layout/b8j" android:title="@string/grj"/>
+    <com.tencent.mm.plugin.setting.ui.setting.NetStatPreference android:key="settings_netstat_mobile_detail" android:layout="@layout/b8j" android:srcType="0"/>
+    <PreferenceCategory/>
+    <Preference android:key="settings_netstat_wifi" android:layout="@layout/b8j" android:title="@string/grn"/>
+    <com.tencent.mm.plugin.setting.ui.setting.NetStatPreference android:key="settings_netstat_wifi_detail" android:layout="@layout/b8j" android:srcType="1"/>
+    <Preference android:key="settings_netstat_tip" android:layout="@layout/b_7" android:title="@string/gvf"/>
+</PreferenceScreen>

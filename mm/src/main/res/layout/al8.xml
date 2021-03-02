@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#f2222222" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/c5a" android:scaleType="centerCrop"/>
+    <TextView android:textSize="@dimen/l" android:textColor="@color/am" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="216dp" android:text="@string/dbi"/>
+    <Button android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/c40" android:layout_width="184dp" android:layout_height="40dp" android:layout_marginBottom="144dp" android:text="@string/dbg" style="@style/ou"/>
+</FrameLayout>

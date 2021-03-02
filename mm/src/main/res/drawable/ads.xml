@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/ac_"/>
+            <size android:height="@dimen/cb" android:width="@dimen/cb"/>
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="15dp" android:width="15dp" android:drawable="@raw/icons_filled_live_checkbox_off"/>
+</layer-list>

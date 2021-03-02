@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true" style="@style/rj">
+    <LinearLayout android:orientation="vertical" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/a05">
+        <TextView android:text="@string/iad" style="@style/a0h"/>
+        <CheckedTextView android:textAppearance="@style/ob" android:textColor="@color/a2x" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@+id/b0i" android:background="@drawable/qa" android:paddingLeft="@dimen/i1" android:paddingRight="@dimen/i1" android:layout_width="match_parent" android:layout_height="wrap_content" android:checkMark="@drawable/arh" android:maxHeight="48dp" android:minHeight="48dp" android:text="@string/ic4"/>
+        <CheckedTextView android:textAppearance="@style/ob" android:textColor="@color/a2x" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@+id/b0j" android:background="@drawable/qa" android:paddingLeft="@dimen/i1" android:paddingRight="@dimen/i1" android:layout_width="match_parent" android:layout_height="wrap_content" android:checkMark="@drawable/arh" android:maxHeight="48dp" android:minHeight="48dp" android:text="@string/ibk"/>
+        <TextView android:text="@string/iab" style="@style/a0h"/>
+        <com.tencent.mm.ui.base.MaxListView android:id="@+id/hmp" android:background="@null" android:paddingLeft="@dimen/i1" android:paddingRight="@dimen/i1" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@android:color/transparent" android:divider="#00000000" android:dividerHeight="0dp" android:choiceMode="singleChoice"/>
+        <TextView android:layout_marginTop="5dp" android:text="@string/iac" style="@style/a0h"/>
+    </LinearLayout>
+</ScrollView>

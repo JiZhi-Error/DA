@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.base.preference.IconSwitchKeyValuePreference android:key="settings_account_info" android:layout="@layout/b8j" android:title="@string/gn2"/>
+    <com.tencent.mm.ui.base.preference.IconSwitchKeyValuePreference android:key="settings_teen_mode" android:layout="@layout/b8j" android:title="@string/gv_"/>
+    <PreferenceSmallCategory/>
+    <Preference android:key="settings_notification_preference" android:layout="@layout/b8j" android:title="@string/gry"/>
+    <Preference android:key="settings_active_time" android:layout="@layout/b8j" android:title="@string/gn5"/>
+    <Preference android:key="settings_chatting" android:layout="@layout/b8j" android:title="@string/gnz"/>
+    <IconPreference android:key="settings_about_privacy" android:layout="@layout/b8j" android:title="@string/gmz"/>
+    <Preference android:key="settings_about_device" android:layout="@layout/b8j" android:title="@string/gmw"/>
+    <IconPreference android:key="settings_about_system" android:layout="@layout/b8j" android:title="@string/gn1"/>
+    <PreferenceSmallCategory/>
+    <IconPreference android:key="settings_about_micromsg" android:title="@string/gmy"/>
+    <Preference android:key="settings_feedback" android:layout="@layout/b8j" android:title="@string/got"/>
+    <PreferenceSmallCategory/>
+    <IconPreference android:key="settings_welab" android:layout="@layout/b8j" android:title="@string/gwv"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.mm.ui.base.preference.ButtonPreference android:btn_title="@string/guu" android:key="settings_switch_account" android:title_color="@color/FG_0"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.mm.ui.base.preference.ButtonPreference android:btn_title="@string/gpt" android:key="settings_logout" android:layout="@layout/b8j"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/a74" style="@style/rj">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="80dp" android:paddingBottom="@dimen/hw" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="20dp" android:textColor="@color/uj" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/d7c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ddr"/>
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/uj" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/d7b" android:paddingLeft="@dimen/ir" android:paddingTop="@dimen/ib" android:paddingRight="@dimen/ir" android:paddingBottom="@dimen/iy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ddp"/>
+        <ListView android:id="@+id/d7a" android:background="@color/ac_" android:focusable="true" android:transcriptMode="disabled" android:overScrollMode="never" style="@style/np"/>
+    </LinearLayout>
+</LinearLayout>

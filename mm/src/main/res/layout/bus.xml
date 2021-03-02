@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.plugin.sns.ui.widget.ad.AutoPlayViewPager android:id="@+id/hw3" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.tencent.mm.plugin.sns.ui.widget.ad.ViewPagerControlView android:gravity="center" android:id="@+id/hvl" android:paddingBottom="@dimen/hs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

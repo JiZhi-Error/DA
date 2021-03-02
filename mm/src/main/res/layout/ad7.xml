@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/co_" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ct">
+        <TextView android:id="@+id/co5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="skinSmooth" android:layout_marginEnd="@dimen/ct"/>
+        <SeekBar android:id="@+id/coa" android:layout_width="200dp" android:layout_height="wrap_content" android:max="100"/>
+        <TextView android:id="@+id/cof" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ct"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ct">
+        <TextView android:id="@+id/co6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="eyeMorph" android:layout_marginEnd="@dimen/ct"/>
+        <SeekBar android:id="@+id/cob" android:layout_width="200dp" android:layout_height="wrap_content" android:max="100"/>
+        <TextView android:id="@+id/cog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ct"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ct">
+        <TextView android:id="@+id/co7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="faceMorph" android:layout_marginEnd="@dimen/ct"/>
+        <SeekBar android:id="@+id/coc" android:layout_width="200dp" android:layout_height="wrap_content" android:max="100"/>
+        <TextView android:id="@+id/coh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ct"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ct">
+        <TextView android:id="@+id/co8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="eyeBright" android:layout_marginEnd="@dimen/ct"/>
+        <SeekBar android:id="@+id/cod" android:layout_width="200dp" android:layout_height="wrap_content" android:max="100"/>
+        <TextView android:id="@+id/coi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ct"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ct">
+        <TextView android:id="@+id/co9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="skinBright" android:layout_marginEnd="@dimen/ct"/>
+        <SeekBar android:id="@+id/coe" android:layout_width="200dp" android:layout_height="wrap_content" android:max="100"/>
+        <TextView android:id="@+id/coj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ct"/>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@+id/cik" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/b_3" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/l" android:textColor="@color/afp" android:gravity="center_vertical" android:id="@+id/ipm" android:paddingLeft="@dimen/ir" android:paddingTop="@dimen/k5" android:paddingRight="@dimen/ir" android:paddingBottom="@dimen/k5" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/iq"/>
+</LinearLayout>

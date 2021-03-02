@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:background="@color/ac_" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/be9" android:background="@drawable/a4x" android:paddingLeft="@dimen/cb" android:paddingRight="@dimen/cb" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/cs" android:layout_marginLeft="@dimen/c5" android:layout_marginTop="@dimen/c5" android:layout_marginRight="@dimen/c5">
+        <ViewStub android:id="@+id/g0o" android:layout="@layout/amc" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/fez" android:layout="@layout/amd" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <View android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+        <TextView android:textSize="14dp" android:textColor="@color/l4" android:id="@+id/imy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c5" android:maxWidth="130dp"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/h41" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <TextView android:textSize="14dp" android:textColor="@color/Red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ct" android:layout_marginRight="@dimen/ct" android:maxWidth="@dimen/bx" android:text="重新设置"/>
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/gyc" android:background="@raw/refresh" android:layout_width="17dp" android:layout_height="17dp" app:iconColor="@color/a5e"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

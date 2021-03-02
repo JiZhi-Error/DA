@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/a_r" android:layout_centerHorizontal="true">
+    <TextView android:id="@+id/ejp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/a_e" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="536dp">
+        <FrameLayout android:id="@+id/b4g" android:background="@drawable/ad0" android:layout_width="48dp" android:layout_height="24dp" android:layout_marginTop="24dp">
+            <ImageView android:layout_gravity="center" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/byx" android:rotation="-90"/>
+        </FrameLayout>
+        <android.support.v7.widget.RecyclerView android:id="@+id/ef4" android:fadingEdge="vertical" android:fadingEdgeLength="16dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/bt" android:layout_marginTop="@dimen/ci" android:layout_marginRight="@dimen/bt" android:requiresFadingEdge="vertical"/>
+    </LinearLayout>
+</LinearLayout>

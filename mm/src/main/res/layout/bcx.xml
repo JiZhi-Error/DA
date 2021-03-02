@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/ac_" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/wv" android:layout_width="@dimen/bw" android:layout_height="@dimen/bw" android:layout_marginTop="@dimen/cb" android:layout_marginBottom="@dimen/ce" android:layout_marginEnd="@dimen/cb" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

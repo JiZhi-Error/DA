@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/b9w" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/afz" android:paddingLeft="@dimen/ir" android:paddingRight="@dimen/ir" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="@dimen/k">
+        <TextView android:textSize="@dimen/is" android:textColor="@color/a2x" android:id="@+id/dgr" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/dnq" android:layout_weight="1"/>
+        <com.tencent.mm.plugin.game.ui.GameDropdownView android:textSize="@dimen/hc" android:textColor="@color/uj" android:gravity="center_vertical" android:id="@+id/dgq" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

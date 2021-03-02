@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/eh8" android:background="@color/c" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/eh7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cn" android:layout_alignParentTop="true">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/eh6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/actionbar_icon_dark_back" android:layout_marginStart="@dimen/cb" android:layout_alignParentStart="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/eh5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bx" android:layout_alignParentTop="true">
+        <ImageView android:id="@+id/emw" android:layout_width="@dimen/cr" android:layout_height="@dimen/cr" android:layout_marginTop="@dimen/cn" android:src="@raw/icons_need_verify" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="22dp" android:textColor="@color/a2x" android:gravity="center_horizontal" android:id="@+id/emz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ci" android:text="@string/eg5" android:layout_below="@+id/emw" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="17dp" android:textColor="@color/a2x" android:gravity="center_horizontal" android:id="@+id/emv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ci" android:layout_marginTop="@dimen/cb" android:layout_marginRight="@dimen/ci" android:text="@string/eg7" android:layout_below="@+id/emz"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/emu" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/eh5">
+        <Button android:textSize="17dp" android:id="@+id/emy" android:layout_width="@dimen/c8" android:layout_height="@dimen/cl" android:layout_marginBottom="@dimen/bx" android:text="@string/eg8" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/p3"/>
+    </RelativeLayout>
+</RelativeLayout>

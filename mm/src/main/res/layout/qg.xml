@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingTop="@dimen/cb" android:paddingBottom="@dimen/ct" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/is0" android:layout_width="@dimen/cr" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@+id/is4" android:background="@color/ac_" android:layout_width="@dimen/cn" android:layout_height="@dimen/cn" android:src="@drawable/ob" android:scaleType="centerCrop"/>
+        <TextView android:textSize="@dimen/kc" android:textColor="@color/a2x" android:ellipsize="end" android:gravity="center" android:id="@+id/is6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ct" android:maxWidth="@dimen/cr" android:singleLine="true" android:lineSpacingMultiplier="1.4"/>
+    </LinearLayout>
+</RelativeLayout>

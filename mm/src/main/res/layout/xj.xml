@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="@color/lx" android:layout_width="match_parent" android:layout_height="@dimen/bo"/>
+    <TextView android:textSize="@dimen/t" android:textColor="@color/a2w" android:id="@+id/a6a" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cb" android:layout_marginStart="@dimen/ce"/>
+    <com.tencent.mm.ui.widget.happybubble.LabelsView android:id="@+id/a6e" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c5" android:layout_marginBottom="@dimen/cb" android:layout_marginStart="@dimen/ce" android:layout_marginEnd="@dimen/ce" app:labelBackground="@drawable/hm" app:labelTextColor="@drawable/hn" app:labelTextHeight="@dimen/cf" app:labelTextPaddingBottom="@dimen/g" app:labelTextPaddingLeft="@dimen/k5" app:labelTextPaddingRight="@dimen/k5" app:labelTextPaddingTop="@dimen/g" app:labelTextSize="@dimen/hc" app:labelTextWidth="-2" app:lineMargin="@dimen/c5" app:selectType="1" app:wordMargin="@dimen/ct"/>
+</LinearLayout>

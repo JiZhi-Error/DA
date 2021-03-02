@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/ahc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="pause" android:layout_marginStart="59dp" app:layout_constraintBaseline_toBaselineOf="@+id/ahg" app:layout_constraintStart_toStartOf="0"/>
+    <Button android:id="@+id/ahg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="43dp" android:text="quit" android:layout_marginStart="30dp" app:layout_constraintStart_toEndOf="@+id/ahc" app:layout_constraintTop_toTopOf="0"/>
+    <Button android:id="@+id/agp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="41dp" android:text="back" android:layout_marginEnd="21dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+</android.support.constraint.ConstraintLayout>

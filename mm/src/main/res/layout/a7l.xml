@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/jd">
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/ee" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/j6">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/cc_" style="@style/j5"/>
+                    <ImageView android:layout_gravity="center" android:layout_width="@dimen/cc" android:layout_height="@dimen/cc" android:src="@drawable/am5"/>
+                    <TextView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/cdv" android:paddingRight="8dp" android:paddingBottom="8dp" android:text="{11:32}" style="@style/j9"/>
+                </FrameLayout>
+            </LinearLayout>
+            <include layout="@layout/a7h"/>
+            <include layout="@layout/a7g"/>
+        </LinearLayout>
+        <include layout="@layout/a7e"/>
+    </LinearLayout>
+</FrameLayout>

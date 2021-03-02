@@ -1,0 +1,154 @@
+package com.tencent.mm.protocal.protobuf;
+
+import com.tencent.matrix.trace.core.AppMethodBeat;
+import com.tencent.mm.bw.a;
+import java.util.LinkedList;
+
+public final class apc extends a {
+    public String LBe;
+    public int LBf;
+    public LinkedList<aqj> LBg = new LinkedList<>();
+    public LinkedList<String> LBh = new LinkedList<>();
+    public LinkedList<arc> LBi = new LinkedList<>();
+    public String deviceBrand;
+    public String deviceModel;
+    public int netType;
+    public String osName;
+    public String osVersion;
+
+    public apc() {
+        AppMethodBeat.i(184195);
+        AppMethodBeat.o(184195);
+    }
+
+    @Override // com.tencent.mm.bw.a
+    public final int op(int i2, Object... objArr) {
+        AppMethodBeat.i(184196);
+        if (i2 == 0) {
+            g.a.a.c.a aVar = (g.a.a.c.a) objArr[0];
+            aVar.aM(1, this.netType);
+            if (this.LBe != null) {
+                aVar.e(2, this.LBe);
+            }
+            aVar.aM(3, this.LBf);
+            aVar.e(4, 8, this.LBg);
+            if (this.deviceModel != null) {
+                aVar.e(5, this.deviceModel);
+            }
+            if (this.deviceBrand != null) {
+                aVar.e(6, this.deviceBrand);
+            }
+            if (this.osName != null) {
+                aVar.e(7, this.osName);
+            }
+            if (this.osVersion != null) {
+                aVar.e(8, this.osVersion);
+            }
+            aVar.e(9, 1, this.LBh);
+            aVar.e(10, 8, this.LBi);
+            AppMethodBeat.o(184196);
+            return 0;
+        } else if (i2 == 1) {
+            int bu = g.a.a.b.b.a.bu(1, this.netType) + 0;
+            if (this.LBe != null) {
+                bu += g.a.a.b.b.a.f(2, this.LBe);
+            }
+            int bu2 = bu + g.a.a.b.b.a.bu(3, this.LBf) + g.a.a.a.c(4, 8, this.LBg);
+            if (this.deviceModel != null) {
+                bu2 += g.a.a.b.b.a.f(5, this.deviceModel);
+            }
+            if (this.deviceBrand != null) {
+                bu2 += g.a.a.b.b.a.f(6, this.deviceBrand);
+            }
+            if (this.osName != null) {
+                bu2 += g.a.a.b.b.a.f(7, this.osName);
+            }
+            if (this.osVersion != null) {
+                bu2 += g.a.a.b.b.a.f(8, this.osVersion);
+            }
+            int c2 = bu2 + g.a.a.a.c(9, 1, this.LBh) + g.a.a.a.c(10, 8, this.LBi);
+            AppMethodBeat.o(184196);
+            return c2;
+        } else if (i2 == 2) {
+            this.LBg.clear();
+            this.LBh.clear();
+            this.LBi.clear();
+            g.a.a.a.a aVar2 = new g.a.a.a.a((byte[]) objArr[0], unknownTagHandler);
+            for (int nextFieldNumber = a.getNextFieldNumber(aVar2); nextFieldNumber > 0; nextFieldNumber = a.getNextFieldNumber(aVar2)) {
+                if (!super.populateBuilderWithField(aVar2, this, nextFieldNumber)) {
+                    aVar2.hPl();
+                }
+            }
+            AppMethodBeat.o(184196);
+            return 0;
+        } else if (i2 == 3) {
+            g.a.a.a.a aVar3 = (g.a.a.a.a) objArr[0];
+            apc apc = (apc) objArr[1];
+            int intValue = ((Integer) objArr[2]).intValue();
+            switch (intValue) {
+                case 1:
+                    apc.netType = aVar3.UbS.zi();
+                    AppMethodBeat.o(184196);
+                    return 0;
+                case 2:
+                    apc.LBe = aVar3.UbS.readString();
+                    AppMethodBeat.o(184196);
+                    return 0;
+                case 3:
+                    apc.LBf = aVar3.UbS.zi();
+                    AppMethodBeat.o(184196);
+                    return 0;
+                case 4:
+                    LinkedList<byte[]> awh = aVar3.awh(intValue);
+                    int size = awh.size();
+                    for (int i3 = 0; i3 < size; i3++) {
+                        aqj aqj = new aqj();
+                        g.a.a.a.a aVar4 = new g.a.a.a.a(awh.get(i3), unknownTagHandler);
+                        for (boolean z = true; z; z = aqj.populateBuilderWithField(aVar4, aqj, a.getNextFieldNumber(aVar4))) {
+                        }
+                        apc.LBg.add(aqj);
+                    }
+                    AppMethodBeat.o(184196);
+                    return 0;
+                case 5:
+                    apc.deviceModel = aVar3.UbS.readString();
+                    AppMethodBeat.o(184196);
+                    return 0;
+                case 6:
+                    apc.deviceBrand = aVar3.UbS.readString();
+                    AppMethodBeat.o(184196);
+                    return 0;
+                case 7:
+                    apc.osName = aVar3.UbS.readString();
+                    AppMethodBeat.o(184196);
+                    return 0;
+                case 8:
+                    apc.osVersion = aVar3.UbS.readString();
+                    AppMethodBeat.o(184196);
+                    return 0;
+                case 9:
+                    apc.LBh.add(aVar3.UbS.readString());
+                    AppMethodBeat.o(184196);
+                    return 0;
+                case 10:
+                    LinkedList<byte[]> awh2 = aVar3.awh(intValue);
+                    int size2 = awh2.size();
+                    for (int i4 = 0; i4 < size2; i4++) {
+                        arc arc = new arc();
+                        g.a.a.a.a aVar5 = new g.a.a.a.a(awh2.get(i4), unknownTagHandler);
+                        for (boolean z2 = true; z2; z2 = arc.populateBuilderWithField(aVar5, arc, a.getNextFieldNumber(aVar5))) {
+                        }
+                        apc.LBi.add(arc);
+                    }
+                    AppMethodBeat.o(184196);
+                    return 0;
+                default:
+                    AppMethodBeat.o(184196);
+                    return -1;
+            }
+        } else {
+            AppMethodBeat.o(184196);
+            return -1;
+        }
+    }
+}

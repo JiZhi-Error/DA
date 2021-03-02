@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="16dp" android:textColor="@color/go" android:layout_gravity="left" android:id="@+id/d4s" android:background="@drawable/az3" android:padding="16dp" android:text="@string/he" style="@style/os"/>
+    <TextView android:textSize="16dp" android:textColor="@color/go" android:id="@+id/d4t" android:background="@drawable/az3" android:padding="16dp" android:text="@string/ifl" android:layout_alignParentRight="true" style="@style/os"/>
+    <View android:id="@+id/ivg" android:background="@color/ac_" android:layout_width="1dp" android:layout_height="1dp" android:layout_centerInParent="true"/>
+    <ImageView android:id="@+id/d4r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/r" android:src="@drawable/c9j" android:layout_above="@+id/ivg" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="@dimen/is" android:textColor="@color/a2x" android:gravity="center" android:id="@+id/d4w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/k" android:layout_marginTop="18dp" android:layout_marginRight="@dimen/k" android:text="@string/if8" android:layout_below="@+id/ivg" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="@dimen/ka" android:textColor="@color/x3" android:id="@+id/g9i" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:text="@string/ifl" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

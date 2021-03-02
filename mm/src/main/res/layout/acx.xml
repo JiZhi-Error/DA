@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/cnl" android:background="@color/xg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+    <View android:id="@+id/cn6" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.live.view.LiveBottomSheetPanel android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/cn9" android:background="@drawable/a_h" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.v4.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@+id/jwg" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <RelativeLayout android:id="@+id/cnj" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="@dimen/ce" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+                        <RelativeLayout android:id="@+id/cn8" android:background="@drawable/a1h" android:layout_width="@dimen/ce" android:layout_height="@dimen/ce" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+                            <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/cn7" android:layout_width="18dp" android:layout_height="18dp" android:src="@raw/icons_outlined_arrow" android:layout_centerInParent="true" android:rotation="90" app:iconColor="@color/BW_100_Alpha_0_8"/>
+                        </RelativeLayout>
+                        <com.tencent.mm.plugin.finder.live.view.FinderLiveTextIndicator android:textSize="15dp" android:textColor="@color/BW_100_Alpha_0_8" android:id="@+id/cnk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/cc" android:layout_marginEnd="@dimen/cc" app:tab1_text="@string/ja_" app:tab2_text="@string/ja9"/>
+                    </RelativeLayout>
+                    <android.support.v7.widget.RecyclerView android:id="@+id/jwk" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+        </com.tencent.mm.live.view.LiveBottomSheetPanel>
+        <include android:layout_gravity="bottom" android:id="@+id/jxj" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/cf1"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/k5" android:paddingRight="@dimen/k5" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/k0"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/js"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/a89" android:background="@drawable/i2" android:paddingLeft="28dp" android:paddingRight="28dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="174dp">
+            <com.tencent.mm.ui.widget.MMNeat7extView android:textSize="@dimen/is" android:textColor="@color/BW_0_Alpha_0_9" android:ellipsize="end" android:id="@+id/a8y" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxLines="4" android:lineSpacingExtra="5dp"/>
+            <TextView android:textSize="@dimen/is" android:textColor="@color/Link" android:id="@+id/a8z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g" android:text="@string/aib"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

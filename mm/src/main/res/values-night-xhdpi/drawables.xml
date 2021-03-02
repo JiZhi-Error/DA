@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="bsm">r/x/bsm.png</drawable>
+    <drawable name="bsn">r/x/bsn.9.png</drawable>
+    <drawable name="b93">r/x/b93.9.png</drawable>
+    <drawable name="b94">r/x/b94.9.png</drawable>
+    <drawable name="b95">r/x/b95.9.png</drawable>
+    <drawable name="b96">r/x/b96.9.png</drawable>
+    <drawable name="b97">r/x/b97.9.png</drawable>
+    <drawable name="b98">r/x/b98.9.png</drawable>
+    <drawable name="b99">r/x/b99.9.png</drawable>
+    <drawable name="b9_">r/x/b9_.9.png</drawable>
+    <drawable name="b9a">r/x/b9a.9.png</drawable>
+    <drawable name="b9b">r/x/b9b.9.png</drawable>
+    <drawable name="b9c">r/x/b9c.9.png</drawable>
+    <drawable name="b9d">r/x/b9d.9.png</drawable>
+    <drawable name="b9e">r/x/b9e.9.png</drawable>
+    <drawable name="b9f">r/x/b9f.9.png</drawable>
+    <drawable name="b9g">r/x/b9g.9.png</drawable>
+    <drawable name="b9h">r/x/b9h.9.png</drawable>
+    <drawable name="b9i">r/x/b9i.9.png</drawable>
+    <drawable name="b9j">r/x/b9j.9.png</drawable>
+    <drawable name="b9k">r/x/b9k.9.png</drawable>
+    <drawable name="bvs">r/x/bvs.png</drawable>
+    <drawable name="bur">r/x/bur.png</drawable>
+    <drawable name="bus">r/x/bus.png</drawable>
+</resources>

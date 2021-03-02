@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:background="@color/ac_" android:layout_width="match_parent" android:layout_height="120dp">
+    <ProgressBar android:id="@+id/ep4" android:visibility="gone" android:layout_width="@dimen/bu" android:layout_height="@dimen/cl" style="@style/a71"/>
+    <TextView android:id="@+id/h5p" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/h2j" style="@style/m0"/>
+</RelativeLayout>

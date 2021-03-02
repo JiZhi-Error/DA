@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/cpt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.view.RefreshLoadMoreLayout android:orientation="vertical" android:id="@+id/cxa" android:layout_width="match_parent" android:layout_height="match_parent" app:loadMoreLayout="@layout/aea">
+        <com.tencent.mm.plugin.finder.live.view.FinderLiveRecyclerView android:id="@+id/cpu" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.tencent.mm.view.RefreshLoadMoreLayout>
+</FrameLayout>

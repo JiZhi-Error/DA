@@ -1,0 +1,38 @@
+package android.support.design.internal;
+
+import android.graphics.PorterDuff;
+import android.support.v4.view.u;
+import android.view.View;
+
+public final class g {
+    public static PorterDuff.Mode a(int i2, PorterDuff.Mode mode) {
+        switch (i2) {
+            case 3:
+                return PorterDuff.Mode.SRC_OVER;
+            case 4:
+            case 6:
+            case 7:
+            case 8:
+            case 10:
+            case 11:
+            case 12:
+            case 13:
+            default:
+                return mode;
+            case 5:
+                return PorterDuff.Mode.SRC_IN;
+            case 9:
+                return PorterDuff.Mode.SRC_ATOP;
+            case 14:
+                return PorterDuff.Mode.MULTIPLY;
+            case 15:
+                return PorterDuff.Mode.SCREEN;
+            case 16:
+                return PorterDuff.Mode.ADD;
+        }
+    }
+
+    public static boolean d(View view) {
+        return u.Z(view) == 1;
+    }
+}

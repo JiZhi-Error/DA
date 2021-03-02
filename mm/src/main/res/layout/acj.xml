@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.finder.feed.RCLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="@dimen/c1" android:layout_height="@dimen/c6" android:layout_marginLeft="@dimen/bt">
+    <android.support.constraint.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/hg4" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c5" android:layout_marginRight="@dimen/c5" android:layout_marginBottom="@dimen/c5" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0">
+            <ImageView android:id="@+id/hfw" android:layout_width="@dimen/cc" android:layout_height="@dimen/cc"/>
+            <TextView android:textSize="@dimen/k6" android:textColor="@color/am" android:ellipsize="end" android:id="@+id/hg3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bt" android:maxWidth="110px" android:text="{nickname}" android:maxLines="1"/>
+            <ImageView android:id="@+id/hfv" android:layout_width="@dimen/cb" android:layout_height="@dimen/cb" android:layout_marginLeft="@dimen/bt"/>
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+</com.tencent.mm.plugin.finder.feed.RCLinearLayout>

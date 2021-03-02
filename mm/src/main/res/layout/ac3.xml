@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.finder.feed.FinderGridRcLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/cma" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/dun" android:visibility="gone" android:layout_width="@dimen/cb" android:layout_height="@dimen/cb" android:layout_margin="@dimen/c5" android:src="@raw/icons_filled_album" app:iconColor="@color/am"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:id="@+id/e2s" android:background="@drawable/a78" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/c5" android:paddingStart="@dimen/bt" android:paddingEnd="@dimen/ct">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/xi" android:layout_width="@dimen/c5" android:layout_height="@dimen/c5" android:src="@raw/icon_filled_awesome" app:iconColor="@color/am"/>
+        <TextView android:textSize="10dp" android:textColor="@color/am" android:id="@+id/e2t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/a4l"/>
+    </LinearLayout>
+</com.tencent.mm.plugin.finder.feed.FinderGridRcLayout>

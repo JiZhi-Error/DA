@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/hs" android:paddingTop="@dimen/hw" android:paddingRight="@dimen/hs" style="@style/rj">
+    <FrameLayout android:id="@+id/gyy" android:background="@drawable/t7" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.ui.base.MMAutoCompleteTextView android:id="@+id/gyx" android:background="@null" android:paddingLeft="85dp" android:hint="@string/fxt" android:dropDownSelector="#00000000" android:popupBackground="@null" android:inputType="textEmailAddress" style="@style/nn"/>
+        <TextView android:textSize="16dp" android:textColor="@color/a2x" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@drawable/aij" android:paddingLeft="@dimen/ir" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:text="@string/fxs" android:singleLine="false" style="@style/nn"/>
+    </FrameLayout>
+    <FrameLayout android:background="@drawable/t7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hv">
+        <com.tencent.mm.ui.base.MMClearEditText android:id="@+id/gz4" android:background="@null" android:paddingLeft="85dp" android:hint="@string/fy5" style="@style/nm"/>
+        <TextView android:textSize="16dp" android:textColor="@color/a2x" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@drawable/aij" android:paddingLeft="10dp" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:text="@string/fy4" android:singleLine="false" android:imeOptions="actionNext" style="@style/nn"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_marginTop="@dimen/hv" style="@style/nl">
+        <CheckBox android:textSize="13dp" android:textColor="@color/a2x" android:id="@+id/i_" android:paddingLeft="25dp" android:checked="true" android:text="@string/ee1" style="@style/t0"/>
+        <Button android:textSize="13dp" android:id="@+id/i9" android:paddingLeft="5dp" android:paddingRight="0dp" android:paddingBottom="5dp" android:text="@string/ee3" style="@style/t1"/>
+    </LinearLayout>
+</LinearLayout>

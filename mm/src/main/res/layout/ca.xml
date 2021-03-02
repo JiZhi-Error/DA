@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/ir" android:background="@drawable/bx3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/a7w" android:gravity="center_vertical" android:id="@+id/g3" android:paddingLeft="12dp" android:paddingTop="5dp" android:paddingRight="12dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="40dp" android:text="@string/h4p" android:drawableLeft="@raw/album_test_donotlook" android:drawablePadding="8dp"/>
+        <ImageView android:id="@+id/g4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/k5" android:src="@raw/mm_submenu_normal" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/a7w" android:gravity="center_vertical" android:id="@+id/g8" android:paddingLeft="12dp" android:paddingTop="5dp" android:paddingRight="12dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="40dp" android:text="@string/h4p" android:drawableLeft="@raw/album_test_unlike" android:drawablePadding="8dp"/>
+        <ImageView android:id="@+id/g6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/k5" android:src="@raw/mm_submenu_normal" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/a7w" android:gravity="center_vertical" android:id="@+id/g7" android:paddingLeft="12dp" android:paddingTop="5dp" android:paddingRight="12dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="40dp" android:text="@string/h4p" android:drawableLeft="@raw/album_test_open" android:drawablePadding="8dp"/>
+        <ImageView android:id="@+id/g5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/k5" android:src="@raw/mm_submenu_normal" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</LinearLayout>

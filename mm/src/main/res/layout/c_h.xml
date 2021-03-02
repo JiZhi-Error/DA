@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="@dimen/hs" android:layout_width="match_parent" android:layout_height="400dp" android:baselineAligned="false">
+    <ScrollView android:layout_width="match_parent" android:layout_height="250dp" android:layout_marginBottom="@dimen/ir">
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/a2x" android:id="@+id/fuy" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/io2"/>
+    </ScrollView>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@+id/ip1" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="20dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/a2x" android:id="@+id/ipe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/io3" android:layout_toRightOf="@+id/ip1" android:layout_alignTop="@+id/ip1"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:background="@drawable/b0w" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/coj" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/jfr" android:paddingLeft="@dimen/ir" android:paddingRight="@dimen/ir" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="22dp" android:textColor="@color/afp" android:id="@+id/jfp" android:paddingLeft="@dimen/k5" android:paddingTop="@dimen/ir" android:paddingBottom="@dimen/ir" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+                <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="@dimen/bo" android:src="@color/a7t"/>
+            </LinearLayout>
+            <com.tencent.mm.ui.base.MaxListView android:id="@+id/jfs" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null"/>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/jfq" android:background="@drawable/qa" android:paddingLeft="@dimen/ir" android:paddingRight="@dimen/ir" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="@dimen/bo" android:src="@color/a7t"/>
+                <TextView android:textSize="20dp" android:textColor="@color/afp" android:id="@+id/jfp" android:paddingTop="@dimen/ir" android:paddingBottom="@dimen/ir" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vl"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

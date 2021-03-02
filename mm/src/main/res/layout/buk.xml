@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/bf6" android:background="@color/ac_" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.plugin.sns.storage.AdLandingPagesStorage.AdLandingPageComponent.component.widget.AdLandingVideoWrapper android:id="@+id/j6y" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/imb" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@+id/glr" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp" android:layout_centerInParent="true" style="@style/a61"/>
+    <ImageView android:id="@+id/i59" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <TextView android:textSize="@dimen/kc" android:textColor="@color/ag2" android:gravity="center" android:id="@+id/c4k" android:paddingBottom="20dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:alpha="0.8"/>
+    <View android:id="@+id/hw6" android:background="@color/by" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@+id/g9_" android:background="@drawable/anx" android:visibility="gone" android:layout_width="80dp" android:layout_height="35dp" android:layout_centerInParent="true">
+        <ImageView android:id="@+id/g9a" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginLeft="10dp" android:src="@raw/pause_video_icon" android:layout_centerVertical="true"/>
+        <TextView android:textSize="12dp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/g9b" android:layout_width="40dp" android:layout_height="17dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="已暂停" android:includeFontPadding="false" android:layout_toRightOf="@+id/g9a" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="13dp" android:layout_alignParentBottom="true">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/hw8" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="10dp" android:src="@raw/icon_volume_off" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/hw7" android:visibility="gone" android:layout_width="32dp" android:layout_height="32dp" android:src="@raw/icon_video_full_screen" android:scaleType="centerCrop" android:layout_toLeftOf="@+id/hw8" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</RelativeLayout>

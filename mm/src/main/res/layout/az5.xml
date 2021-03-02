@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/h8y" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/haj" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:gravity="center" android:orientation="vertical" android:background="#b3000000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+            <ImageView android:id="@+id/hai" android:layout_width="@dimen/cl" android:layout_height="@dimen/cl" android:src="@drawable/cmf" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="@dimen/is" android:textColor="@color/am" android:id="@+id/ham" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hs" android:text="@string/gd8" android:layout_below="@+id/hai" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="@dimen/k6" android:textColor="@color/BW_100_Alpha_0_5" android:id="@+id/hal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/k5" android:text="@string/gd9" android:layout_below="@+id/ham" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/is" android:textColor="@color/am" android:gravity="center" android:id="@+id/hak" android:background="@drawable/aru" android:layout_width="@dimen/c8" android:layout_height="@dimen/cl" android:layout_marginBottom="136dp" android:text="@string/gbb" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ha9" android:background="#b3000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+        <ImageView android:id="@+id/ha8" android:layout_width="@dimen/cl" android:layout_height="@dimen/cl" android:src="@drawable/cme" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="@dimen/is" android:textColor="@color/am" android:gravity="center" android:id="@+id/ha_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hs" android:text="@string/gd6" android:layout_below="@+id/ha8" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</RelativeLayout>

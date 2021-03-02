@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/rj">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="0dp" android:layout_marginBottom="0dp" style="@style/lz">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100dp">
+            <TextView android:textSize="18sp" android:layout_marginRight="5dp" android:text="Wi-Fi名称:" android:singleLine="true" style="@style/k_"/>
+            <TextView android:textSize="22sp" android:textColor="@color/afp" android:ellipsize="end" android:id="@+id/d_t" android:text="Tecent-DevNet-WiFi-WIFi" android:singleLine="true" style="@style/k_"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_marginTop="60dp" style="@style/nl">
+            <TextView android:id="@+id/d_b" android:visibility="invisible" android:text="@string/dhm" style="@style/jw"/>
+            <TextView android:id="@+id/d_a" android:visibility="invisible" android:text="@string/dhk" style="@style/jw"/>
+            <TextView android:autoLink="none|web|email|phone" android:id="@+id/d_c" android:visibility="invisible" android:layout_marginLeft="8dp" android:text="@string/dik" style="@style/kj"/>
+        </LinearLayout>
+        <Button android:textSize="15sp" android:textColor="@color/afp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/d__" android:background="@drawable/a4y" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="40dp" android:layout_marginTop="120dp" android:layout_marginBottom="60dp" android:minHeight="@dimen/im" android:text="@string/dhp"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_marginBottom="33dp" style="@style/nl">
+        <ImageView android:layout_width="114dp" android:layout_height="18dp" android:src="@drawable/bdu"/>
+    </LinearLayout>
+</LinearLayout>

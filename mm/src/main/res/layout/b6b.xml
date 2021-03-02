@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/a__" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/fsd" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp">
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:layout_gravity="center_vertical" android:id="@+id/fsc" android:background="@color/ac_" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="16dp"/>
+        <TextView android:textSize="17dp" android:textColor="@color/a2x" android:layout_gravity="center_vertical" android:id="@+id/fsk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+        <TextView android:textSize="@dimen/kc" android:textColor="@color/a2x" android:layout_gravity="center_vertical" android:id="@+id/fsb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text=""/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/fsg" android:visibility="gone" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginLeft="8dp" android:src="@drawable/b1a"/>
+        <TextView android:textSize="9dp" android:textColor="@color/ag2" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/fse" android:background="@drawable/b16" android:visibility="gone" android:layout_width="40dp" android:layout_height="18dp" android:layout_marginLeft="8dp" android:text="New"/>
+        <TextView android:layout_gravity="center_vertical" android:id="@+id/fsf" android:visibility="gone" android:layout_marginLeft="8dp" android:text="" style="@style/zr"/>
+        <Space android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/jg5" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="4dp" android:layout_centerVertical="true" style="@style/a5t"/>
+                <com.tencent.mm.plugin.wallet_core.ui.view.WcPayMoneyLoadingView android:textSize="17dp" android:textColor="@color/a2x" android:id="@+id/fs9" android:layout_width="wrap_content" android:layout_height="wrap_content" wallet:progressBarType="1" wallet:walletTypeFace="4"/>
+            </LinearLayout>
+            <TextView android:textSize="17dp" android:textColor="@color/a2x" android:id="@+id/fs_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+            <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="14dp" android:textColor="@color/a2x" android:gravity="right" android:layout_gravity="right" android:id="@+id/fsj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/fsh" android:visibility="gone" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginLeft="8dp" android:src="@drawable/b1a"/>
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:layout_gravity="center_vertical" android:id="@+id/fsi" android:layout_width="12dp" android:layout_height="24dp" android:layout_marginLeft="8dp" android:src="@raw/icons_outlined_arrow"/>
+    </LinearLayout>
+    <View android:id="@+id/fsa" android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1px" android:layout_below="@+id/fsj" android:layout_alignParentBottom="true"/>
+</merge>

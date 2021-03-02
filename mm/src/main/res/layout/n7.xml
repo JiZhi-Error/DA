@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/le" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="84dp">
+    <com.tencent.mm.plugin.card.widget.MemberCardTopCropImageView android:id="@+id/b1a" android:layout_width="match_parent" android:layout_height="84dp" android:src="#dc6f49" android:scaleType="centerCrop" android:minHeight="84dp"/>
+    <ImageView android:id="@+id/b1b" android:background="@drawable/c1x" android:visibility="gone" android:layout_width="match_parent" android:layout_height="84dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_centerVertical="true">
+        <TextView android:textSize="22dp" android:textColor="@color/ag2" android:id="@+id/b1f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+        <TextView android:textSize="14dp" android:textColor="@color/ag2" android:id="@+id/b1d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="" android:layout_below="@+id/b1f" android:layout_alignLeft="@+id/b1f"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/b1e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    <ImageView android:background="@drawable/lj" android:layout_width="match_parent" android:layout_height="84dp"/>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/a" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.view.recyclerview.WxRecyclerView android:id="@+id/gy2" android:background="@color/a" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ProgressBar android:id="@+id/ep_" android:layout_width="@dimen/ci" android:layout_height="@dimen/ci" android:layout_centerInParent="true" style="@style/a71"/>
+    <TextView android:textSize="@dimen/k6" android:textColor="@color/FG_1" android:id="@+id/g00" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cl" android:layout_marginRight="@dimen/cl" android:text="@string/c0r" android:layout_centerInParent="true"/>
+</RelativeLayout>

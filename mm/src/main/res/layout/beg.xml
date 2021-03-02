@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/dyk" android:background="@color/fm" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="100">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="55">
+            <RelativeLayout android:id="@+id/frl" android:layout_width="match_parent" android:layout_height="@dimen/cm" android:layout_marginTop="@dimen/cm" android:paddingStart="@dimen/cb" android:paddingEnd="@dimen/cb">
+                <TextView android:textSize="@dimen/t" android:textColor="@color/BW_100_Alpha_0_9" android:id="@+id/ai9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sz" android:layout_centerVertical="true"/>
+                <TextView android:textSize="@dimen/t" android:textColor="@color/am" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f8y" android:layout_centerInParent="true"/>
+                <Button android:enabled="false" android:id="@+id/fyy" android:text="@string/x5" android:layout_alignParentRight="true" android:layout_centerInParent="true" style="@style/ox"/>
+            </RelativeLayout>
+            <com.tencent.mm.view.recyclerview.WxRecyclerView android:id="@+id/fr0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/ct" android:layout_marginBottom="@dimen/ct" android:paddingStart="@dimen/cr" android:paddingEnd="@dimen/cr"/>
+        </LinearLayout>
+    </LinearLayout>
+    <android.support.constraint.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.constraint.Guideline android:orientation="horizontal" android:id="@+id/frk" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.55"/>
+        <android.support.constraint.Guideline android:orientation="horizontal" android:id="@+id/fqz" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@+id/frl"/>
+        <android.support.constraint.Guideline android:orientation="horizontal" android:id="@+id/fr9" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/c2"/>
+        <include android:visibility="invisible" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toTopOf="@+id/fr9" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" layout="@layout/bef"/>
+    </android.support.constraint.ConstraintLayout>
+    <com.tencent.mm.plugin.mv.ui.view.MusicMVCardChooseView android:id="@+id/fr1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+    <FrameLayout android:id="@+id/im" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tencent.mm.ui.widget.MMRoundCornerImageView android:id="@+id/in" android:layout_width="100dp" android:layout_height="100dp" android:scaleType="centerCrop"/>
+    </FrameLayout>
+</RelativeLayout>

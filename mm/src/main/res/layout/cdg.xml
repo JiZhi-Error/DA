@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.tencent.mm.plugin.festival.ui.view.FestivalAvatarPopupSparkleWrapperLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.tencent.mm.plugin.festival.ui.view.FestivalCdnImageView android:id="@+id/x1" android:layout_width="@dimen/cm" android:layout_height="@dimen/cm" android:layout_centerInParent="true"/>
+    </com.tencent.mm.plugin.festival.ui.view.FestivalAvatarPopupSparkleWrapperLayout>
+</RelativeLayout>

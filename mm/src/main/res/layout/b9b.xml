@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/be3" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/bb">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/iqp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="center_vertical" android:id="@android:id/title" android:layout_height="wrap_content" android:layout_marginRight="@dimen/i2" android:minWidth="@dimen/el" android:singleLine="true" style="@style/mi"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/ieh" android:paddingTop="@dimen/cb" android:paddingBottom="@dimen/cb" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/dvz" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="@dimen/bt" android:scaleType="centerCrop"/>
+                <TextView android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center" android:id="@android:id/summary" android:layout_width="@dimen/c6" android:singleLine="false" android:layout_weight="1" style="@style/ml"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

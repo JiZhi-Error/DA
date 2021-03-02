@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:weightSum="1">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="14dp" android:textColor="@color/a2t" android:gravity="center_horizontal" android:id="@+id/gty" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/g44" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/h28" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_marginBottom="15dp">
+                <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@+id/h0w" android:background="@color/ac_" android:focusable="false" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginRight="3dp" android:src="@drawable/bca" android:scaleType="centerCrop" android:contentDescription="@string/a4u"/>
+                    <TextView android:textSize="18dp" android:textColor="@color/kj" android:gravity="center_horizontal" android:id="@+id/gry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{¥100}"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@+id/i3t" android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1px"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/asu" android:paddingLeft="@dimen/ir" android:paddingRight="@dimen/ir" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/b9w" android:paddingTop="@dimen/ir" android:paddingBottom="@dimen/ir" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/de5" android:padding="2dp" android:layout_width="@dimen/ip" android:layout_height="@dimen/ip" android:layout_marginRight="4dp" android:scaleType="fitXY"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/is" android:textColor="@color/a2x" android:ellipsize="end" android:id="@+id/de6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/uj" android:ellipsize="end" android:id="@+id/de4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/game_more_icon" android:scaleType="fitCenter"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mh">440dp</dimen>
+    <dimen name="mm">60%</dimen>
+    <dimen name="mn">90%</dimen>
+    <dimen name="mo">60%</dimen>
+    <dimen name="mp">90%</dimen>
+    <dimen name="ms">55%</dimen>
+    <dimen name="mt">80%</dimen>
+</resources>

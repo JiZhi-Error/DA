@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/hs" android:paddingRight="@dimen/hs" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/aum" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@+id/j8f" android:layout="@layout/qw" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/j8h" android:layout="@layout/r0" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/j8d" android:layout="@layout/qy" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/j8i" android:layout="@layout/r1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/j8c" android:layout="@layout/qx" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/j8g" android:layout="@layout/qz" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/hs">
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+        <TextView android:id="@+id/at6" android:layout_marginRight="@dimen/g" android:text="@string/axz" style="@style/gj"/>
+    </LinearLayout>
+</LinearLayout>

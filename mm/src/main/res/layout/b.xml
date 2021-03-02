@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/qd" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/k6" android:textColor="@color/FG_0" android:gravity="center_vertical" android:id="@+id/b91" android:background="@color/BW_93" android:paddingLeft="@dimen/c5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/cl" android:text="@string/cjk"/>
+        <include layout="@layout/a8l"/>
+        <FrameLayout android:id="@+id/hqz" android:paddingTop="2dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="52dp">
+            <include layout="@layout/a9v"/>
+        </FrameLayout>
+        <View android:id="@+id/i3t" android:background="@color/BW_90" android:layout_width="match_parent" android:layout_height="@dimen/a4d" android:layout_marginTop="10dp" android:layout_marginStart="52dp"/>
+    </LinearLayout>
+    <View android:id="@+id/cei" android:background="@color/pb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

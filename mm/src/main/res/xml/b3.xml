@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceTitleCategory android:key="select_current_district_title" android:persistent="false" android:title="@string/cl5"/>
+    <com.tencent.mm.plugin.finder.widget.pref.FinderLocationPreference android:key="select_current_district"/>
+    <PreferenceTitleCategory android:key="select_current_location_title" android:persistent="false" android:title="@string/cl6"/>
+    <com.tencent.mm.plugin.finder.widget.pref.FinderLocationPreference android:key="select_current_location"/>
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/se" android:paddingLeft="32dp" android:paddingRight="32dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="72dp">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="14dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:layout_gravity="center_vertical" android:id="@+id/a2h" android:focusable="false" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="centerInside"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_weight="1">
+            <TextView android:textSize="@dimen/l" android:textColor="@color/a2x" android:ellipsize="end" android:id="@+id/a2k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:maxLines="1"/>
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/a2t" android:id="@+id/a2j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g" android:text=""/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="8dp" android:layout_height="12.5dp" android:layout_marginRight="18dp" android:src="@raw/aa_right_arrow" android:scaleType="centerInside"/>
+    </LinearLayout>
+    <View android:background="@color/mj" android:layout_width="match_parent" android:layout_height="1px"/>
+</LinearLayout>

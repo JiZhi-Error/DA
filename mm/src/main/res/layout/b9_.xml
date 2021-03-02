@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/fg1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+    <ImageView android:id="@+id/dvz" android:background="@null" android:layout_width="@dimen/ba" android:layout_height="@dimen/ba" android:layout_marginRight="@dimen/cb"/>
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/iqp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <TextView android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/k5" android:singleLine="true" style="@style/mi"/>
+        <TextView android:textSize="@dimen/kc" android:textColor="@color/ag2" android:gravity="center" android:id="@+id/ikq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/x4"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/h7f" android:background="@null" android:layout_width="@dimen/jy" android:layout_height="@dimen/jy">
+        <ImageView android:id="@+id/dwk" android:layout_width="@dimen/jx" android:layout_height="@dimen/jx" android:src="@raw/default_avatar" android:scaleType="fitCenter" android:layout_centerInParent="true"/>
+        <ImageView android:gravity="center" android:id="@+id/h7d" android:visibility="gone" android:layout_width="10dp" android:layout_height="10dp" android:src="@drawable/b1a" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <TextView android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/h7m" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" style="@style/ml"/>
+</LinearLayout>

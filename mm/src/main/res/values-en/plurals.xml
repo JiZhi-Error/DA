@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">%d group</item>
+        <item quantity="other">%d groups</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="zero">%d contacts</item>
+        <item quantity="one">%d contact</item>
+        <item quantity="other">%d contacts</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">%d second left</item>
+        <item quantity="other">%d seconds left</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">Voice %d second</item>
+        <item quantity="other">Voice %d seconds</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">%d unread message</item>
+        <item quantity="other">%d unread messages</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">%d friend added</item>
+        <item quantity="other">%d friends added</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">%d invitation sent</item>
+        <item quantity="other">%d invitations sent</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="one">%d contact found</item>
+        <item quantity="other">%d contacts found</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="one">%d friend on WeChat</item>
+        <item quantity="other">%d friends on WeChat</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="one">%d hr ago</item>
+        <item quantity="other">%d hrs ago</item>
+    </plurals>
+    <plurals name="k">
+        <item quantity="one">%d min ago</item>
+        <item quantity="other">%d mins ago</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+    <plurals name="m">
+        <item quantity="one">%d month ago</item>
+        <item quantity="other">%d months ago</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">%d year ago</item>
+        <item quantity="other">%d years ago</item>
+    </plurals>
+    <plurals name="o">
+        <item quantity="one">Up to %s photo can be selected</item>
+        <item quantity="other">Up to %s photos can be selected</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">Select up to %s photo or video</item>
+        <item quantity="other">Select up to %s photos or videos</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="one">Up to %s video can be selected</item>
+        <item quantity="other">Up to %s videos can be selected</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="one">%s new message</item>
+        <item quantity="other">%s new messages</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="one">You are inviting %d friend to WeChat</item>
+        <item quantity="other">You are inviting %d friends to WeChat</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="one">%s recipient</item>
+        <item quantity="other">%s recipients</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">You&apos;ll send the message to %s friend</item>
+        <item quantity="other">You&apos;ll send the message to %s friends</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="one">Your SMS should arrive in %d second</item>
+        <item quantity="other">Your SMS should arrive in %d seconds</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="one">%s person</item>
+        <item quantity="other">%s people</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="one">%d bottle was replied to</item>
+        <item quantity="other">%d bottles were replied to</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="one">[%d]</item>
+        <item quantity="other">[%d]</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="one">%1$d friend(s) sent you %2$d message(s)</item>
+        <item quantity="other">%1$d friend(s) sent you %2$d message(s)</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="one">%1$d attachment (%2$s)</item>
+        <item quantity="other">%1$d attachments (%2$s)</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="one">%s person</item>
+        <item quantity="other">%s people</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="one">%d person</item>
+        <item quantity="other">%d people</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="one">%d new greeting</item>
+        <item quantity="other">%d new greetings</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="one">%d post</item>
+        <item quantity="other">%d posts</item>
+    </plurals>
+    <plurals name="a5">
+        <item quantity="one">%d notification</item>
+        <item quantity="other">%d notifications</item>
+    </plurals>
+    <plurals name="a6">
+        <item quantity="one">%d post</item>
+        <item quantity="other">%d posts</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="one">%d unread message</item>
+        <item quantity="other">%d unread messages</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="zero">Tab 1 of %d</item>
+        <item quantity="one">Tab 2 of %d</item>
+        <item quantity="two">Tab 3 of %d</item>
+        <item quantity="other">Tab %2$d of %1$d</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="one">Real-time Location (%d person)</item>
+        <item quantity="other">Real-time Location (%d people)</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="one">%s second left</item>
+        <item quantity="other">%s seconds left</item>
+    </plurals>
+</resources>

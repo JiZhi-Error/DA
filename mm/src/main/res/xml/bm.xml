@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <Preference android:layout="@layout/b_7" android:title="@string/fb1"/>
+    <com.tencent.mm.ui.base.preference.ChoicePreference android:entries="@array/ag" android:entryValues="@array/ah" android:key="settings_sex" android:layout="@layout/b_l" android:title="@string/gts"/>
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:key="settings_district" android:layout="@layout/b8j" android:title="@string/go_"/>
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:key="settings_signature" android:layout="@layout/b8j" android:title="@string/gu0"/>
+</PreferenceScreen>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/b3z" android:padding="4dp" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:src="@raw/close" app:iconColor="@color/FG_0_5"/>
+    <RelativeLayout android:id="@+id/be9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/b3z">
+        <RelativeLayout android:id="@+id/e4q" android:layout_width="92dp" android:layout_height="wrap_content">
+            <com.tencent.mm.ui.widget.RoundCornerImageView android:id="@+id/e4d" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="28dp" android:layout_marginRight="16dp" app:roundHeight="24dp" app:roundWidth="24dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/ixs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="28dp" android:layout_toRightOf="@+id/e4q">
+            <TextView android:textSize="17dp" android:textColor="@color/FG_0_5" android:id="@+id/iwt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="8dp"/>
+            <TextView android:textSize="14dp" android:textColor="@color/FG_0_5" android:id="@+id/iwr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/iwt"/>
+            <TextView android:textSize="14dp" android:textColor="@color/BW_0_Alpha_0_3" android:id="@+id/iws" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/iwr"/>
+            <TextView android:textSize="14dp" android:textColor="@color/BW_0_Alpha_0_3" android:id="@+id/iwq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_toRightOf="@+id/iws" android:layout_below="@+id/iwr"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <Button android:gravity="center" android:id="@+id/aem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28dp" android:layout_marginBottom="56dp" android:text="关注" android:layout_below="@+id/be9" android:layout_centerHorizontal="true" style="@style/ov"/>
+</RelativeLayout>

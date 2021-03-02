@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android1="http://schemas.android.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceSmallCategory/>
+    <Preference android:key="shake_item_default_bgimg" android:layout="@layout/b8j" android:title="@string/gyo"/>
+    <Preference android:key="shake_item_change_bgimg" android:layout="@layout/b8j" android:title="@string/gyn"/>
+    <CheckBoxPreference android:key="shake_item_sound" android:layout="@layout/b8j" android:persistent="false" android:title="@string/gyy"/>
+    <PreferenceSmallCategory/>
+    <Preference android:key="say_hi_list_shake_title" android:layout="@layout/b8j" android:title="@string/gb2"/>
+    <Preference android:key="shake_item_histoty_list" android:layout="@layout/b8j" android:title="@string/gyp"/>
+    <PreferenceSmallCategory/>
+    <Preference android:key="shake_msg_list" android:layout="@layout/b8j" android:title="@string/h0b"/>
+</PreferenceScreen>

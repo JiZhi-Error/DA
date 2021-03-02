@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/ba2" android:background="@color/afz" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/dn8" android:layout_width="match_parent" android:layout_height="106dp">
+            <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:minHeight="0dp" style="@style/oo">
+                <TextView android:textSize="@dimen/hc" android:textColor="@color/uj" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="36dp" android:text="@string/d3"/>
+                <View android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1px"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ba3" android:layout_height="wrap_content" style="@style/oo">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/b_z" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="@dimen/js"/>
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/k_" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:id="@+id/bdj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{title}" android:singleLine="true" style="@style/mp"/>
+                    </LinearLayout>
+                    <TextView android:id="@+id/ba7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="{desc}" android:singleLine="true" style="@style/mo"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/fzp" android:layout_width="match_parent" android:layout_height="106dp">
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/uj" android:id="@+id/ba8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fdp" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </FrameLayout>
+    <View android:id="@+id/fds" android:background="@color/a74" android:layout_width="match_parent" android:layout_height="14dp"/>
+    <LinearLayout android:id="@+id/hdq" android:layout_height="68dp" style="@style/iu">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="@dimen/js" android:src="@raw/fts_websearch_icon"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/k_" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:id="@+id/hf6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{title}" android:singleLine="true" style="@style/mp"/>
+            <TextView android:id="@+id/hds" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginRight="20dp" android:text="@string/dkd" android:maxLines="2" android:singleLine="false" style="@style/mo"/>
+        </LinearLayout>
+    </LinearLayout>
+    <com.tencent.mm.plugin.fts.ui.widget.FTSLocalPageRelevantView android:id="@+id/gzx" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"/>
+</LinearLayout>

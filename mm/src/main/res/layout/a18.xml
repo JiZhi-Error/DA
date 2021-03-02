@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/ivz" android:background="@color/BW_0_Alpha_0_5" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:id="@+id/ivx" android:background="@drawable/fl" android:layout_width="@dimen/a1r" android:layout_height="@dimen/a1q" android:paddingStart="13dp" android:paddingEnd="16dp">
+        <com.tencent.mm.ui.widget.MMProcessBar android:id="@+id/ivy" android:background="@drawable/ae0" android:layout_width="@dimen/ce" android:layout_height="@dimen/ce"/>
+        <TextView android:textSize="@dimen/kc" android:textColor="@color/ag2" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/hwd" android:layout_weight="1" android:layout_marginStart="7dp" android:layout_marginEnd="7dp"/>
+        <TextView android:textSize="@dimen/kc" android:textColor="@color/ag2" android:id="@+id/ivv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hwb"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/ivw" android:background="@drawable/fl" android:visibility="invisible" android:layout_width="@dimen/a1r" android:layout_height="@dimen/a1q">
+        <TextView android:textSize="@dimen/kc" android:textColor="@color/ag2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hwc"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto" android:background="@color/f" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/hd" android:textStyle="bold" android:textColor="@color/fq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="56dp" android:text="@string/iu6"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="32dp" android:layout_marginTop="48dp" android:layout_marginRight="32dp" android:divider="@drawable/b3h" android:showDividers="none|beginning|middle|end">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/jq9" android:layout_width="75dp" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/t" android:textColor="@color/fq" android:id="@+id/jq_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+                    <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="12dp" android:layout_height="24dp" android:layout_marginLeft="@dimen/k5" android:src="@raw/icons_filled_arrow" wallet:iconColor="#d8d8d8"/>
+                </LinearLayout>
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/jqa" android:paddingLeft="0dp" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="phone" wallet:contentHint="@string/iu7" wallet:encryptType="2" wallet:titleText="" wallet:titleWidth="1px" style="@style/sj"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/jqc" android:paddingLeft="0dp" android:paddingRight="0dp" android:layout_width="0dp" android:layout_weight="1" android:inputType="phone" wallet:contentHint="@string/iu5" wallet:infoIvVisibility="8" wallet:titleText="@string/itx" wallet:titleTvVisibility="0" wallet:titleWidth="75dp" style="@style/a16"/>
+                <Button android:enabled="false" android:textStyle="bold" android:id="@+id/jqb" android:layout_marginLeft="@dimen/hs" android:text="@string/iu3" style="@style/p5"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/bd" android:textStyle="bold" android:textColor="@color/adw" android:gravity="center_vertical" android:layout_gravity="left" android:id="@+id/jq7" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hw" android:layout_marginTop="@dimen/k5" android:text="@string/itu"/>
+        <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <Button android:enabled="false" android:textStyle="bold" android:id="@+id/jq8" android:layout_marginBottom="96dp" android:text="@string/x5" style="@style/ov"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.plugin.emoji.ui.widget.ScaleRelativeLayout android:orientation="vertical" android:id="@+id/c1g" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.tencent.mm.emoji.view.BaseEmojiView android:id="@+id/bjx" android:layout_width="240dp" android:layout_height="240dp" android:layout_centerInParent="true"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="start" android:orientation="horizontal" android:id="@+id/c1b" android:background="@drawable/emoji_preview_capture_tips" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_below="@+id/bjx" android:layout_centerHorizontal="true" android:paddingStart="8dp" android:paddingEnd="8dp">
+            <ImageView android:id="@+id/c1c" android:layout_width="16dp" android:layout_height="16dp" android:src="@raw/emoticonstore_capture_icon" android:layout_marginEnd="4dp"/>
+            <TextView android:textSize="@dimen/kc" android:textColor="@color/ag2" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/an4"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/is" android:textColor="@color/a2t" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/bjw" android:paddingTop="@dimen/cb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/bjx"/>
+    </com.tencent.mm.plugin.emoji.ui.widget.ScaleRelativeLayout>
+    <TextView android:textColor="@color/ag2" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/uh" android:background="@drawable/mp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/hs" android:text="@string/fdy"/>
+    <ImageView android:id="@+id/ecv" android:background="@drawable/qa" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ir" android:layout_marginRight="@dimen/ir"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/c1e" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ir" android:layout_marginTop="@dimen/cb" android:layout_marginRight="@dimen/ir" android:layout_marginBottom="@dimen/cb">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/c1d" android:layout_width="@dimen/a2i" android:layout_height="@dimen/a2i" android:src="@color/BW_0_Alpha_0_5"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_marginStart="@dimen/ct" android:layout_marginEnd="@dimen/ct">
+            <TextView android:ellipsize="end" android:id="@+id/c1h" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/mp"/>
+            <TextView android:ellipsize="end" android:id="@+id/c1f" android:paddingTop="@dimen/g" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/mo"/>
+        </LinearLayout>
+        <Button android:layout_gravity="center_vertical" android:id="@+id/c1a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bt9" style="@style/ow"/>
+    </LinearLayout>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/a2t"/>
+    <ListView android:gravity="center" android:id="@android:id/list" android:background="@color/ac_" android:focusable="true" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@color/ac_" android:transcriptMode="disabled" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0dp"/>
+</LinearLayout>

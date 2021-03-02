@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/kq" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp">
+        <com.tencent.mm.ui.MMImageView android:layout_gravity="center_horizontal" android:id="@+id/buq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/bue" android:paddingLeft="30dp" android:paddingRight="30dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ProgressBar android:id="@+id/buc" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="?android:attr/progressBarStyleHorizontal"/>
+            <ImageView android:id="@+id/buk" android:background="@drawable/ap8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ah4"/>
+            <ImageView android:id="@+id/bui" android:background="@drawable/bcm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-8dp"/>
+        </LinearLayout>
+        <TextView android:textColor="@color/ag2" android:layout_gravity="center_horizontal" android:id="@+id/va" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <Button android:layout_gravity="center_horizontal" android:id="@+id/vc" android:visibility="visible" android:layout_width="220dp" android:text="@string/eu2" style="@style/ou"/>
+        <Button android:layout_gravity="center_horizontal" android:id="@+id/v_" android:visibility="gone" android:layout_width="220dp" android:text="@string/etx" style="@style/ou"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/v9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="120dp">
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/l4" android:gravity="center_horizontal" android:id="@+id/vb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/etz"/>
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/Blue" android:id="@+id/vd" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</FrameLayout>

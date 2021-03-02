@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/fas" style="@style/a60"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/fai" android:background="@drawable/o9" android:paddingLeft="@dimen/k" android:paddingTop="@dimen/k" android:paddingRight="@dimen/k" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/k5" android:layout_marginBottom="@dimen/k5">
+        <TextView android:id="@+id/faj" style="@style/a5y"/>
+        <TextView android:id="@+id/fam" android:layout_marginTop="@dimen/g" android:layout_marginBottom="@dimen/k5" style="@style/a5y"/>
+        <View style="@style/a5z"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/k" android:layout_marginBottom="@dimen/k">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:id="@+id/fao" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <TextView android:textSize="13dp" android:textColor="@color/ag2" android:gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/fap" android:background="@drawable/bba" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/fal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btb"/>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <View style="@style/a5z"/>
+        <TextView android:layout_gravity="center_horizontal" android:id="@+id/fah" style="@style/a5x"/>
+    </LinearLayout>
+</LinearLayout>

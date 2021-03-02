@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/y8" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16dp" android:textColor="@color/tv" android:layout_gravity="left" android:id="@+id/ys" android:background="@drawable/az3" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/yt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="82dp"/>
+    <TextView android:textSize="@dimen/is" android:textColor="@color/ey" android:gravity="center_horizontal" android:id="@+id/z2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:layout_marginTop="22dp" android:layout_marginRight="25dp" android:includeFontPadding="false"/>
+    <TextView android:textSize="@dimen/hc" android:textColor="@color/ex" android:gravity="center_horizontal" android:id="@+id/z1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="12dp" android:layout_marginRight="30dp" android:includeFontPadding="false" android:lineSpacingExtra="6dp"/>
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="32dp">
+        <TextView android:textSize="14dp" android:textColor="@color/eu" android:gravity="center" android:id="@+id/y9" android:background="@drawable/az3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        <Button android:gravity="center" android:id="@+id/y_" android:layout_marginBottom="50dp" android:layout_above="@+id/y9" android:layout_centerHorizontal="true" style="@style/qt"/>
+        <com.tencent.mm.ui.widget.progress.RoundProgressBtn android:gravity="center" android:id="@+id/z0" android:visibility="gone" android:layout_width="53dp" android:layout_height="53dp" android:layout_marginBottom="50dp" android:layout_above="@+id/y9" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48dp" android:paddingStart="16dp" android:paddingEnd="16dp">
+        <TextView android:gravity="center_vertical" android:id="@+id/jsb" android:layout_width="80dp" android:layout_height="match_parent" android:text="@string/j76"/>
+        <SeekBar android:id="@+id/jsa" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48dp" android:paddingStart="16dp" android:paddingEnd="16dp">
+        <TextView android:gravity="center_vertical" android:id="@+id/js6" android:layout_width="80dp" android:layout_height="match_parent" android:text="@string/j73"/>
+        <SeekBar android:id="@+id/js5" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48dp" android:paddingStart="16dp" android:paddingEnd="16dp">
+        <TextView android:gravity="center_vertical" android:id="@+id/js8" android:layout_width="80dp" android:layout_height="match_parent" android:text="@string/j74"/>
+        <SeekBar android:id="@+id/js7" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48dp" android:paddingStart="16dp" android:paddingEnd="16dp">
+        <TextView android:gravity="center_vertical" android:id="@+id/js_" android:layout_width="80dp" android:layout_height="match_parent" android:text="@string/j75"/>
+        <SeekBar android:id="@+id/js9" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48dp" android:paddingStart="16dp" android:paddingEnd="16dp">
+        <TextView android:gravity="center_vertical" android:id="@+id/js4" android:layout_width="80dp" android:layout_height="match_parent" android:text="@string/j72"/>
+        <SeekBar android:id="@+id/js3" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

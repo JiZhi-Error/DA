@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/b3z" android:padding="4dp" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="16dp" android:layout_marginTop="20dp" android:src="@raw/close" app:iconColor="@color/FG_0_5"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.tencent.mm.ui.widget.RoundCornerImageView android:id="@+id/jjz" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="8dp" app:roundHeight="12dp" app:roundWidth="12dp"/>
+            <TextView android:textSize="16dp" android:textColor="@color/FG_0_5" android:ellipsize="end" android:gravity="center" android:id="@+id/jk0" android:layout_width="wrap_content" android:layout_height="21dp" android:maxLines="1" android:maxEms="14" android:includeFontPadding="false" android:layout_toRightOf="@+id/jjz" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textSize="23dp" android:textColor="@color/FG_0_5" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/idr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:maxLines="1" android:maxEms="12"/>
+    <TextView android:textSize="15dp" android:textColor="@color/FG_1" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/idk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginTop="12dp" android:layout_marginRight="40dp" android:maxLines="2" android:maxEms="40" android:lineSpacingExtra="2dp"/>
+    <Button android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/idg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:layout_marginBottom="40dp" android:text="预约" style="@style/ov"/>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/rj">
+    <ScrollView style="@style/om">
+        <LinearLayout android:id="@+id/bdl" style="@style/lz">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/ckd" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="5dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp">
+                <ImageView android:id="@+id/dzm" android:layout_width="42dp" android:layout_height="42dp"/>
+                <View style="@style/p7"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@+id/dzr" style="@style/mi"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/is" android:textColor="@color/l4" android:gravity="center" android:id="@+id/dzs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp"/>
+            <Button android:textSize="20dp" android:id="@+id/dzp" android:layout_marginTop="27dp" android:text="@string/e3y" style="@style/ou"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="14dp" android:textColor="@color/a2x" android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="bottom" android:id="@+id/ccz" android:background="@color/b" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/ci" android:text="@string/cml" android:paddingStart="@dimen/cb"/>
+</FrameLayout>

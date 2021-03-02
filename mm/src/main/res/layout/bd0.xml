@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/y" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/a_o" android:layout_width="match_parent" android:layout_height="@dimen/cn" android:layout_alignParentTop="true"/>
+    <FrameLayout android:id="@+id/a_m" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    <FrameLayout android:id="@+id/a_n" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/a_k" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true" android:layout_alignParentEnd="true"/>
+    <FrameLayout android:id="@+id/a_l" android:layout_width="match_parent" android:layout_height="@dimen/cs" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

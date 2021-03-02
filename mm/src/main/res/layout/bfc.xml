@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:background="@color/ac_" android:layout_width="wrap_content" android:layout_height="@dimen/cc" android:layout_marginTop="@dimen/a4s" android:layout_marginBottom="@dimen/a4s">
+    <TextView android:textSize="@dimen/bd" android:textColor="@color/l4" android:ellipsize="end" android:gravity="center" android:id="@+id/ifz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0"/>
+</android.support.constraint.ConstraintLayout>

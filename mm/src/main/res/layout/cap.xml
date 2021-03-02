@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/aok" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="@dimen/ie">
+    <RelativeLayout android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/jp3" android:layout_width="9dp" android:layout_height="17dp" android:src="@raw/arrow_left" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:iconColor="@color/BW_50"/>
+        <TextView android:textSize="@dimen/t" android:textColor="@color/fq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ixw" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/t" android:textColor="@color/u_" android:id="@+id/jp5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="16dp" android:text=""/>
+    <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:id="@+id/jp0" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </ScrollView>
+</LinearLayout>

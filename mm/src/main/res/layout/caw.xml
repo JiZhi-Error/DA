@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/e6e" android:background="@color/b" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1px"/>
+        <TextView android:textSize="14dp" android:textStyle="bold" android:textColor="@color/u_" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/e6i" android:paddingLeft="8dp" android:paddingRight="8dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="8dp"/>
+        <android.support.v7.widget.GridLayout android:id="@+id/e6h" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:alignmentMode="alignMargins" app:columnCount="4" app:layout_gravity="fill_horizontal" app:orientation="horizontal" app:rowCount="4">
+            <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/e64" android:layout_marginTop="0dp" android:text="1" app:layout_columnWeight="1" app:layout_rowWeight="1" style="@style/a19"/>
+            <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/e65" android:layout_marginTop="0dp" android:text="2" app:layout_columnWeight="1" app:layout_rowWeight="1" style="@style/a19"/>
+            <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/e66" android:layout_marginTop="0dp" android:text="3" app:layout_columnWeight="1" app:layout_rowWeight="1" style="@style/a19"/>
+            <RelativeLayout android:gravity="center" android:id="@+id/e6f" android:layout_marginTop="0dp" android:layout_marginRight="0dp" app:layout_columnWeight="1" app:layout_rowWeight="1" style="@style/a19">
+                <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@raw/wc_pay_keyboard_del" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+            <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/e67" android:text="4" app:layout_columnWeight="1" app:layout_rowWeight="1" style="@style/a19"/>
+            <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/e68" android:text="5" app:layout_columnWeight="1" app:layout_rowWeight="1" style="@style/a19"/>
+            <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/e69" android:text="6" app:layout_columnWeight="1" app:layout_rowWeight="1" style="@style/a19"/>
+            <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="17dp" android:textStyle="bold" android:textColor="@color/ag5" android:id="@+id/e6c" android:background="@drawable/b4n" android:layout_marginRight="0dp" app:layout_columnWeight="1" app:layout_rowSpan="3" app:layout_rowWeight="1" style="@style/a19"/>
+            <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/e6_" android:text="7" app:layout_columnWeight="1" app:layout_rowWeight="1" style="@style/a19"/>
+            <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/e6a" android:text="8" app:layout_columnWeight="1" app:layout_rowWeight="1" style="@style/a19"/>
+            <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/e6b" android:text="9" app:layout_columnWeight="1" app:layout_rowWeight="1" style="@style/a19"/>
+            <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/e63" android:text="0" app:layout_columnSpan="2" app:layout_columnWeight="1" app:layout_rowWeight="1" style="@style/a19"/>
+            <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/e6g" android:text="." app:layout_columnWeight="1" app:layout_rowWeight="1" style="@style/a19"/>
+        </android.support.v7.widget.GridLayout>
+    </LinearLayout>
+    <com.tencent.mm.wallet_core.keyboard.WcPayKeyboardAnimationActionButton android:id="@+id/e6d" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_alignBottom="@+id/e6e" android:layout_alignParentRight="true"/>
+</merge>

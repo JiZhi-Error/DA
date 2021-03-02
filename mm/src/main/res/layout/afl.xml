@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/ci" android:paddingRight="@dimen/ci" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:background="@drawable/a0h" android:paddingLeft="@dimen/c5" android:paddingTop="14dp" android:paddingRight="@dimen/c5" android:paddingBottom="@dimen/cb" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:id="@+id/cyh" android:background="@drawable/a0i" android:layout_width="@dimen/bt" android:layout_height="0dp" android:layout_alignTop="@+id/cyg" android:layout_alignBottom="@+id/cyg" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <TextView android:textSize="@dimen/h_" android:textColor="@color/fm" android:ellipsize="end" android:id="@+id/cyg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bt" android:text="" android:lines="1" android:includeFontPadding="false" android:layout_toRightOf="@+id/cyh"/>
+        <TextView android:textSize="@dimen/hb" android:textStyle="bold" android:textColor="#e6000000" android:id="@+id/cyf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bt" android:layout_below="@+id/cyg"/>
+    </RelativeLayout>
+</FrameLayout>

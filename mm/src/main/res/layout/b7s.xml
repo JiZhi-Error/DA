@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/cao" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/dtf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.tencent.mm.ui.TabIconView android:gravity="center" android:id="@+id/dtx" android:layout_width="28dp" android:layout_height="28dp" android:layout_centerInParent="true"/>
+            <TextView android:id="@+id/j0_" android:visibility="invisible" android:layout_marginLeft="-8dp" android:layout_toRightOf="@+id/dtx" android:layout_alignTop="@+id/dtx" style="@style/zr"/>
+            <ImageView android:id="@+id/bt8" android:visibility="invisible" android:layout_marginTop="1dp" android:layout_marginRight="-3dp" android:layout_alignTop="@+id/dtx" android:layout_alignRight="@+id/dtx" style="@style/zs"/>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/a3" android:textColor="@color/ag2" android:gravity="center" android:id="@+id/dub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eub"/>
+    </LinearLayout>
+</RelativeLayout>

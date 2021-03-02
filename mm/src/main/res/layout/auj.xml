@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/dr3" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="30dp" android:src="@drawable/bca"/>
+    <TextView android:textSize="16dp" android:textColor="@color/FG_0" android:id="@+id/dro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp"/>
+    <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="40dp" android:textColor="@color/FG_0" android:id="@+id/drg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26dp" android:text="" wallet:walletTypeFace="0"/>
+    <TextView android:textSize="15dp" android:textColor="#f76260" android:id="@+id/drn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21dp" android:text=""/>
+    <TextView android:textSize="13dp" android:textColor="@color/FG_1" android:id="@+id/drm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text=""/>
+    <TextView android:textSize="13dp" android:textColor="@color/FG_1" android:id="@+id/drb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text=""/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/dr6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp">
+        <View android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="20dp" android:layout_marginRight="20dp"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/dr8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="16dp" android:layout_marginRight="20dp">
+            <TextView android:textSize="14dp" android:textColor="@color/a2x" android:id="@+id/dr9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+            <TextView android:textSize="14dp" android:textColor="@color/a2t" android:gravity="right" android:id="@+id/dr_" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/dri" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp">
+            <TextView android:textSize="14dp" android:textColor="@color/a2x" android:id="@+id/drj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+            <TextView android:textSize="14dp" android:textColor="@color/a2t" android:gravity="right" android:id="@+id/drk" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/drl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="27dp" android:layout_marginRight="20dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="15dp" android:paddingBottom="15dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15dp" android:textColor="@color/a2x" android:layout_width="0dp" android:layout_height="wrap_content" android:text="对方使用时通知我" android:layout_weight="1"/>
+            <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@+id/drc" android:focusable="false" android:focusableInTouchMode="true" android:clickable="false" android:layout_width="@dimen/kj" android:layout_height="@dimen/kg"/>
+        </LinearLayout>
+        <View android:background="@color/a7t" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1px"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/drd" android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15dp" android:textColor="@color/FG_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e0o"/>
+            <TextView android:textSize="15dp" android:textColor="@color/FG_1" android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/drf" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="1"/>
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="12dp" android:layout_height="24dp" android:layout_marginLeft="8dp" android:src="@raw/icons_outlined_arrow" wallet:iconColor="@color/FG_1"/>
+        </LinearLayout>
+        <TextView android:textSize="14dp" android:textColor="@color/u_" android:id="@+id/dre" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="{无法使用另一张亲属卡作为优先扣款方式，已自动为你选择其他扣款方式}"/>
+    </LinearLayout>
+    <View android:id="@+id/dr5" android:background="@color/b" android:visibility="visible" android:layout_width="match_parent" android:layout_height="10dp"/>
+</LinearLayout>

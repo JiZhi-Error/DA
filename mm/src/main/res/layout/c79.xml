@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/ct">
+    <com.tencent.mm.plugin.voip.video.OpenGlView android:id="@+id/g3j" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.tencent.mm.ui.base.MMTextureView android:id="@+id/dt0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.tencent.mm.plugin.voip.video.OpenGlView android:id="@+id/g3i" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/jb9" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginLeft="8dp" android:layout_marginTop="6dp" android:src="@drawable/cpz"/>
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/jbb" android:background="@drawable/b31" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/jb_" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="20dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="12dp" android:textColor="#ffffff" android:gravity="center_horizontal" android:id="@+id/jba" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="@string/i3b" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <TextView android:textColor="#ffffff" android:gravity="center_horizontal" android:id="@+id/in3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_alignParentBottom="true" android:layout_centerInParent="true" android:textAlignment="center"/>
+    <TextView android:textColor="#ffffff" android:gravity="center_horizontal" android:id="@+id/ior" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_alignParentBottom="true" android:layout_centerInParent="true" android:textAlignment="center"/>
+</RelativeLayout>

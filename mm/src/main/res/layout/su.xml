@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="right" android:layout_gravity="right" style="@style/gs">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/atz" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/gu">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="30dp" android:layout_height="match_parent" android:layout_marginBottom="@dimen/ir">
+            <ImageView android:gravity="center_vertical" android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/ayd" android:paddingRight="@dimen/k5" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@raw/chatting_status_tick"/>
+            <ImageView android:id="@+id/ayb" android:layout_centerVertical="true" style="@style/h2"/>
+            <ProgressBar android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/j0y" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/c5" style="@style/a71"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/auf" android:background="@drawable/os" android:paddingLeft="@dimen/c5" android:paddingTop="@dimen/c5" android:paddingRight="@dimen/cb" android:layout_width="@dimen/wm" android:layout_height="wrap_content">
+            <android.support.constraint.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ct">
+                <ImageView android:id="@+id/ckb" android:layout_width="@dimen/cn" android:layout_height="@dimen/cn" android:src="@raw/default_avatar" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0"/>
+                <TextView android:ellipsize="end" android:id="@+id/d0s" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ct" android:layout_marginRight="20dp" android:maxLines="1" app:layout_constraintBottom_toTopOf="@+id/cmj" app:layout_constraintHorizontal_bias="0" app:layout_constraintLeft_toRightOf="@+id/ckb" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0" app:layout_constraintVertical_chainStyle="2" app:layout_constraintWidth_default="1" style="@style/zi"/>
+                <ImageView android:id="@+id/cmi" android:visibility="visible" android:layout_width="@dimen/cb" android:layout_height="@dimen/cb" android:layout_marginLeft="@dimen/bt" app:layout_constraintBottom_toBottomOf="@+id/d0s" app:layout_constraintHorizontal_bias="0" app:layout_constraintLeft_toRightOf="@+id/d0s" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="@+id/d0s"/>
+                <TextView android:ellipsize="end" android:id="@+id/cmj" android:visibility="visible" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ct" android:layout_marginTop="@dimen/bt" android:layout_marginBottom="@dimen/bt" android:maxLines="1" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toRightOf="@+id/ckb" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/d0s" style="@style/hv"/>
+            </android.support.constraint.ConstraintLayout>
+            <View android:background="@color/iq" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginBottom="@dimen/bt"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/avx" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bt">
+                <TextView android:textSize="@dimen/kc" android:textColor="@color/FG_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bt" android:text="@string/d31" style="@style/hv"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/qr"/>
+</LinearLayout>

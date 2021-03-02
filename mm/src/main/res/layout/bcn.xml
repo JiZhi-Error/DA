@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:appNs="http://schemas.android.com/apk/res-auto" android:background="@color/ac_" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/du1" android:layout_width="@dimen/acd" android:layout_height="@dimen/acd" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center" android:id="@+id/dtx" android:layout_width="@dimen/aci" android:layout_height="@dimen/aci"/>
+        <com.tencent.mm.plugin.voip.ui.MMCheckBox android:id="@+id/dtl" android:background="@color/ac_" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <TextView android:textSize="12dp" android:textColor="@color/afz" android:ellipsize="end" android:id="@+id/du3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/f6n" android:singleLine="true" android:layout_below="@+id/du1" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

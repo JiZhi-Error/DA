@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp">
+        <Button android:textSize="13dp" android:textStyle="bold" android:textColor="#335eb8" android:gravity="center_vertical" android:id="@+id/gnv" android:background="@drawable/agf" android:focusable="true" android:layout_width="wrap_content" android:layout_height="30dp" android:singleLine="true" android:drawableRight="@drawable/bhq"/>
+    </FrameLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/gn3" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/gn4" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <TextView android:id="@+id/gn2" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/ec6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/gd9" android:background="@drawable/agg" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" style="@style/a6u">
+            <ImageView android:id="@+id/gd8" android:padding="5dp" android:paddingLeft="0dp" android:layout_width="36dp" android:layout_height="36dp" android:src="@drawable/bho"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:textSize="14sp" android:textColor="@color/a2x" android:id="@+id/gd_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240dp" android:singleLine="true"/>
+                <TextView android:textSize="12sp" android:textColor="@color/tw" android:id="@+id/gdb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            </LinearLayout>
+            <ProgressBar android:id="@+id/gdc" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a71"/>
+            <TextView android:textColor="@color/a5e" android:id="@+id/gdd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fng"/>
+            <ImageView android:id="@+id/gda" android:src="@drawable/apo" style="@style/a6q"/>
+            <ImageView android:id="@+id/gd7" android:padding="5dp" android:paddingRight="0dp" android:src="@drawable/agl" style="@style/a6q"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

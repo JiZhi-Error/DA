@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/a7n" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="100dp">
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@+id/dst" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginRight="16dp" android:scaleType="centerCrop"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="@dimen/t" android:textColor="@drawable/a7k" android:id="@+id/dsv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+            <TextView android:textSize="@dimen/bd" android:textColor="@drawable/a7t" android:id="@+id/dsu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text=""/>
+        </LinearLayout>
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/dss" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/arrow_right" app:iconColor="@color/en"/>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@color/a7t" android:layout_width="match_parent" android:layout_height="1px"/>
+        <LinearLayout android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@+id/dsw" android:layout_width="26dp" android:layout_height="14dp"/>
+            <TextView android:textSize="@dimen/bd" android:textColor="@color/u7" android:id="@+id/dsx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="" android:includeFontPadding="false"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

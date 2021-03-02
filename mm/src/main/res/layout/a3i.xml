@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="@dimen/ir" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/bzo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a_5" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/c05" android:paddingLeft="@dimen/ir" android:paddingTop="@dimen/ir" android:paddingRight="@dimen/i2" android:paddingBottom="@dimen/ir" android:layout_width="96dp" android:layout_height="96dp" android:src="@drawable/icon"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/i2" android:paddingRight="@dimen/ir" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/c" android:layout_gravity="left" android:id="@+id/c27" android:paddingBottom="@dimen/k5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{小崽子ss剧场}" style="@style/mp"/>
+            <TextView android:layout_gravity="left" android:id="@+id/c2_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{小崽子ss剧场}" style="@style/mo"/>
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="center_vertical" android:paddingLeft="@dimen/ir" android:layout_width="wrap_content" android:layout_height="32dp">
+            <Button android:id="@+id/bzv" android:layout_width="wrap_content" android:layout_height="32dp" android:maxWidth="100dp" android:text="@string/bu7" style="@style/ow"/>
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/bzx" android:visibility="gone" android:layout_width="80dp" android:layout_height="wrap_content" style="@style/md"/>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:background="@color/afz" android:padding="@dimen/hs" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Button android:id="@+id/dgx" android:layout_width="128dp" android:text="@string/dpm" style="@style/p5"/>
+</LinearLayout>

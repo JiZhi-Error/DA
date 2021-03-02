@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/it1" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@+id/du_" android:layout_width="64dp" android:layout_height="64dp" android:layout_marginTop="44dp" android:src="@raw/icons_filled_error" app:iconColor="@color/Red"/>
+        <TextView android:textSize="@dimen/hd" android:textStyle="bold" android:textColor="@color/ae" android:gravity="center" android:layout_gravity="center" android:id="@+id/f6p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp"/>
+        <TextView android:textSize="@dimen/t" android:textColor="@color/ae" android:gravity="center" android:layout_gravity="center" android:id="@+id/id5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:paddingBottom="64dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/it1" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/bk" android:textStyle="bold" android:textColor="@color/aci" android:id="@+id/dt2" android:background="@drawable/b13" android:text="@string/w0" style="@style/p4"/>
+    </LinearLayout>
+</RelativeLayout>

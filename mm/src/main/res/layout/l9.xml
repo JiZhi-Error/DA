@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/be_" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:background="@drawable/in" android:layout_width="match_parent" android:layout_height="40dp" android:layout_alignParentBottom="true"/>
+        <TextView android:textSize="14dp" android:textColor="@color/am" android:id="@+id/ggv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_marginBottom="8dp" android:text="00:00" android:shadowColor="@color/fm" android:shadowDx="0" android:shadowDy="0" android:shadowRadius="2" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+        <TextView android:textSize="14dp" android:textColor="#ccffffff" android:ellipsize="end" android:id="@+id/ggw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="60dp" android:layout_marginBottom="8dp" android:text="00:00" android:singleLine="true" android:shadowColor="@color/fm" android:shadowDx="0" android:shadowDy="0" android:shadowRadius="2" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</FrameLayout>

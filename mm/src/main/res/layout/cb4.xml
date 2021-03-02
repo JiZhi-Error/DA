@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/f" android:paddingLeft="32dp" android:paddingRight="32dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="64dp" android:layout_height="64dp" android:layout_marginTop="48dp" android:src="@raw/icons_outlined_pay_safe" wallet:iconColor="@color/Brand_100"/>
+    <TextView android:textSize="22dp" android:textStyle="bold" android:textColor="@color/fq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/ipp"/>
+    <TextView android:textSize="17dp" android:textColor="@color/fq" android:gravity="center" android:id="@+id/jqx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/hju"/>
+    <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <Button android:id="@+id/jr0" android:text="@string/img" style="@style/ov"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/jqy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="64dp" android:layout_marginBottom="24dp">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="16dp" android:layout_height="16dp" android:src="@raw/icons_outlined_pay_safe" wallet:iconColor="@color/FG_2"/>
+        <TextView android:textSize="12dp" android:textColor="@color/FG_2" android:gravity="center" android:id="@+id/jqz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:text=""/>
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="8dp" android:layout_height="16dp" android:src="@raw/icons_outlined_arrow" wallet:iconColor="@color/FG_2"/>
+    </LinearLayout>
+</LinearLayout>

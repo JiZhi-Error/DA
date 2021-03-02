@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/afz" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/aab"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/aal"/>
+        <include layout="@layout/aao"/>
+        <ImageView android:id="@+id/coq" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <com.tencent.mm.plugin.finder.view.FinderLiveOnliveWidget android:id="@+id/cpx" android:paddingLeft="@dimen/cb" android:paddingRight="@dimen/cb" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/cm" app:desc_text="@string/cs5" app:logo_mode="3" app:logo_style="3"/>
+    </FrameLayout>
+    <include layout="@layout/aag"/>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/aaq"/>
+    <FrameLayout android:paddingLeft="@dimen/cb" android:paddingRight="@dimen/cb" android:paddingBottom="@dimen/cb" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/ab0"/>
+    </FrameLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@+id/d7j" android:layout="@layout/a8o" android:inflatedId="@+id/d7i" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <include android:visibility="gone" layout="@layout/aam"/>
+    <com.tencent.mm.plugin.finder.view.FinderFeedLiveNoticeView android:id="@+id/cly" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cb" android:layout_marginStart="@dimen/cb" android:layout_marginEnd="@dimen/cb"/>
+    <include android:id="@+id/d8w" android:visibility="gone" layout="@layout/aa0"/>
+</LinearLayout>

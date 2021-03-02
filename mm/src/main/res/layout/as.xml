@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.view.menu.ListMenuItemView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="196dp">
+    <ImageView android:id="@+id/dln" android:background="@drawable/af" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="4dp" android:layout_marginBottom="4dp"/>
+    <LinearLayout android:id="@+id/be9" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="?attr/jv" style="@style/ta">
+        <TextView android:textAppearance="?attr/a1t" android:layout_gravity="center_vertical" android:id="@+id/ipm" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/tf"/>
+        <Space android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+        <TextView android:textAppearance="?attr/a21" android:layout_gravity="center_vertical" android:id="@+id/hqo" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/tc"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/idd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" style="@style/td"/>
+    </LinearLayout>
+</android.support.v7.view.menu.ListMenuItemView>

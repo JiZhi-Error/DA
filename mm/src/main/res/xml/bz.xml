@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android1="http://schemas.android.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory/>
+    <CheckBoxPreference android:key="room_msg_show_username" android:layout="@layout/b8j" android:title="@string/g87"/>
+    <com.tencent.mm.chatroom.ui.preference.SignaturePreference android:key="room_name" android:layout="@layout/b8j" android:title="@string/g88"/>
+    <PreferenceCategory/>
+    <CheckBoxPreference android:key="room_msg_notify" android:layout="@layout/b8j" android:title="@string/g85"/>
+    <CheckBoxPreference android:key="room_show_msg_count" android:layout="@layout/b8j" android:title="@string/g8b"/>
+    <PreferenceCategory/>
+    <Preference android:key="room_set_chatting_background" android:layout="@layout/b8j" android:title="@string/g9m"/>
+    <PreferenceCategory/>
+    <Preference android:key="room_clear_chatting_history" android:layout="@layout/b8j" android:title="@string/g6i"/>
+</PreferenceScreen>

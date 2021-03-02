@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/a8b" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:orientation="vertical" android:id="@+id/avq" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="vertical" android:id="@+id/axw" android:layout_width="match_parent" android:layout_height="@dimen/x1">
+            <ImageView android:id="@+id/bgv" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+            <ImageView android:id="@+id/bh9" android:background="@drawable/hx" android:layout_width="match_parent" android:layout_height="42dp" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <LinearLayout android:paddingBottom="@dimen/ib" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/t7" android:layout_marginRight="@dimen/t7">
+                <include android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" layout="@layout/ks"/>
+                <ImageView android:id="@+id/gbm" android:background="@raw/chatting_item_biz_pic_icon" android:layout_width="24dp" android:layout_height="24dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView android:id="@+id/ggb" android:background="@drawable/hx" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignTop="@+id/axw" android:layout_alignBottom="@+id/axw"/>
+    </RelativeLayout>
+</LinearLayout>

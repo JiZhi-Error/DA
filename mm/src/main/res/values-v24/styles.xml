@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bm" parent="@android:style/Animation.DropDownUp">
+    </style>
+    <style name="bn" parent="@android:style/Animation.DropDownDown">
+    </style>
+    <style name="wp" parent="@style/wo">
+    </style>
+    <style name="ws" parent="@style/wn">
+    </style>
+    <style name="wu" parent="@style/wt">
+    </style>
+    <style name="ww" parent="@style/wv">
+    </style>
+</resources>

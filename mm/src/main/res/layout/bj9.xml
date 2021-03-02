@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="#f2f2f2" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@color/afz" android:padding="12dp" android:layout_width="match_parent" android:layout_height="110dp">
+            <ImageView android:id="@+id/f9e" android:layout_width="86dp" android:layout_height="86dp" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+            <TextView android:textColor="#999999" android:id="@+id/f9i" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="4dp" android:maxLines="2" android:layout_toRightOf="@+id/f9e" android:layout_alignParentTop="true" android:lineSpacingExtra="0dp" style="@style/r5"/>
+            <TextView android:textSize="28dp" android:id="@+id/f9g" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginBottom="2dp" android:layout_toRightOf="@+id/f9e" android:layout_alignParentBottom="true" style="@style/r5"/>
+        </RelativeLayout>
+        <View android:background="#d4d4d4" android:layout_width="match_parent" android:layout_height="2px"/>
+        <com.tencent.mm.ui.base.MaxListView android:id="@+id/f9l" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hs" android:layout_marginRight="@dimen/hs" android:listSelector="@android:color/transparent" android:divider="#00000000" android:dividerHeight="0dp" android:choiceMode="singleChoice"/>
+        <TextView android:layout_marginLeft="@dimen/hs" android:layout_marginRight="@dimen/hs" android:text="@string/eww" style="@style/re"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hs" android:layout_marginRight="@dimen/hs">
+            <com.tencent.mm.plugin.product.ui.MallProductSelectAmountView android:id="@+id/hh2" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textColor="@color/a5c" android:gravity="center" android:id="@+id/f9d" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/hs" android:text="@string/ewu" style="@style/r5"/>
+        </LinearLayout>
+        <Button android:gravity="center" android:id="@+id/f9f" android:layout_marginLeft="@dimen/hs" android:layout_marginTop="42dp" android:layout_marginRight="@dimen/hs" android:layout_marginBottom="@dimen/hs" android:text="@string/ewy" style="@style/ou"/>
+    </LinearLayout>
+</ScrollView>

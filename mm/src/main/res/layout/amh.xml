@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/rj">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" style="@style/lz">
+        <ImageView android:id="@+id/d_h" android:src="@drawable/bdn" style="@style/k2"/>
+        <TextView android:id="@+id/d_g" android:text="" style="@style/k3"/>
+        <TextView android:id="@+id/d_e" android:text="" style="@style/k4"/>
+        <TextView android:id="@+id/d_f" android:text="" style="@style/k5"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_marginBottom="15dp" style="@style/nl">
+        <ImageView android:layout_width="114dp" android:layout_height="18dp" android:src="@drawable/bdu"/>
+    </LinearLayout>
+</LinearLayout>

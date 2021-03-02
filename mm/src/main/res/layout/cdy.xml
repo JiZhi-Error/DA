@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.festival.finder.FestivalFuBagContainerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/juy" android:layout_width="@dimen/cl" android:layout_height="@dimen/cl" android:layout_marginBottom="@dimen/ce" android:src="@drawable/cvs"/>
+</com.tencent.mm.plugin.festival.finder.FestivalFuBagContainerFrameLayout>

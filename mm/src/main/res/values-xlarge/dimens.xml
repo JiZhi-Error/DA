@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mo">50%</dimen>
+    <dimen name="mp">70%</dimen>
+    <dimen name="ms">45%</dimen>
+    <dimen name="mt">72%</dimen>
+</resources>

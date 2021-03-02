@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:paddingLeft="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/mz">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/c45" android:background="@drawable/b9w" android:paddingLeft="@dimen/cb" android:layout_width="match_parent" android:layout_height="@dimen/az">
+        <com.tencent.mm.ui.base.MaskLayout android:id="@+id/a5a" android:layout_width="@dimen/ax" android:layout_height="@dimen/ax">
+            <ImageView android:id="@+id/be9" android:layout_width="@dimen/aw" android:layout_height="@dimen/aw" android:src="@raw/default_wework" android:layout_centerVertical="true"/>
+            <TextView android:id="@+id/iot" android:visibility="gone" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/zs"/>
+        </com.tencent.mm.ui.base.MaskLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/c47" android:background="@drawable/b9w" android:paddingRight="@dimen/e" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/c5" android:layout_weight="1">
+            <TextView android:gravity="center_vertical" android:id="@+id/c46" android:singleLine="true" style="@style/mp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

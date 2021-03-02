@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/bg1" android:layout_height="@dimen/iq" style="@style/nr">
+    <RelativeLayout android:layout_width="@dimen/ij" android:layout_height="@dimen/ij" android:layout_marginLeft="3dp">
+        <ImageView android:id="@+id/x1" android:padding="3dp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/fzg" android:layout_width="0dp" android:maxWidth="140dp" android:layout_weight="1" style="@style/mp"/>
+            <TextView android:textColor="@color/a0f" android:gravity="right" android:layout_gravity="right" android:id="@+id/j0l" android:paddingRight="4dp" android:minWidth="65dp" style="@style/mn"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/bg0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+            <TextView android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/fn8" android:maxWidth="200dp" android:width="200dp" android:singleLine="true" style="@style/mo"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

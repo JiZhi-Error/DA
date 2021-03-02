@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/bkx" android:layout_margin="10dp" android:layout_marginTop="@dimen/hs" android:layout_marginBottom="@dimen/ib" android:text="@string/efp" style="@style/ow"/>
+        <Button android:id="@+id/bkw" android:layout_margin="10dp" android:layout_marginTop="@dimen/hs" android:layout_marginBottom="@dimen/ib" android:text="@string/efs" style="@style/ow"/>
+        <Button android:id="@+id/bkv" android:layout_margin="10dp" android:layout_marginTop="@dimen/hs" android:layout_marginBottom="@dimen/ib" android:text="@string/efo" style="@style/ow"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/ka" android:textColor="@color/fm" android:id="@+id/egs" android:background="@color/BW_0_Alpha_0_2" android:padding="10dp" android:scrollbars="vertical" android:layout_width="300dp" android:layout_height="115dp" android:fadeScrollbars="false"/>
+    <TextView android:textSize="@dimen/ka" android:textColor="@color/fm" android:id="@+id/egt" android:background="@color/BW_0_Alpha_0_2" android:padding="10dp" android:scrollbars="vertical" android:layout_width="300dp" android:layout_height="200dp" android:layout_marginTop="5dp" android:fadeScrollbars="false"/>
+</LinearLayout>
